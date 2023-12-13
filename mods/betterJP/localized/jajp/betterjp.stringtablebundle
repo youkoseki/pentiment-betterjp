@@ -7,6 +7,22 @@
                 {
                     "ID": 8,
                     "DefaultText": "オプション(MOD成功)"
+                },
+                {
+                    "ID": 125,
+                    "DefaultText": "これは記憶されます"
+                },
+                {
+                    "ID": 419,
+                    "DefaultText": "VIII. 終わり"
+                },
+                {
+                    "ID": 420,
+                    "DefaultText": "IX. はじまり"
+                },
+                {
+                    "ID": 426,
+                    "DefaultText": "食べる物を選んでください。"
                 }
             ]
         },
@@ -25,6 +41,18 @@
                 {
                     "ID": 146,
                     "DefaultText": "好意的なやり方でパウロを呼び出した。"
+                },
+                {
+                    "ID": 180,
+                    "DefaultText": "アルプスのチーズ"
+                },
+                {
+                    "ID": 189,
+                    "DefaultText": "山のチーズ"
+                },
+                {
+                    "ID": 362,
+                    "DefaultText": "ロレンツの殺害がもっと早くに行われなかったことに驚いた。"
                 }
             ]
         },
@@ -62,11 +90,15 @@
                 },
                 {
                     "ID": 199,
-                    "DefaultText": "エルゼの夫で、パウロの父である町の粉屋。タッシングで最も裕福な町民の一人だが、多額の代金と残酷な性格のために人々から嫌われている。"
+                    "DefaultText": "エルゼの夫で、パウロの父である町の粉屋。タッシングで最も裕福な町民の一人で、厳しい利用料と残酷な性格のために人々から嫌われている。"
                 },
                 {
                     "ID": 307,
                     "DefaultText": "アンナとパウロ・ミュラーの娘。"
+                },
+                {
+                    "ID": 381,
+                    "DefaultText": "町のパン屋。グレットの夫で、アンナの父。信心深いことで知られる。"
                 },
                 {
                     "ID": 388,
@@ -79,6 +111,16 @@
                 {
                     "ID": 463,
                     "DefaultText": "アンナとパウロ・ミュラーの息子。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_clara_intro",
+            "UObjectName": "act1_clara_intro_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 14,
+                    "DefaultText": "徐々に、ではあるけれど。私の一日のほとんどは大修道院の仕事に費やされているからね。"
                 }
             ]
         },
@@ -112,7 +154,7 @@
             "Entries": [
                 {
                     "ID": 3,
-                    "DefaultText": "ペテロさん、大丈夫か?"
+                    "DefaultText": "ペテロ、大丈夫か?"
                 }
             ]
         },
@@ -326,7 +368,23 @@
             "Entries": [
                 {
                     "ID": 130,
-                    "DefaultText": "パウロは私たちは誰もが不道徳であると理解していました。情熱に焼かれるより結婚する方がいいと言っていたのです。"
+                    "DefaultText": "パウロは私たちは誰もが不道徳であると理解していました。情熱で燃え上がるより結婚する方がいいと言っていたのです。"
+                },
+                {
+                    "ID": 132,
+                    "DefaultText": "たしかに、男にとってよりも、女性にとってのほうが複雑ですね。おそらくラッキーは不公平だと思ったのでしょう。"
+                },
+                {
+                    "ID": 133,
+                    "DefaultText": "彼女が結果を受け入れられなかったのであれば、彼と寝るべきではなかったのです。"
+                },
+                {
+                    "ID": 134,
+                    "DefaultText": "彼は村の助産師と結婚しています。彼は未婚の母が直面する問題を、多くの人よりもよく知っていたでしょう。"
+                },
+                {
+                    "ID": 160,
+                    "DefaultText": "ロレンツ・ロスフォーゲル、裕福な男爵の力を、石工の若い娘と比べてごらんなさい。"
                 }
             ]
         },
@@ -441,6 +499,10 @@
                     "DefaultText": "そういう見方もできると思います。"
                 },
                 {
+                    "ID": 49,
+                    "DefaultText": "ケルン出身の <xg>ヤコブ</xg> 修道士を知っていましたか?"
+                },
+                {
                     "ID": 51,
                     "DefaultText": "ヴォイスラフ修道士は、今まで知った中で最も面白い男だと言いました。"
                 },
@@ -455,6 +517,10 @@
                 {
                     "ID": 54,
                     "DefaultText": "彼は自分の声を、マティアス神父を含め、どの修道士のようにも真似ることができました。"
+                },
+                {
+                    "ID": 56,
+                    "DefaultText": "兄弟の何人かは私を笑っていますが、私はおかしいとは思いません。 <xg>ヤコブ</xg> 修道士とは違います。"
                 },
                 {
                     "ID": 57,
@@ -497,8 +563,16 @@
                     "DefaultText": "そうですか？　まあ、私たちは本当に孤独というわけではないと思います。"
                 },
                 {
+                    "ID": 77,
+                    "DefaultText": "具体的に誰かが？"
+                },
+                {
                     "ID": 78,
                     "DefaultText": "シスター・ズデナ。私は彼女と話すつもりはありませんでしたが、彼女は参事会の後に数回私に話しかけてきました。"
+                },
+                {
+                    "ID": 79,
+                    "DefaultText": "彼女は私には意地悪だったけど……彼女はとてもきれいだ。そう思いませんか？"
                 },
                 {
                     "ID": 80,
@@ -550,15 +624,39 @@
                 },
                 {
                     "ID": 100,
-                    "DefaultText": "えっ？"
+                    "DefaultText": "なんだって？"
+                },
+                {
+                    "ID": 103,
+                    "DefaultText": "ここにはもうあまり空き場所がありませんよね？"
+                },
+                {
+                    "ID": 105,
+                    "DefaultText": "はい。何か問題が？"
+                },
+                {
+                    "ID": 106,
+                    "DefaultText": "彼の墓石は木です。大修道院長はふつう、もう少し……大理石で埋葬されませんか?"
+                },
+                {
+                    "ID": 107,
+                    "DefaultText": "あなたの言う通りだと思います。他のすべての大修道院長は地下室か教会の下にいるはずです。"
                 },
                 {
                     "ID": 108,
                     "DefaultText": "しかしゲルノット神父はマティアス神父のために何か特別なものを作る余裕はないと言いました。"
                 },
                 {
+                    "ID": 110,
+                    "DefaultText": "あなたがそう言うなら。私はそれについて何も知りません。"
+                },
+                {
                     "ID": 111,
                     "DefaultText": "大修道院長と小修道院長フェレンツが処理しています。"
+                },
+                {
+                    "ID": 112,
+                    "DefaultText": "修道院は本当に新しい墓に必要なお金がないのですか？"
                 },
                 {
                     "ID": 113,
@@ -589,6 +687,14 @@
                     "DefaultText": "マザー・ブリュンヒルデ……女子修道院長？"
                 },
                 {
+                    "ID": 122,
+                    "DefaultText": "うん？　そこには誰も埋葬されていません。"
+                },
+                {
+                    "ID": 123,
+                    "DefaultText": "それは昔からあるただの目印です。私がどこかへ移すべきなんでしょうね。"
+                },
+                {
                     "ID": 124,
                     "DefaultText": "はい、12世紀ですが、「女子修道院長」、キルサウは女性によって運営されていたのですか？"
                 },
@@ -603,6 +709,10 @@
                 {
                     "ID": 127,
                     "DefaultText": "アンドレアス、本当に大丈夫ですか？　マチュー修道士は怒っているようでした。"
+                },
+                {
+                    "ID": 128,
+                    "DefaultText": "……面倒なことにはなりたくない。"
                 },
                 {
                     "ID": 130,
@@ -645,6 +755,10 @@
                     "DefaultText": "私はクララ・ゲルネリンから多くを聞いた。"
                 },
                 {
+                    "ID": 141,
+                    "DefaultText": "農民に商売の才覚があったなら、粉屋になっただろう。本物のお金はそこにあるのだから。"
+                },
+                {
                     "ID": 146,
                     "DefaultText": "粉屋からひどい値段をふっかけられたら、修道院に支払うのに十分なお金はなくなる。"
                 },
@@ -659,6 +773,10 @@
                 {
                     "ID": 149,
                     "DefaultText": "しかし、そうした法律が私たちの文明の基礎です。それこそが私たちを獣と隔てるものです。"
+                },
+                {
+                    "ID": 150,
+                    "DefaultText": "そのことについて、誰かが何かをしなければならない。"
                 },
                 {
                     "ID": 151,
@@ -677,8 +795,28 @@
                     "DefaultText": "しかし、誰が？　あなたのような都市商人ではない。たいへんな仕事だ。誰も自分の手を汚したがらない。"
                 },
                 {
+                    "ID": 155,
+                    "DefaultText": "あなたはニュルンベルク出身ですよね？　農民の悩みとは無縁でしょう。あなたが<green>知っていた</green>なら、驚きです。"
+                },
+                {
+                    "ID": 156,
+                    "DefaultText": "タッシングに来てよかった。世界がどう動いているのか、真の教育を受けられるのだから。"
+                },
+                {
+                    "ID": 157,
+                    "DefaultText": "ともあれ、私は墓掘りに戻らなければ。"
+                },
+                {
                     "ID": 158,
                     "DefaultText": "しばらく時間がかかります。自分次第ですが。"
+                },
+                {
+                    "ID": 161,
+                    "DefaultText": "彼は完璧ではありませんでした。そうでなれば、地主にはなれません。ただ、少なくとも彼は農民に修道院の土地を利用させていました。"
+                },
+                {
+                    "ID": 162,
+                    "DefaultText": "今では、修道院の屋根を修理するために木を伐採するなど、修道院のための仕事をしている場合にのみ、そこを利用できるのです。"
                 },
                 {
                     "ID": 163,
@@ -687,6 +825,10 @@
                 {
                     "ID": 164,
                     "DefaultText": "ああ、町の、ひどく修理が必要な屋根のかわりにね。"
+                },
+                {
+                    "ID": 165,
+                    "DefaultText": "おお賢者よ、どうすれば粉ひき場を作ることができるのか？　彼らの生計は土地に縛られているのに。"
                 },
                 {
                     "ID": 166,
@@ -701,12 +843,40 @@
                     "DefaultText": "クララ・ゲルネリンがそのことを言っていた。"
                 },
                 {
+                    "ID": 169,
+                    "DefaultText": "なぜ？"
+                },
+                {
+                    "ID": 170,
+                    "DefaultText": "おそらく、修道院がお金を必要としているからでしょう。他のみんなと同じように。"
+                },
+                {
+                    "ID": 172,
+                    "DefaultText": "ああ、彼らは厳しい立場にいる。粉屋が言う穀物の値段がなんであれ、それに従うしかないのだから。"
+                },
+                {
                     "ID": 174,
-                    "DefaultText": "忙しいの一言です。働きすぎとも言える。"
+                    "DefaultText": "忙しいの一言だ。働きすぎとも言える。"
+                },
+                {
+                    "ID": 175,
+                    "DefaultText": "父と私は一緒に仕事をするほうが楽だったが、彼の脳卒中以来……これが現実さ。"
                 },
                 {
                     "ID": 176,
                     "DefaultText": "彼は医者に診てもらいましたか？　もしかしたら、何かできるかもしれません。"
+                },
+                {
+                    "ID": 177,
+                    "DefaultText": "シュトルツ博士が診てくれた。彼はできることは何もないと言ったよ。彼の時間を無駄にさせているように思えた。"
+                },
+                {
+                    "ID": 178,
+                    "DefaultText": "それが数年前のことで、父はどこまでも医者を信用しなくなった。でも、ありがとう。"
+                },
+                {
+                    "ID": 179,
+                    "DefaultText": "とにかく仕事のおかげで町のみんなと話すから、みんなの悩みをぜんぶ聞くんだ。"
                 },
                 {
                     "ID": 180,
@@ -721,12 +891,16 @@
                     "DefaultText": "彼女が亡くなったとき、私はまだ少年でした。ただ、私の父は彼女のことをよく言っていました。"
                 },
                 {
+                    "ID": 185,
+                    "DefaultText": "こちらも木の墓石。私が思っていたよりも、修道院にとって事態は悪化しているに違いない。"
+                },
+                {
                     "ID": 186,
                     "DefaultText": "ほら、マチュー修道士が来た。"
                 },
                 {
                     "ID": 190,
-                    "DefaultText": "隠れたほうがいいな！"
+                    "DefaultText": "隠れなければ！"
                 },
                 {
                     "ID": 191,
@@ -845,8 +1019,24 @@
                     "DefaultText": "これはとてもありえないことです。しかし… ああ、大修道院長が承認しているならば、私はそれを否定するつもりはありません。"
                 },
                 {
+                    "ID": 245,
+                    "DefaultText": "怖かったです。"
+                },
+                {
+                    "ID": 246,
+                    "DefaultText": "墓掘りに戻ろう。"
+                },
+                {
+                    "ID": 247,
+                    "DefaultText": "ああ、もちろん。すみません。"
+                },
+                {
                     "ID": 249,
                     "DefaultText": "マチュー修道士はあなたに怒っているようでしたか？"
+                },
+                {
+                    "ID": 250,
+                    "DefaultText": "巡回人として、このようなイタズラを防ぐのが私の義務です。"
                 },
                 {
                     "ID": 251,
@@ -871,6 +1061,10 @@
                 {
                     "ID": 257,
                     "DefaultText": "ゲルノット神父がなぜそのようなことをするのですか？"
+                },
+                {
+                    "ID": 259,
+                    "DefaultText": "なぜ彼は私の好奇心を受け入れてくれたのか……誰にも分からない。"
                 },
                 {
                     "ID": 260,
@@ -918,7 +1112,15 @@
                 },
                 {
                     "ID": 291,
-                    "DefaultText": "[嘘] 大修道院長が承認しました。あとはあなたに関係ないことだ。"
+                    "DefaultText": "[嘘] 大修道院長が許可しました。あとはあなたには関係のないことです。"
+                },
+                {
+                    "ID": 292,
+                    "DefaultText": "巡回人として、このようなイタズラを防ぐのが私の義務です。"
+                },
+                {
+                    "ID": 294,
+                    "DefaultText": "うーん。それは興味深いですね……あなたが真実を言っているなら。"
                 },
                 {
                     "ID": 295,
@@ -929,8 +1131,16 @@
                     "DefaultText": "[嘘] 私は誰にも強要してません。大修道院長はこれを承認しました。大丈夫です。"
                 },
                 {
+                    "ID": 299,
+                    "DefaultText": "うーむ。大修道院長が、私たちが尊敬する修道士の安息を邪魔する許可を芸術家に与えるとは思えません。"
+                },
+                {
                     "ID": 300,
                     "DefaultText": "あなたはそもそも部外者ですし、ただの侵入者です。"
+                },
+                {
+                    "ID": 302,
+                    "DefaultText": "隠れなければ！"
                 },
                 {
                     "ID": 304,
@@ -962,7 +1172,7 @@
                 },
                 {
                     "ID": 331,
-                    "DefaultText": "私はすでに大修道院長と話しました。あなたの心配することではありません。"
+                    "DefaultText": "私はすでに大修道院長と話しました。あたなが心配する必要はありません。"
                 },
                 {
                     "ID": 332,
@@ -997,12 +1207,32 @@
                     "DefaultText": "聞きなさい、兄弟、私は楽しみのために死んだ修道士を掘り起こしたりしません。大変な作業ですから。"
                 },
                 {
+                    "ID": 349,
+                    "DefaultText": "修道院の利益のために私が骨を折るのとは違うでしょう？"
+                },
+                {
+                    "ID": 350,
+                    "DefaultText": "時間がありません。私は巡回を続けなければ。"
+                },
+                {
                     "ID": 351,
                     "DefaultText": "ああ、そして終わったら必ず片付けるように、マスター・ジマーマン。"
                 },
                 {
+                    "ID": 352,
+                    "DefaultText": "ああ、うん。"
+                },
+                {
                     "ID": 354,
                     "DefaultText": "ピエロの無罪を証明することが重要です。それ以外のことは気にしていません。"
+                },
+                {
+                    "ID": 358,
+                    "DefaultText": "まあ、太陽は待ってくれないから、墓掘りに戻ったほうがいいな。"
+                },
+                {
+                    "ID": 359,
+                    "DefaultText": "はぁ。私たちのせいであなたは農民になるのかもしれません、アンドレアス。"
                 },
                 {
                     "ID": 362,
@@ -1025,12 +1255,20 @@
                     "DefaultText": "不思議？"
                 },
                 {
+                    "ID": 376,
+                    "DefaultText": "そしてナイフも！　見たところ普通のもののようですが。ただ他の二つと一緒に、ここに埋められて……"
+                },
+                {
                     "ID": 382,
                     "DefaultText": "フェレンツはこれを綺麗にしたが、完全にはできなかった。これはロレンツ殺害に利用されたのだろうか？"
                 },
                 {
                     "ID": 387,
                     "DefaultText": "言えません、ヴォルクベルト。ごめんなさい。"
+                },
+                {
+                    "ID": 388,
+                    "DefaultText": "姉妹の中には十分に強い人もいますが、一人で墓地で何時間も過ごす必要があります。"
                 },
                 {
                     "ID": 389,
@@ -1133,6 +1371,10 @@
                     "DefaultText": "しかし、これは誰がロレンツを殺したのかについての真実を解き明かす手がかりになるかもしれません！"
                 },
                 {
+                    "ID": 459,
+                    "DefaultText": "大修道院長は、修道士が……不都合なことに……告発された場合、修道院がどのような事態に陥るかを理解しています。"
+                },
+                {
                     "ID": 465,
                     "DefaultText": "認めなさい、マチュー修道士。この墓の状況は、私の関与がどうであれ、とても不思議です。"
                 },
@@ -1170,7 +1412,7 @@
                 },
                 {
                     "ID": 491,
-                    "DefaultText": "しかし、これは誰がロレンツを殺したのかという真実を解き明かす手がかりになるかもしれません！"
+                    "DefaultText": "しかし、これは誰がロレンツを殺したのかについての真実を解き明かす手がかりになるかもしれません！"
                 },
                 {
                     "ID": 492,
@@ -1179,6 +1421,18 @@
                 {
                     "ID": 496,
                     "DefaultText": "やりがいもある。自分の手でものを作ること。首に太陽を感じ、指で樹液を感じること。"
+                },
+                {
+                    "ID": 511,
+                    "DefaultText": "それらのいくつかはそれほど悪くありません。ピエロは特に笑い方を知っています。"
+                },
+                {
+                    "ID": 513,
+                    "DefaultText": "<xg>ヤコブ</xg>は、他の修道士の真似をするために、自分の特徴と声を操作する才能を持っていました。"
+                },
+                {
+                    "ID": 525,
+                    "DefaultText": "なんだって？"
                 },
                 {
                     "ID": 555,
@@ -1195,6 +1449,10 @@
                 {
                     "ID": 574,
                     "DefaultText": "あなたとリューデガーが図書館でやっていたいたずらのように？"
+                },
+                {
+                    "ID": 575,
+                    "DefaultText": "巡回人として、このようなイタズラを防ぐのが私の義務です。"
                 },
                 {
                     "ID": 576,
@@ -1218,7 +1476,7 @@
                 },
                 {
                     "ID": 582,
-                    "DefaultText": "[彼を意味深に見る。]"
+                    "DefaultText": "[彼を意味深に見る]"
                 },
                 {
                     "ID": 583,
@@ -1246,7 +1504,11 @@
                 },
                 {
                     "ID": 594,
-                    "DefaultText": "[彼を意味深に見る。]"
+                    "DefaultText": "[彼を意味深に見る]"
+                },
+                {
+                    "ID": 595,
+                    "DefaultText": "巡回人として、このようなイタズラを防ぐのが私の義務です。"
                 },
                 {
                     "ID": 596,
@@ -1349,9 +1611,23 @@
             ]
         },
         {
+            "Name": "conversations/act1/act1_spinningbee_tbe",
+            "UObjectName": "act1_spinningbee_tbe_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 558,
+                    "DefaultText": "なんだって?"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_steinauer_meal",
             "UObjectName": "act1_steinauer_meal_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 46,
+                    "DefaultText": "奇妙とは？"
+                },
                 {
                     "ID": 159,
                     "DefaultText": "あまり気にしちゃいけないよ、アンドレアス。あの子にはパウロって息子がいるのが救いなんだ。本当にいい子で、母親が大好きなんだよ。"
@@ -1387,8 +1663,16 @@
             "UObjectName": "act1_sebhat_meal_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 55,
+                    "DefaultText": "なぜ？"
+                },
+                {
                     "ID": 56,
                     "DefaultText": "大修道院長はとても偉いんだよ、パウロ。"
+                },
+                {
+                    "ID": 114,
+                    "DefaultText": "なぜ？"
                 },
                 {
                     "ID": 145,
@@ -1477,6 +1761,20 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_goldenhand_tbe",
+            "UObjectName": "act2_goldenhand_tbe_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 514,
+                    "DefaultText": "なぜ？"
+                },
+                {
+                    "ID": 564,
+                    "DefaultText": "奇妙とは？"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_guy",
             "UObjectName": "act2_guy_BaseGame_jajp",
             "Entries": [
@@ -1487,12 +1785,32 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_ulrich",
+            "UObjectName": "act2_ulrich_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 63,
+                    "DefaultText": "ペテロに事情を聞いて頂きたいのです。彼は大修道院を脅迫して皆を危険に晒しています。"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_grett",
             "UObjectName": "act2_grett_BaseGame_jajp",
             "Entries": [
                 {
                     "ID": 31,
                     "DefaultText": "ポールが言ったみたいに、あたしらはそうするように命じられているんだ。 "
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_lucky",
+            "UObjectName": "act2_lucky_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 17,
+                    "DefaultText": "<red>神様</red>、彼の魂を休ませたまえ。"
                 }
             ]
         },
@@ -1627,6 +1945,26 @@
                 {
                     "ID": 359,
                     "DefaultText": "すまない、パウロ。大望を抱くのは何も悪いことではない。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_werner",
+            "UObjectName": "act2_werner_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 380,
+                    "DefaultText": "奇妙とは？"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_ursula",
+            "UObjectName": "act2_ursula_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 113,
+                    "DefaultText": "なぜ？"
                 }
             ]
         },
@@ -1793,6 +2131,16 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_andreas_hallucination",
+            "UObjectName": "act3_andreas_hallucination_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 290,
+                    "DefaultText": "なぜ？"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act3/act3_grett",
             "UObjectName": "act3_grett_BaseGame_jajp",
             "Entries": [
@@ -1815,6 +2163,16 @@
                 {
                     "ID": 80,
                     "DefaultText": "今のエルゼやパウロの様子からは想像もつかないわよね。最高に心優しい人たちよ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_apollo",
+            "UObjectName": "act3_apollo_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 50,
+                    "DefaultText": "なぜ？"
                 }
             ]
         },
@@ -1843,6 +2201,10 @@
                 {
                     "ID": 90,
                     "DefaultText": "まずパウロと最終的な段取りを決めたかったの。彼は私の旅の案内人を探してくれているわ。"
+                },
+                {
+                    "ID": 101,
+                    "DefaultText": "パン屋の方に向かって走って行ったわ。"
                 },
                 {
                     "ID": 111,
@@ -1905,6 +2267,16 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_ulrike",
+            "UObjectName": "act3_ulrike_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 12,
+                    "DefaultText": "何をしているんですか？"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act3/act3_niko",
             "UObjectName": "act3_niko_BaseGame_jajp",
             "Entries": [
@@ -1929,8 +2301,16 @@
             "UObjectName": "act3_kilian_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 46,
+                    "DefaultText": "なぜ？"
+                },
+                {
                     "ID": 97,
                     "DefaultText": "パウロよ。"
+                },
+                {
+                    "ID": 110,
+                    "DefaultText": "<shake>*くすん*</shake>"
                 }
             ]
         },
@@ -1971,6 +2351,40 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_hans",
+            "UObjectName": "act3_hans_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 12,
+                    "DefaultText": "なぜ？"
+                },
+                {
+                    "ID": 206,
+                    "DefaultText": "<shake>*くすん*</shake>"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_ursula",
+            "UObjectName": "act3_ursula_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 123,
+                    "DefaultText": "なぜ？"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_christian_mural",
+            "UObjectName": "act3_christian_mural_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 105,
+                    "DefaultText": "なぜ？"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act3/act3_magdalene_farewell",
             "UObjectName": "act3_magdalene_farewell_BaseGame_jajp",
             "Entries": [
@@ -1991,6 +2405,16 @@
                 {
                     "ID": 13,
                     "DefaultText": "クラウスが襲われた後に皆で話し合ったこと、パウロから聞いたわ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_ideal_city_map",
+            "UObjectName": "act1_ideal_city_map_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 40,
+                    "DefaultText": "なぜ？"
                 }
             ]
         },
