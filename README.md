@@ -7,3 +7,5 @@ Pentiment-betterJP.zipを解凍して、modsフォルダーごと、
 に置いてください。プログラムのあるフォルダーではありません！
 
 タイトル画面で「(MOD成功)」と表示されたら成功です。
+
+[test image](title_screen.jpg)
