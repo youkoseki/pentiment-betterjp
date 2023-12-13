@@ -8,4 +8,4 @@ Pentiment-betterJP.zipを解凍して、modsフォルダーごと、
 
 タイトル画面で「(MOD成功)」と表示されたら成功です。
 
-[test image](title_screen.jpg)
+![test image](title_screen.jpg)
