@@ -13,16 +13,112 @@
                     "DefaultText": "これは記憶されます"
                 },
                 {
-                    "ID": 419,
-                    "DefaultText": "VIII. 終わり"
+                    "ID": 254,
+                    "DefaultText": "西暦 1534 年 2 月 15 日"
                 },
                 {
-                    "ID": 420,
-                    "DefaultText": "IX. はじまり"
+                    "ID": 352,
+                    "DefaultText": "1時"
+                },
+                {
+                    "ID": 353,
+                    "DefaultText": "2時"
+                },
+                {
+                    "ID": 354,
+                    "DefaultText": "3時"
+                },
+                {
+                    "ID": 355,
+                    "DefaultText": "4時"
+                },
+                {
+                    "ID": 356,
+                    "DefaultText": "5時"
+                },
+                {
+                    "ID": 357,
+                    "DefaultText": "6時"
+                },
+                {
+                    "ID": 358,
+                    "DefaultText": "7時"
+                },
+                {
+                    "ID": 359,
+                    "DefaultText": "8時"
+                },
+                {
+                    "ID": 360,
+                    "DefaultText": "9時"
+                },
+                {
+                    "ID": 361,
+                    "DefaultText": "10時"
+                },
+                {
+                    "ID": 362,
+                    "DefaultText": "11時"
+                },
+                {
+                    "ID": 363,
+                    "DefaultText": "12時"
+                },
+                {
+                    "ID": 364,
+                    "DefaultText": "13時"
+                },
+                {
+                    "ID": 365,
+                    "DefaultText": "14時"
+                },
+                {
+                    "ID": 366,
+                    "DefaultText": "15時"
+                },
+                {
+                    "ID": 367,
+                    "DefaultText": "16時"
+                },
+                {
+                    "ID": 368,
+                    "DefaultText": "17時"
+                },
+                {
+                    "ID": 369,
+                    "DefaultText": "18時"
+                },
+                {
+                    "ID": 370,
+                    "DefaultText": "19時"
+                },
+                {
+                    "ID": 371,
+                    "DefaultText": "20時"
+                },
+                {
+                    "ID": 372,
+                    "DefaultText": "21時"
+                },
+                {
+                    "ID": 373,
+                    "DefaultText": "22時"
+                },
+                {
+                    "ID": 374,
+                    "DefaultText": "23時"
+                },
+                {
+                    "ID": 419,
+                    "DefaultText": "VIII. マヌ・プロプリア"
                 },
                 {
                     "ID": 426,
                     "DefaultText": "食べる物を選んでください。"
+                },
+                {
+                    "ID": 427,
+                    "DefaultText": "ビジュアルの品質"
                 }
             ]
         },
@@ -30,6 +126,30 @@
             "Name": "game/items",
             "UObjectName": "items_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 2,
+                    "DefaultText": "アンドレアスはラテン語の文法と語彙に長けている。また、ローマ共和国やローマ帝国の格言を引用した、古い言葉を簡単に思い出すことができる。"
+                },
+                {
+                    "ID": 5,
+                    "DefaultText": "アンドレアスは、カトリック神学や聖書の知識、教会法、異端、そのほか類似する分野に関する造詣が深い。"
+                },
+                {
+                    "ID": 10,
+                    "DefaultText": "アンドレアスは受け取った情報の意図を意識せずとも考え、空間分析に長けており、頭の中で複雑な計算を難なく行える。"
+                },
+                {
+                    "ID": 12,
+                    "DefaultText": "アンドレアスは大学で修辞学が得意だった。彼は優れた先生であり、説得力があり、演説家だ。"
+                },
+                {
+                    "ID": 19,
+                    "DefaultText": "アンドレアスは大学で数論幾何学と数学が得意だった。形や大きさ、量、距離に対する感覚が優れている。"
+                },
+                {
+                    "ID": 22,
+                    "DefaultText": "アンドレアスは星座や天体、それらの動きに関する知識が豊富だ。また、研究や彼自身の経験のおかげで、さまざまな動植物にも詳しい。"
+                },
                 {
                     "ID": 129,
                     "DefaultText": "よくないやり方でパウロを呼び出した。"
@@ -49,6 +169,30 @@
                 {
                     "ID": 189,
                     "DefaultText": "山のチーズ"
+                },
+                {
+                    "ID": 297,
+                    "DefaultText": "家事の背景"
+                },
+                {
+                    "ID": 298,
+                    "DefaultText": "家事"
+                },
+                {
+                    "ID": 299,
+                    "DefaultText": "マグダレネは、家庭や動物の仕事に関連することなら何でもお手のものだ。"
+                },
+                {
+                    "ID": 318,
+                    "DefaultText": "大衆文芸の背景"
+                },
+                {
+                    "ID": 319,
+                    "DefaultText": "大衆文芸"
+                },
+                {
+                    "ID": 320,
+                    "DefaultText": "マグダレネは、その時々で一番人気の大衆向けの本をよく読む。雑学、年鑑、一般知識、浮ついた物語の盛り合わせだ。"
                 },
                 {
                     "ID": 362,
@@ -1068,7 +1212,7 @@
                 },
                 {
                     "ID": 260,
-                    "DefaultText": "芸術家としての名誉にかけて、ヴォルクベルト、 大丈夫だ。"
+                    "DefaultText": "芸術家としての名誉にかけて、ヴォルクベルト、大丈夫だ。"
                 },
                 {
                     "ID": 263,
@@ -1476,7 +1620,7 @@
                 },
                 {
                     "ID": 582,
-                    "DefaultText": "[彼を意味深に見る]"
+                    "DefaultText": "[彼を意味深に見る。]"
                 },
                 {
                     "ID": 583,
@@ -1504,7 +1648,7 @@
                 },
                 {
                     "ID": 594,
-                    "DefaultText": "[彼を意味深に見る]"
+                    "DefaultText": "[彼を意味深に見る。]"
                 },
                 {
                     "ID": 595,
@@ -1709,6 +1853,42 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_mob_night",
+            "UObjectName": "act2_mob_night_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 107,
+                    "DefaultText": "何？　なぜできないと？　私は 7 年前、嘘はつかなかったし、今からそうつもりもない！"
+                },
+                {
+                    "ID": 108,
+                    "DefaultText": "もちろんできるさ！　君たちが修道士たちを図書館に追い込んで以来、私は犯人を捜し続けていたんだから！"
+                },
+                {
+                    "ID": 109,
+                    "DefaultText": "私が話すのは、正義を行うためであって、君たちの復讐を果たさせるためではない。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_mob_trial",
+            "UObjectName": "act2_mob_trial_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 24,
+                    "DefaultText": "俺たちは大修道院長を脅すような真似は決してしたくなかったんです！　あいつが俺らの要求に耳を貸さなかったんだ！　俺らは飢えてるんだ！"
+                },
+                {
+                    "ID": 27,
+                    "DefaultText": "もちろん、大修道院長を無傷で解放するという厳格な条件付きではありますが。"
+                },
+                {
+                    "ID": 113,
+                    "DefaultText": "明日の、日没ですよ。"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_mill_abbey_burning",
             "UObjectName": "act2_mill_abbey_burning_BaseGame_jajp",
             "Entries": [
@@ -1765,12 +1945,138 @@
             "UObjectName": "act2_goldenhand_tbe_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 116,
+                    "DefaultText": "でも、俺のルールで遊んだことはないよな？　遊びながら説明するから、少しやらないか?"
+                },
+                {
+                    "ID": 442,
+                    "DefaultText": "参加費を払ったら、親はシャッフルして、テーブルにいるすべてのプレイヤーに1枚のカードを配る。"
+                },
+                {
+                    "ID": 443,
+                    "DefaultText": "さて、手番の開始時には、プレイするために全員が参加費を払わなきゃならない。参加者が 4 人だから、それぞれ 1 ペニーの参加費を払う。"
+                },
+                {
+                    "ID": 444,
+                    "DefaultText": "カードの価値が重要になるのは山札をすべて使い切った時のみだが、戦略に影響を与える可能性はある。"
+                },
+                {
+                    "ID": 445,
+                    "DefaultText": "このゲームだとクイーンが一番強く、次がキング、それに農民が続く。"
+                },
+                {
+                    "ID": 450,
+                    "DefaultText": "各ターン、掛け金を上げるか、そのままにするか、ゲームから降りることができる。"
+                },
+                {
+                    "ID": 451,
+                    "DefaultText": "ただし、いずれかのプレイヤーが掛け金を上げたら、他のすべてのプレイヤーも上げなければならない。"
+                },
+                {
+                    "ID": 452,
+                    "DefaultText": "すべてのプレイヤーが手番を終えたら、3 枚のカードを捨てる。その後、また賭けるんだ。"
+                },
+                {
+                    "ID": 453,
+                    "DefaultText": "で、1 枚は真ん中に行く。それが誰かのカードと一致すれば、そのプレイヤーの勝利。"
+                },
+                {
+                    "ID": 456,
+                    "DefaultText": "そいつらのカードが出た場合は、場の金を分け合うのさ。"
+                },
+                {
+                    "ID": 458,
+                    "DefaultText": "一致しない場合は、誰かが勝つか、カードがなくなるまで、次のラウンドを進めていく。"
+                },
+                {
+                    "ID": 459,
+                    "DefaultText": "カードがなくなった場合、一番高いカードが勝つ。複数のプレイヤーが同じ高さのカードを持っている場合は、一番高い柄のカードが勝つ。"
+                },
+                {
+                    "ID": 460,
+                    "DefaultText": "葉の柄が最高で、ハート、ベルと続き、どんぐりが一番下だ。"
+                },
+                {
+                    "ID": 462,
+                    "DefaultText": "同じカードが捨てられた場合、全部で4種類しかなかったんだから、勝てる確率は低くなる。"
+                },
+                {
+                    "ID": 463,
+                    "DefaultText": "さて、手札が 1 枚配られたら、ディーラーは山札を自分の左にいるプレイヤーに渡す。"
+                },
+                {
+                    "ID": 464,
+                    "DefaultText": "今度はそいつが次の親になるんだ。"
+                },
+                {
+                    "ID": 466,
+                    "DefaultText": "プレイヤーが 3 人に減ったから、参加費と掛け金は全部 1 ペニヒ追加になる。"
+                },
+                {
+                    "ID": 482,
+                    "DefaultText": "よし、サミュエルが見ていないときに山札を重ねれば勝てるぞ。"
+                },
+                {
+                    "ID": 484,
+                    "DefaultText": "シャッフル中に山札を重ねて、場がたくさんある時に勝ちのカードを配れば簡単に勝てる。"
+                },
+                {
+                    "ID": 498,
+                    "DefaultText": "さて、あとは場の金が貯まって勝ちのカードを配るのを待つだけだ。"
+                },
+                {
+                    "ID": 505,
+                    "DefaultText": "場の金が大きくなった時に、それを自分に配ればいい..."
+                },
+                {
                     "ID": 514,
                     "DefaultText": "なぜ？"
                 },
                 {
+                    "ID": 515,
+                    "DefaultText": "配るのに問題があるってのは、山札をしっかり握れてないからかもな、<shake>こんな</shake>風に!"
+                },
+                {
+                    "ID": 521,
+                    "DefaultText": "まあ、これでやりたくても、山札を積むことはできそうにない。"
+                },
+                {
+                    "ID": 548,
+                    "DefaultText": "はっ、まあ、プレイする価値ある手札じゃなかったからな。もう一度やってみよう。"
+                },
+                {
+                    "ID": 549,
+                    "DefaultText": "単純に見えるが、山札には 40 枚のカードがあって、自分のカード以外の 3 枚で勝利するのか。勝てる確率は計算できそうだ。"
+                },
+                {
                     "ID": 564,
                     "DefaultText": "奇妙とは？"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_gernot",
+            "UObjectName": "act2_gernot_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 4,
+                    "DefaultText": "お腹は空いていますか？"
+                },
+                {
+                    "ID": 10,
+                    "DefaultText": "オットーの死について、何か新しいことは分かりましたか？"
+                },
+                {
+                    "ID": 19,
+                    "DefaultText": "何か他に分かりましたか？"
+                },
+                {
+                    "ID": 28,
+                    "DefaultText": "何を盗んだというのですか？"
+                },
+                {
+                    "ID": 48,
+                    "DefaultText": "私はもう十分に裕福ですよ、ゲルノット神父。大修道院の金など不要です。"
                 }
             ]
         },
@@ -1811,6 +2117,28 @@
                 {
                     "ID": 17,
                     "DefaultText": "<red>神様</red>、彼の魂を休ませたまえ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_thomas",
+            "UObjectName": "act2_thomas_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 16,
+                    "DefaultText": "ああ、アンドレアス。なぜ戻ってきたんですか？"
+                },
+                {
+                    "ID": 18,
+                    "DefaultText": "クラウスに 12 か条を出版させる許可を与えなければ良かった。"
+                },
+                {
+                    "ID": 19,
+                    "DefaultText": "一般人が戯言を読んで動揺するとこうなるのです。"
+                },
+                {
+                    "ID": 33,
+                    "DefaultText": "それは彼らを燃え上がらせただけでした。"
                 }
             ]
         },
@@ -1959,6 +2287,32 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_hanna",
+            "UObjectName": "act2_hanna_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 84,
+                    "DefaultText": "ハンナ、私は何としてでも犯人を見つけ出して、秩序を回復したいと思っている。"
+                },
+                {
+                    "ID": 98,
+                    "DefaultText": "何年も前に私がここにいた頃、彼は泥棒として知られていたんだ。"
+                },
+                {
+                    "ID": 115,
+                    "DefaultText": "私の知る限り、まだ知られていないよ。"
+                },
+                {
+                    "ID": 117,
+                    "DefaultText": "君が私の質問に答えないなら、知ることになるだろうね。 "
+                },
+                {
+                    "ID": 132,
+                    "DefaultText": "何年も前に私がここにいた頃、彼は泥棒として知られていたんだ。"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_ursula",
             "UObjectName": "act2_ursula_BaseGame_jajp",
             "Entries": [
@@ -1979,6 +2333,28 @@
                 {
                     "ID": 118,
                     "DefaultText": "マルティンが偽者だと知ったら、悪い奴らが何をするかは分かるだろ?"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_martin",
+            "UObjectName": "act2_martin_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 152,
+                    "DefaultText": "君が言ったことを考えてみよう。"
+                },
+                {
+                    "ID": 155,
+                    "DefaultText": "よし。"
+                },
+                {
+                    "ID": 158,
+                    "DefaultText": "ああ。ではまた、マルティン。"
+                },
+                {
+                    "ID": 159,
+                    "DefaultText": "アンドレアス、神のご加護を。"
                 }
             ]
         },
@@ -2051,6 +2427,58 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_zimmermannyn_meal",
+            "UObjectName": "act2_zimmermannyn_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 59,
+                    "DefaultText": "ほとんどの人はオットーを支持しているけど、父はオットーを味方につけるのに、遺産相続と森林法が絡んできたのが気になったみたい。"
+                },
+                {
+                    "ID": 122,
+                    "DefaultText": "それと、オットーの無実を晴らそうとしてくれてありがとう。<red>神</red>の祝福があらんことを。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_romanruins_tbe",
+            "UObjectName": "act2_romanruins_tbe_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 10,
+                    "DefaultText": "ああ……びしょ濡れだけど、どこも怪我はなさそうです。"
+                },
+                {
+                    "ID": 115,
+                    "DefaultText": "そうだな。向こうがどうなっているか知りたい。"
+                },
+                {
+                    "ID": 122,
+                    "DefaultText": "出口ではありませんでした。"
+                },
+                {
+                    "ID": 135,
+                    "DefaultText": "そのようだな……奇妙な扉だ。"
+                },
+                {
+                    "ID": 155,
+                    "DefaultText": "そうだな。"
+                },
+                {
+                    "ID": 160,
+                    "DefaultText": "とぼけないで。二人ともオットーに消えて欲しかったでしょう。"
+                },
+                {
+                    "ID": 327,
+                    "DefaultText": "周りを見て回って、出口を探してみよう。"
+                },
+                {
+                    "ID": 336,
+                    "DefaultText": "これは出口かな？"
+                }
+            ]
+        },
+        {
             "Name": "quests/act2/act2_tuesjune23",
             "UObjectName": "act2_tuesjune23_BaseGame_jajp",
             "Entries": [
@@ -2067,6 +2495,44 @@
                 {
                     "ID": 10008,
                     "DefaultText": "ゲルトナー家は苦境に陥っていた。夕食は質素で、会話は悲惨なものだった。ペテロは、大修道院長がタッシングを治めていることに、かつてないほど怒っている。\\n\\nここでの初日は、不幸な結末となった。今夜はもうそろそろお開きとしよう。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_lemonledger",
+            "UObjectName": "act2_lemonledger_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 22,
+                    "DefaultText": "何もないですね、マスター。"
+                },
+                {
+                    "ID": 44,
+                    "DefaultText": "まるで分からないな..."
+                },
+                {
+                    "ID": 55,
+                    "DefaultText": "父が数ヶ月かけて稼ぐ額と同じじゃないですか！"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_magdalene_intro",
+            "UObjectName": "act3_magdalene_intro_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 22,
+                    "DefaultText": "マグスは名前ですらない。谷のことだよ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_claus_rathaus",
+            "UObjectName": "act3_claus_rathaus_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 34,
+                    "DefaultText": "そしてその描写は、我々の隣人を嫌な気分にさせてしまうかもしれないのだ。"
                 }
             ]
         },
@@ -2137,6 +2603,10 @@
                 {
                     "ID": 290,
                     "DefaultText": "なぜ？"
+                },
+                {
+                    "ID": 714,
+                    "DefaultText": "まるで分からないな..."
                 }
             ]
         },
@@ -2315,6 +2785,20 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_clara",
+            "UObjectName": "act3_clara_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 1,
+                    "DefaultText": "こんにちは、マグダレネ。 "
+                },
+                {
+                    "ID": 2,
+                    "DefaultText": "こんにちは、いとしいマグダレネ。 "
+                }
+            ]
+        },
+        {
             "Name": "conversations/act3/act3_blacktil",
             "UObjectName": "act3_blacktil_BaseGame_jajp",
             "Entries": [
@@ -2351,12 +2835,30 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_veronica",
+            "UObjectName": "act3_veronica_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 1,
+                    "DefaultText": "こんにちは、マグダレネ！"
+                },
+                {
+                    "ID": 2,
+                    "DefaultText": "こんにちは、マグダレネ"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act3/act3_hans",
             "UObjectName": "act3_hans_BaseGame_jajp",
             "Entries": [
                 {
                     "ID": 12,
                     "DefaultText": "なぜ？"
+                },
+                {
+                    "ID": 93,
+                    "DefaultText": "またね。"
                 },
                 {
                     "ID": 206,
