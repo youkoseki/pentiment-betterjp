@@ -10,7 +10,7 @@ import shutil
 p1 = re.compile('^\'')
 p2 = re.compile('\'$')
 
-df = pd.read_table('../output/Pentiment-BetterJP - out.tsv',usecols=[0,1,2,5,6])
+df = pd.read_table('../output/Pentiment-BetterJP - out.tsv',usecols=[0,1,2,4,5,6])
 df = df.query('BetterJP.notnull() or Duplicate.notnull()')
 
 dj = {}
@@ -29,10 +29,11 @@ for index, row in df.iterrows():
 		if pd.notnull(row["Duplicate"]): #存在しない場合は同じ翻訳が使えるか確認
 			if row["Duplicate"] in existing_translation: #既訳があるか確認
 				row["BetterJP"] = existing_translation[row["Duplicate"]]
-
 		if pd.isnull(row["BetterJP"]): #結局、翻訳が存在しないなら
 			continue
-	if name != row["Name"]:
+	if row["Japanese"] == row["BetterJP"]:#旧訳と新約が同じならスキップ
+		continue
+	if name != row["Name"]:#新しいシーンなら、シーンを追加する
 		name = row["Name"]
 		table = {"Name" : row["Name"], "UObjectName" : row["UObjectName"], "Entries" : [] }
 		dj["StringTables"].append(table)
