@@ -265,6 +265,10 @@
                 {
                     "ID": 14,
                     "DefaultText": "徐々に、ではあるけれど。私の一日のほとんどは大修道院の仕事に費やされているからね。"
+                },
+                {
+                    "ID": 48,
+                    "DefaultText": "[うなずく。]"
                 }
             ]
         },
@@ -279,9 +283,23 @@
             ]
         },
         {
+            "Name": "conversations/act1/act1_thomas_intro",
+            "UObjectName": "act1_thomas_intro_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 88,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_lorenz_chargen",
             "UObjectName": "act1_lorenz_chargen_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 52,
+                    "DefaultText": "[何も言わない。]"
+                },
                 {
                     "ID": 103,
                     "DefaultText": "ああ、あなたがゲルノット神父ですね？　私はロレンツ、男爵-"
@@ -289,6 +307,56 @@
                 {
                     "ID": 104,
                     "DefaultText": "ああ、ロートヴォーゲル男爵！　前回の訪問でお会いしましたね……ここで再びお会いできてとても嬉しいです。"
+                },
+                {
+                    "ID": 196,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_piero_intro",
+            "UObjectName": "act1_piero_intro_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 90,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 155,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_illuminata_bookhunt_tbe",
+            "UObjectName": "act1_illuminata_bookhunt_tbe_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 272,
+                    "DefaultText": "[うなずく。]"
+                },
+                {
+                    "ID": 405,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 406,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_lorenz_scriptorium",
+            "UObjectName": "act1_lorenz_scriptorium_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 84,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 108,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -303,6 +371,20 @@
             ]
         },
         {
+            "Name": "conversations/act1/act1_murder_chapterhouse",
+            "UObjectName": "act1_murder_chapterhouse_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 72,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 83,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_drucker_storm_meal",
             "UObjectName": "act1_drucker_storm_meal_BaseGame_jajp",
             "Entries": [
@@ -313,12 +395,54 @@
             ]
         },
         {
+            "Name": "conversations/act1/act1_florian_autopsy_tbe",
+            "UObjectName": "act1_florian_autopsy_tbe_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 53,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 65,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 271,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 293,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_cecilia",
             "UObjectName": "act1_cecilia_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 82,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 92,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 118,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 130,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 140,
                     "DefaultText": "ロレンツ……男爵はシスター・マチルダを誘惑しようとしました。彼女は彼を何度か非難しました。"
+                },
+                {
+                    "ID": 147,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -333,6 +457,36 @@
                 {
                     "ID": 68,
                     "DefaultText": "しかし、大修道院長が私の裏切りを知ったら、私を信用しなくなるだろう。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_ferenc",
+            "UObjectName": "act1_ferenc_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 164,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_mathieu",
+            "UObjectName": "act1_mathieu_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 325,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_matilda",
+            "UObjectName": "act1_matilda_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 118,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -375,12 +529,48 @@
             ]
         },
         {
+            "Name": "conversations/act1/act1_agnes",
+            "UObjectName": "act1_agnes_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 43,
+                    "DefaultText": "[うなずく。]"
+                },
+                {
+                    "ID": 76,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 129,
+                    "DefaultText": "[うなずく。]"
+                },
+                {
+                    "ID": 164,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_lucky",
+            "UObjectName": "act1_lucky_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 143,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_brigita",
             "UObjectName": "act1_brigita_BaseGame_jajp",
             "Entries": [
                 {
                     "ID": 44,
                     "DefaultText": "[嘘] たいしたことじゃない。暇つぶしの質問だよ。迷惑をかけて申し訳なかった。"
+                },
+                {
+                    "ID": 77,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -401,6 +591,10 @@
                 {
                     "ID": 45,
                     "DefaultText": "息子さんのパウロと話したよ。いい子そうだ。"
+                },
+                {
+                    "ID": 46,
+                    "DefaultText": "[何も言わない。]"
                 },
                 {
                     "ID": 47,
@@ -445,6 +639,10 @@
                     "DefaultText": "パウロ、絵を描くのは好きかい?"
                 },
                 {
+                    "ID": 33,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 37,
                     "DefaultText": "分かったよ。またな、パウロ。"
                 },
@@ -479,9 +677,61 @@
             ]
         },
         {
+            "Name": "conversations/act1/act1_heddy",
+            "UObjectName": "act1_heddy_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 46,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_veronica",
+            "UObjectName": "act1_veronica_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 104,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_hans",
+            "UObjectName": "act1_hans_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 19,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_frantz",
+            "UObjectName": "act1_frantz_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 25,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_kat",
             "UObjectName": "act1_kat_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 9,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 49,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 89,
+                    "DefaultText": "[何も言わない。]"
+                },
                 {
                     "ID": 132,
                     "DefaultText": "彼女は、息子がロレンツを殺したと<blue>私が</blue>考えていると思うかもしれない。"
@@ -491,8 +741,16 @@
                     "DefaultText": "彼はロレンツの殺害に関与している可能性がある。だが、キャットに、彼が大修道院から逃げるのを見たと言ったとしても..."
                 },
                 {
+                    "ID": 162,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 166,
                     "DefaultText": "アルバン家からパンを、ヨハンとペテロの農場からは卵を盗んだわ。"
+                },
+                {
+                    "ID": 186,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -500,6 +758,10 @@
             "Name": "conversations/act1/act1_smokey",
             "UObjectName": "act1_smokey_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 34,
+                    "DefaultText": "[何も言わない。]"
+                },
                 {
                     "ID": 39,
                     "DefaultText": "会えてうれしいよ、マスター・マーラー。"
@@ -536,6 +798,10 @@
             "Name": "conversations/act1/act1_librarybreakin_tbe",
             "UObjectName": "act1_librarybreakin_tbe_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 492,
+                    "DefaultText": "[何も言わない。]"
+                },
                 {
                     "ID": 632,
                     "DefaultText": "[嘘] 残念ながら、つながりは理解できなかった。"
@@ -707,6 +973,14 @@
                     "DefaultText": "そうですか？　まあ、私たちは本当に孤独というわけではないと思います。"
                 },
                 {
+                    "ID": 75,
+                    "DefaultText": "[うなずく。]"
+                },
+                {
+                    "ID": 76,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 77,
                     "DefaultText": "具体的に誰かが？"
                 },
@@ -761,6 +1035,10 @@
                 {
                     "ID": 94,
                     "DefaultText": "良かった。"
+                },
+                {
+                    "ID": 95,
+                    "DefaultText": "[何も言わない。]"
                 },
                 {
                     "ID": 97,
@@ -1683,12 +1961,20 @@
                     "DefaultText": "パン屋の娘、アンナ・アルバニンが取った。"
                 },
                 {
+                    "ID": 609,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 612,
                     "DefaultText": "帽子をなくしたようですね、アンドレアス。あなたが持っていた常識と共に。"
                 },
                 {
                     "ID": 613,
                     "DefaultText": "パン屋の娘、アンナ・アルバニンが取った。"
+                },
+                {
+                    "ID": 614,
+                    "DefaultText": "[何も言わない。]"
                 },
                 {
                     "ID": 617,
@@ -1755,12 +2041,62 @@
             ]
         },
         {
+            "Name": "conversations/act1/act1_helpingwidow_tbe",
+            "UObjectName": "act1_helpingwidow_tbe_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 188,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 217,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_shadowinglucky_tbe",
+            "UObjectName": "act1_shadowinglucky_tbe_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 62,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 117,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_spinningbee_tbe",
             "UObjectName": "act1_spinningbee_tbe_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 255,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 451,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 558,
                     "DefaultText": "なんだって?"
+                },
+                {
+                    "ID": 593,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_gertner_meal",
+            "UObjectName": "act1_gertner_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 22,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -1779,6 +2115,136 @@
                 {
                     "ID": 160,
                     "DefaultText": "パウロは<red>主</red>があの子に与えてくれた唯一だからね、まだ<blue>恵まれて</blue>いるよ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_alban_meal",
+            "UObjectName": "act1_alban_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 94,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 96,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 104,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 108,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 109,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_johan_bauer_meal",
+            "UObjectName": "act1_johan_bauer_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 17,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 74,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_frantz_bauer_meal",
+            "UObjectName": "act1_frantz_bauer_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 18,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 29,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 68,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_zimmermann_meal",
+            "UObjectName": "act1_zimmermann_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 50,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 64,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_smokey_vacslav_meal",
+            "UObjectName": "act1_smokey_vacslav_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 62,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_jacob_questioning",
+            "UObjectName": "act1_jacob_questioning_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 78,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 458,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_final_day_of_law",
+            "UObjectName": "act1_final_day_of_law_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 38,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 49,
+                    "DefaultText": "[うなずく。]"
+                },
+                {
+                    "ID": 116,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 123,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 153,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 170,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 172,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -1803,6 +2269,46 @@
             ]
         },
         {
+            "Name": "conversations/act1/act1_salomea_meal",
+            "UObjectName": "act1_salomea_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 18,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_gernot_pre_questioning",
+            "UObjectName": "act1_gernot_pre_questioning_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 14,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 17,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 26,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 30,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 49,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 53,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_sebhat_meal",
             "UObjectName": "act1_sebhat_meal_BaseGame_jajp",
             "Entries": [
@@ -1819,6 +2325,10 @@
                     "DefaultText": "なぜ？"
                 },
                 {
+                    "ID": 136,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 145,
                     "DefaultText": "どういうこと、パウロ?"
                 },
@@ -1833,12 +2343,152 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_guy_churchanddruckers",
+            "UObjectName": "act2_guy_churchanddruckers_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 60,
+                    "DefaultText": "[うなずく。]"
+                },
+                {
+                    "ID": 66,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 69,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_otto_commons_speech",
+            "UObjectName": "act2_otto_commons_speech_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 130,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_claus_druckerhouse",
+            "UObjectName": "act2_claus_druckerhouse_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 25,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_gertner_dinner",
+            "UObjectName": "act2_gertner_dinner_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 184,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_amalie_vision",
             "UObjectName": "act2_amalie_vision_BaseGame_jajp",
             "Entries": [
                 {
                     "ID": 57,
                     "DefaultText": "[嘘] 理解できなかったよ。"
+                },
+                {
+                    "ID": 163,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 220,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 225,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_lenhardthunting_tbe",
+            "UObjectName": "act2_lenhardthunting_tbe_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 78,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 84,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 93,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 96,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 100,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 115,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 117,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 123,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 129,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 147,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 153,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 193,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 197,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 201,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 208,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 226,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_illuminata_library",
+            "UObjectName": "act2_illuminata_library_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 73,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -1911,6 +2561,10 @@
             "UObjectName": "act2_eavesdroppingconfessions_tbe_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 42,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 46,
                     "DefaultText": "パウロ、他には何かありますか?"
                 },
@@ -1923,12 +2577,28 @@
                     "DefaultText": "パウロはローマの廃墟で父親が女性といるところを見たそうです。"
                 },
                 {
+                    "ID": 124,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 160,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 334,
                     "DefaultText": "かまいませんよ、パウロ。"
                 },
                 {
+                    "ID": 467,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 573,
                     "DefaultText": "パウロ、あなたは何を懺悔しにきたのです?"
+                },
+                {
+                    "ID": 640,
+                    "DefaultText": "[うなずく。]"
                 },
                 {
                     "ID": 662,
@@ -1944,6 +2614,10 @@
             "Name": "conversations/act2/act2_goldenhand_tbe",
             "UObjectName": "act2_goldenhand_tbe_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 90,
+                    "DefaultText": "[何も言わない。]"
+                },
                 {
                     "ID": 116,
                     "DefaultText": "でも、俺のルールで遊んだことはないよな？　遊びながら説明するから、少しやらないか?"
@@ -2051,6 +2725,22 @@
                 {
                     "ID": 564,
                     "DefaultText": "奇妙とは？"
+                },
+                {
+                    "ID": 570,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 572,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 608,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 864,
+                    "DefaultText": "[うなずく。]"
                 }
             ]
         },
@@ -2081,12 +2771,54 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_mathieu",
+            "UObjectName": "act2_mathieu_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 21,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_guy",
             "UObjectName": "act2_guy_BaseGame_jajp",
             "Entries": [
                 {
                     "ID": 41,
                     "DefaultText": "大修道院長にもペテロにも、誰にです。私がオットーを殺してないことはわかってるはずでしょう。"
+                },
+                {
+                    "ID": 105,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 229,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 253,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_aedoc",
+            "UObjectName": "act2_aedoc_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 53,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_rudeger",
+            "UObjectName": "act2_rudeger_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 54,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2121,6 +2853,16 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_brigita",
+            "UObjectName": "act2_brigita_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 303,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_thomas",
             "UObjectName": "act2_thomas_BaseGame_jajp",
             "Entries": [
@@ -2137,6 +2879,10 @@
                     "DefaultText": "一般人が戯言を読んで動揺するとこうなるのです。"
                 },
                 {
+                    "ID": 30,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 33,
                     "DefaultText": "それは彼らを燃え上がらせただけでした。"
                 }
@@ -2149,6 +2895,10 @@
                 {
                     "ID": 7,
                     "DefaultText": "分かった。キャスパー、私たちが戻るまでパウロとここにいるんだぞ。"
+                },
+                {
+                    "ID": 163,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2235,6 +2985,10 @@
                     "DefaultText": "こんにちは。君はパウロだね？ 私が前回タッシングにいたときには話さなかったよね。"
                 },
                 {
+                    "ID": 184,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 194,
                     "DefaultText": "そろそろ行かなければ。いい子でいるんだぞ、パウロ。"
                 },
@@ -2277,12 +3031,32 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_baltasar",
+            "UObjectName": "act2_baltasar_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 211,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_werner",
             "UObjectName": "act2_werner_BaseGame_jajp",
             "Entries": [
                 {
                     "ID": 380,
                     "DefaultText": "奇妙とは？"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_niko",
+            "UObjectName": "act2_niko_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 41,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2331,8 +3105,22 @@
                     "DefaultText": "ペテロの抑えられない怒りのせいで、あの図書館が燃え上がるのは嫌なんだ!"
                 },
                 {
+                    "ID": 43,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 118,
                     "DefaultText": "マルティンが偽者だと知ったら、悪い奴らが何をするかは分かるだろ?"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_kat",
+            "UObjectName": "act2_kat_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 101,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2423,6 +3211,10 @@
                 {
                     "ID": 101,
                     "DefaultText": "パウロは、父親譲りの的確な考え方をするね。"
+                },
+                {
+                    "ID": 140,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2435,8 +3227,20 @@
                     "DefaultText": "ほとんどの人はオットーを支持しているけど、父はオットーを味方につけるのに、遺産相続と森林法が絡んできたのが気になったみたい。"
                 },
                 {
+                    "ID": 115,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 122,
                     "DefaultText": "それと、オットーの無実を晴らそうとしてくれてありがとう。<red>神</red>の祝福があらんことを。"
+                },
+                {
+                    "ID": 135,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 150,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2499,6 +3303,16 @@
             ]
         },
         {
+            "Name": "conversations/act2/act2_josua",
+            "UObjectName": "act2_josua_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 18,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_lemonledger",
             "UObjectName": "act2_lemonledger_BaseGame_jajp",
             "Entries": [
@@ -2533,6 +3347,10 @@
                 {
                     "ID": 34,
                     "DefaultText": "そしてその描写は、我々の隣人を嫌な気分にさせてしまうかもしれないのだ。"
+                },
+                {
+                    "ID": 46,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2543,6 +3361,10 @@
                 {
                     "ID": 58,
                     "DefaultText": "パウロの意見に賛成だ。クラウスは在宅療養が必要だ。マグダレネは壁画ではなく、そっちを頼む。"
+                },
+                {
+                    "ID": 98,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2605,8 +3427,42 @@
                     "DefaultText": "なぜ？"
                 },
                 {
+                    "ID": 656,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 714,
                     "DefaultText": "まるで分からないな..."
+                },
+                {
+                    "ID": 719,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 815,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 818,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 839,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 885,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_andreas_mill",
+            "UObjectName": "act3_andreas_mill_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 67,
+                    "DefaultText": "[うなずく。]"
                 }
             ]
         },
@@ -2633,6 +3489,16 @@
                 {
                     "ID": 80,
                     "DefaultText": "今のエルゼやパウロの様子からは想像もつかないわよね。最高に心優しい人たちよ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_jobst",
+            "UObjectName": "act3_jobst_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 91,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2669,6 +3535,10 @@
                     "DefaultText": "ご家族を大切にね。パウロ、アンナ、お孫さんたちにはまだあなたが必要よ。"
                 },
                 {
+                    "ID": 78,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 90,
                     "DefaultText": "まずパウロと最終的な段取りを決めたかったの。彼は私の旅の案内人を探してくれているわ。"
                 },
@@ -2703,6 +3573,14 @@
                 {
                     "ID": 217,
                     "DefaultText": "私はパウロやアンナにとって… 重荷でしかないわ。"
+                },
+                {
+                    "ID": 219,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 287,
+                    "DefaultText": "[うなずく。]"
                 }
             ]
         },
@@ -2747,9 +3625,37 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_baltasar",
+            "UObjectName": "act3_baltasar_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 14,
+                    "DefaultText": "[うなずく。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_endris",
+            "UObjectName": "act3_endris_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 91,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 138,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act3/act3_niko",
             "UObjectName": "act3_niko_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 253,
+                    "DefaultText": "[何も言わない。]"
+                },
                 {
                     "ID": 322,
                     "DefaultText": "パウロのお父さんが女たらしで詐欺師だからといって、人を殺せるというわけでもありません。"
@@ -2813,6 +3719,10 @@
             "UObjectName": "act3_bigjorg_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 11,
+                    "DefaultText": "[うなずく。]"
+                },
+                {
                     "ID": 24,
                     "DefaultText": "パウロがそんなことを言ってました。  "
                 },
@@ -2844,7 +3754,7 @@
                 },
                 {
                     "ID": 2,
-                    "DefaultText": "こんにちは、マグダレネ"
+                    "DefaultText": "こんにちは、マグダレネ。"
                 }
             ]
         },
@@ -2871,6 +3781,10 @@
             "UObjectName": "act3_ursula_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 30,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 123,
                     "DefaultText": "なぜ？"
                 }
@@ -2881,8 +3795,36 @@
             "UObjectName": "act3_christian_mural_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 14,
+                    "DefaultText": "[うなずく。]"
+                },
+                {
+                    "ID": 68,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 105,
                     "DefaultText": "なぜ？"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_magdelene_revolt_history",
+            "UObjectName": "act3_magdelene_revolt_history_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 123,
+                    "DefaultText": "[うなずく。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_magdalene_rathskeller",
+            "UObjectName": "act3_magdalene_rathskeller_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 130,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2893,6 +3835,10 @@
                 {
                     "ID": 88,
                     "DefaultText": "パウロの一番重い石臼で胸を潰された方がましよ。"
+                },
+                {
+                    "ID": 153,
+                    "DefaultText": "[うなずく。]"
                 }
             ]
         },
@@ -2911,9 +3857,33 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_golden_hand_werner",
+            "UObjectName": "act3_golden_hand_werner_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 74,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_werner",
+            "UObjectName": "act1_werner_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 185,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act1/act1_ideal_city_map",
             "UObjectName": "act1_ideal_city_map_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 23,
+                    "DefaultText": "[何も言わない。]"
+                },
                 {
                     "ID": 40,
                     "DefaultText": "なぜ？"
@@ -2925,8 +3895,52 @@
             "UObjectName": "act2_ideal_city_map_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 33,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 36,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 61,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 71,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 76,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
                     "ID": 105,
                     "DefaultText": "愛してるよ、アウグスト。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_vasclav",
+            "UObjectName": "act3_vasclav_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 98,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 107,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_golden_hand_endris",
+            "UObjectName": "act3_golden_hand_endris_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 223,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2945,6 +3959,40 @@
                 {
                     "ID": 63,
                     "DefaultText": "パウロ、君の冒険心はどこに行ったんだい？"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_andreas_finds_note",
+            "UObjectName": "act2_andreas_finds_note_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 10,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_haller",
+            "UObjectName": "act3_haller_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 3,
+                    "DefaultText": "[何も言わない。]"
+                },
+                {
+                    "ID": 35,
+                    "DefaultText": "[何も言わない。]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_helena",
+            "UObjectName": "act1_helena_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 31,
+                    "DefaultText": "[何も言わない。]"
                 }
             ]
         }
