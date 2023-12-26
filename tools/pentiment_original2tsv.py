@@ -18,8 +18,8 @@ for table in dfe:
 		if entry["DefaultText"] not in text_exist:
 			text_exist[entry["DefaultText"]] = table["Name"]+","+str(entry["ID"])
 
-with open('../output/Pentiment-toGoogleSpreadsheet.tsv', 'w') as f:
-
+with open('../output/Pentiment-init.tsv', 'w') as f:
+	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tAutoUpdate\tBetterJP",file=f)
 	for table in dfj:
 		for entry in table["Entries"]:
 			print(table["Name"],end="\t",file=f)
@@ -28,6 +28,6 @@ with open('../output/Pentiment-toGoogleSpreadsheet.tsv', 'w') as f:
 			print(repr(english[table["Name"]+","+str(entry["ID"])]),end="\t",file=f)
 			print(repr(entry["DefaultText"]),end="\t",file=f)
 			if(text_exist[english[table["Name"]+","+str(entry["ID"])]] != table["Name"]+","+str(entry["ID"])):
-				print("\t"+text_exist[english[table["Name"]+","+str(entry["ID"])]],end='\n',file=f)
+				print(text_exist[english[table["Name"]+","+str(entry["ID"])]],end='\n',file=f)
 			else:
 				print("",file=f)

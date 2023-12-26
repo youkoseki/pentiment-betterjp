@@ -9,12 +9,36 @@
                     "DefaultText": "オプション(MOD成功)"
                 },
                 {
+                    "ID": 20,
+                    "DefaultText": "地図"
+                },
+                {
+                    "ID": 21,
+                    "DefaultText": "世界の地図"
+                },
+                {
+                    "ID": 37,
+                    "DefaultText": "人物"
+                },
+                {
                     "ID": 125,
                     "DefaultText": "これは記憶されます"
                 },
                 {
+                    "ID": 136,
+                    "DefaultText": "軍隊が到着した！"
+                },
+                {
+                    "ID": 192,
+                    "DefaultText": "地図を開く際のコントロールを変更します。"
+                },
+                {
                     "ID": 254,
                     "DefaultText": "西暦 1534 年 2 月 15 日"
+                },
+                {
+                    "ID": 334,
+                    "DefaultText": "VIII.\\nマヌ・プロプリア"
                 },
                 {
                     "ID": 352,
@@ -151,18 +175,6 @@
                     "DefaultText": "アンドレアスは星座や天体、それらの動きに関する知識が豊富だ。また、研究や彼自身の経験のおかげで、さまざまな動植物にも詳しい。"
                 },
                 {
-                    "ID": 129,
-                    "DefaultText": "よくないやり方でパウロを呼び出した。"
-                },
-                {
-                    "ID": 130,
-                    "DefaultText": "よくないやり方でパウロを呼び出した。"
-                },
-                {
-                    "ID": 146,
-                    "DefaultText": "好意的なやり方でパウロを呼び出した。"
-                },
-                {
                     "ID": 180,
                     "DefaultText": "アルプスのチーズ"
                 },
@@ -195,6 +207,10 @@
                     "DefaultText": "マグダレネは、その時々で一番人気の大衆向けの本をよく読む。雑学、年鑑、一般知識、浮ついた物語の盛り合わせだ。"
                 },
                 {
+                    "ID": 323,
+                    "DefaultText": "マグダレネは、宗教改革と対抗宗教改革に関して幅広く最近の本を読んでいる。"
+                },
+                {
                     "ID": 362,
                     "DefaultText": "ロレンツの殺害がもっと早くに行われなかったことに驚いた。"
                 }
@@ -205,18 +221,12 @@
             "UObjectName": "tutorial_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 503,
-                    "DefaultText": "!パウロ"
-                }
-            ]
-        },
-        {
-            "Name": "game/characters",
-            "UObjectName": "characters_BaseGame_jajp",
-            "Entries": [
+                    "ID": 289,
+                    "DefaultText": "地図"
+                },
                 {
-                    "ID": 49,
-                    "DefaultText": "パウロ"
+                    "ID": 290,
+                    "DefaultText": "地図タブをクリックすると地図が開きます"
                 }
             ]
         },
@@ -225,36 +235,12 @@
             "UObjectName": "journal_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 146,
-                    "DefaultText": "パウロ"
-                },
-                {
-                    "ID": 147,
-                    "DefaultText": "パウロ・ミュラー"
-                },
-                {
-                    "ID": 199,
-                    "DefaultText": "エルゼの夫で、パウロの父である町の粉屋。タッシングで最も裕福な町民の一人で、厳しい利用料と残酷な性格のために人々から嫌われている。"
-                },
-                {
-                    "ID": 307,
-                    "DefaultText": "アンナとパウロ・ミュラーの娘。"
-                },
-                {
                     "ID": 381,
                     "DefaultText": "町のパン屋。グレットの夫で、アンナの父。信心深いことで知られる。"
                 },
                 {
-                    "ID": 388,
-                    "DefaultText": "グレットと故ウルリッヒ・アルバンの娘。パウロの妻で、ウルリケとアンドレアスの母である。"
-                },
-                {
                     "ID": 450,
                     "DefaultText": "ブダとペスト"
-                },
-                {
-                    "ID": 463,
-                    "DefaultText": "アンナとパウロ・ミュラーの息子。"
                 }
             ]
         },
@@ -269,54 +255,56 @@
             ]
         },
         {
-            "Name": "conversations/act1/act1_veronica_intro",
-            "UObjectName": "act1_veronica_intro_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 15,
-                    "DefaultText": "わからないわ、マルティン。でもラッキーは彼に不満があるみたいだね。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_thomas_intro",
-            "UObjectName": "act1_thomas_intro_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 88,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
             "Name": "conversations/act1/act1_lorenz_chargen",
             "UObjectName": "act1_lorenz_chargen_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 52,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
                     "ID": 103,
-                    "DefaultText": "ああ、あなたがゲルノット神父ですね？　私はロレンツ、男爵-"
+                    "DefaultText": "ああ、あなたがゲルノット神父ですね？ 私はロレンツ、男爵-"
                 },
                 {
-                    "ID": 104,
-                    "DefaultText": "ああ、ロートヴォーゲル男爵！　前回の訪問でお会いしましたね……ここで再びお会いできてとても嬉しいです。"
+                    "ID": 117,
+                    "DefaultText": "こう言ってはなんだが、しかし君はまだマスターになっていない割には年がいっているようだが。未婚なのか？"
                 }
             ]
         },
         {
-            "Name": "conversations/act1/act1_lorenz_scriptorium",
-            "UObjectName": "act1_lorenz_scriptorium_BaseGame_jajp",
+            "Name": "conversations/act1/act1_piero_intro",
+            "UObjectName": "act1_piero_intro_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 84,
-                    "DefaultText": "[何も言わない。]"
-                },
+                    "ID": 128,
+                    "DefaultText": "<red>考えて</red>みるんだな。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_lorenz_supper",
+            "UObjectName": "act1_lorenz_supper_BaseGame_jajp",
+            "Entries": [
                 {
-                    "ID": 108,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 29,
+                    "DefaultText": "[黙り続ける]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_amalie_intro",
+            "UObjectName": "act1_amalie_intro_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 7,
+                    "DefaultText": "[黙り続ける]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_eva_storm",
+            "UObjectName": "act1_eva_storm_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 22,
+                    "DefaultText": "アンドレアス、大修道院で良い一日を。濡れないようにしてね。"
                 }
             ]
         },
@@ -331,34 +319,22 @@
             ]
         },
         {
-            "Name": "conversations/act1/act1_drucker_storm_meal",
-            "UObjectName": "act1_drucker_storm_meal_BaseGame_jajp",
+            "Name": "conversations/act1/act1_murder_chapterhouse",
+            "UObjectName": "act1_murder_chapterhouse_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 67,
-                    "DefaultText": "フェレンツ小修道院長に悪気があるのかは分からないけど、彼は、ロレンツが到着した日からずっと様子がおかしいんだ。"
+                    "ID": 44,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
         {
-            "Name": "conversations/act1/act1_florian_autopsy_tbe",
-            "UObjectName": "act1_florian_autopsy_tbe_BaseGame_jajp",
+            "Name": "conversations/act1/act1_drucker_storm_meal",
+            "UObjectName": "act1_drucker_storm_meal_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 53,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 65,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 271,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 293,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 145,
+                    "DefaultText": "[思慮深くうなずく]"
                 }
             ]
         },
@@ -368,7 +344,7 @@
             "Entries": [
                 {
                     "ID": 140,
-                    "DefaultText": "ロレンツ……男爵はシスター・マチルダを誘惑しようとしました。彼女は彼を何度か非難しました。"
+                    "DefaultText": "ロレンツ...男爵はシスター・マチルダを誘惑しようとしました。彼女は彼を何度か非難しました。"
                 }
             ]
         },
@@ -377,22 +353,12 @@
             "UObjectName": "act1_gernot_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 55,
-                    "DefaultText": "大修道院長の意向に反して、フロリアンがロレンツの傷の検視に立ち合わせてくれたんだ…"
-                },
-                {
                     "ID": 68,
                     "DefaultText": "しかし、大修道院長が私の裏切りを知ったら、私を信用しなくなるだろう。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_ferenc",
-            "UObjectName": "act1_ferenc_BaseGame_jajp",
-            "Entries": [
+                },
                 {
-                    "ID": 164,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 136,
+                    "DefaultText": "君とはもう終わりだ。<frantic>良い一日を!</frantic>"
                 }
             ]
         },
@@ -401,8 +367,18 @@
             "UObjectName": "act1_mathieu_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 325,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 132,
+                    "DefaultText": "[黙り続ける]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_margarete",
+            "UObjectName": "act1_margarete_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 17,
+                    "DefaultText": "良い一日を、シスター・マルガレーテ。"
                 }
             ]
         },
@@ -417,182 +393,16 @@
             ]
         },
         {
-            "Name": "conversations/act1/act1_grett",
-            "UObjectName": "act1_grett_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 16,
-                    "DefaultText": "パウロ・ミュラーとベルト・ドラッカーだ。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_marie",
-            "UObjectName": "act1_marie_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 9,
-                    "DefaultText": "古い塩鉱山の側で、パウロ・ミュラーやアンナ・アルバニンと一緒に遊んでたのを見かけてね。"
-                },
-                {
-                    "ID": 16,
-                    "DefaultText": "すべての男の子がそうだとは限らないわ。あるいは女の子についてもね。パウロについてはまったく知らないけど、あの子の父親は本当に頼りにならない人よ。"
-                },
-                {
-                    "ID": 58,
-                    "DefaultText": "だけどパウロのことは気にしないで。ベルトの何が心配なの?"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_lucky",
-            "UObjectName": "act1_lucky_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 143,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_brigita",
-            "UObjectName": "act1_brigita_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 44,
-                    "DefaultText": "[嘘] たいしたことじゃない。暇つぶしの質問だよ。迷惑をかけて申し訳なかった。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_lenhardt",
-            "UObjectName": "act1_lenhardt_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 33,
-                    "DefaultText": "ただ興味があるだけだ。以前は彼女が大麦を運んできてくれてたんだが、今はペテロがその役を引き受けている。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_else",
-            "UObjectName": "act1_else_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 45,
-                    "DefaultText": "息子さんのパウロと話したよ。いい子そうだ。"
-                },
-                {
-                    "ID": 47,
-                    "DefaultText": "パウロは最愛の息子よ。でも、すごく恥ずかしがり屋で..."
-                },
-                {
-                    "ID": 78,
-                    "DefaultText": "私はパウロの世話をしないと。あの子は本当に恥ずかしがり屋で..."
-                },
-                {
-                    "ID": 84,
-                    "DefaultText": "権利? ...私には世話をする家族がいるわ。レンハルト。<whisper>パウロ、私のかわいい天使...</whisper>"
-                },
-                {
-                    "ID": 103,
-                    "DefaultText": "息子さんのパウロのことだ。あの子が古い塩山の近くで遊んでいるのを見かけた。"
-                },
-                {
-                    "ID": 114,
-                    "DefaultText": "パウロはグロッシェンを期待していた。何かを心配しているみたいだったよ。"
-                },
-                {
-                    "ID": 120,
-                    "DefaultText": "パウロが気づいていたとは思わなかったわ。内職の事を...あの子に話すわ。きちんと説明するの。"
-                },
-                {
-                    "ID": 128,
-                    "DefaultText": "パウロは注意深い子なの。私がくよくよしているのを見て、お金のせいだと思ったのね。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_paul",
-            "UObjectName": "act1_paul_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 3,
-                    "DefaultText": "パウロだよね? 前に話したことはないと思うんだけど。"
-                },
-                {
-                    "ID": 23,
-                    "DefaultText": "パウロ、絵を描くのは好きかい?"
-                },
-                {
-                    "ID": 37,
-                    "DefaultText": "分かったよ。またな、パウロ。"
-                },
-                {
-                    "ID": 49,
-                    "DefaultText": "また後で、パウロ。なあ、描き続けるんだよ、分かった?"
-                },
-                {
-                    "ID": 52,
-                    "DefaultText": "こんにちは、パウロ。家でお会いできてうれしいよ。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_peter",
-            "UObjectName": "act1_peter_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 5,
-                    "DefaultText": "またの機会に、ペテロ。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_eva",
-            "UObjectName": "act1_eva_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 29,
-                    "DefaultText": "時々、町の男たちが挨拶に来るわ。ペテロ、ヨルグ... たまにオットーもね。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_veronica",
-            "UObjectName": "act1_veronica_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 104,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_frantz",
-            "UObjectName": "act1_frantz_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 25,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
             "Name": "conversations/act1/act1_kat",
             "UObjectName": "act1_kat_BaseGame_jajp",
             "Entries": [
                 {
                     "ID": 132,
-                    "DefaultText": "彼女は、息子がロレンツを殺したと<blue>私が</blue>考えていると思うかもしれない。"
+                    "DefaultText": "彼女は、息子がロレンツを殺したと<blue>私が考えている</blue>と思うかもしれない。"
                 },
                 {
-                    "ID": 136,
-                    "DefaultText": "彼はロレンツの殺害に関与している可能性がある。だが、キャットに、彼が大修道院から逃げるのを見たと言ったとしても..."
-                },
-                {
-                    "ID": 166,
-                    "DefaultText": "アルバン家からパンを、ヨハンとペテロの農場からは卵を盗んだわ。"
+                    "ID": 192,
+                    "DefaultText": "[これ以上は何も言わない]"
                 }
             ]
         },
@@ -610,10 +420,6 @@
             "Name": "conversations/act1/act1_memorypalace",
             "UObjectName": "act1_memorypalace_BaseGame_jajp",
             "Entries": [
-                {
-                    "ID": 130,
-                    "DefaultText": "パウロは私たちは誰もが不道徳であると理解していました。情熱で燃え上がるより結婚する方がいいと言っていたのです。"
-                },
                 {
                     "ID": 132,
                     "DefaultText": "たしかに、男にとってよりも、女性にとってのほうが複雑ですね。おそらくラッキーは不公平だと思ったのでしょう。"
@@ -787,10 +593,6 @@
                     "DefaultText": "ヴォイスラフ修道士は私を傷つけさせたりしません。彼はいつも私に一番親切です。"
                 },
                 {
-                    "ID": 65,
-                    "DefaultText": "人に意地悪をさせてはいけません。ヴォルクベルト."
-                },
-                {
                     "ID": 66,
                     "DefaultText": "それほど悪いことではありません。その上、私は修道院の重荷です。"
                 },
@@ -804,11 +606,7 @@
                 },
                 {
                     "ID": 72,
-                    "DefaultText": "そうですか？　まあ、私たちは本当に孤独というわけではないと思います。"
-                },
-                {
-                    "ID": 75,
-                    "DefaultText": "[うなずく。]"
+                    "DefaultText": "そうですか？ まあ、私たちは本当に孤独というわけではないと思います。"
                 },
                 {
                     "ID": 77,
@@ -820,7 +618,7 @@
                 },
                 {
                     "ID": 79,
-                    "DefaultText": "彼女は私には意地悪だったけど……彼女はとてもきれいだ。そう思いませんか？"
+                    "DefaultText": "彼女は私には意地悪だったけど...彼女はとてもきれいだ。そう思いませんか？"
                 },
                 {
                     "ID": 80,
@@ -832,7 +630,7 @@
                 },
                 {
                     "ID": 85,
-                    "DefaultText": "[遠くを見て、思慮深くうなずく。]"
+                    "DefaultText": "[遠くを見て、思慮深くうなずく]"
                 },
                 {
                     "ID": 86,
@@ -884,7 +682,7 @@
                 },
                 {
                     "ID": 106,
-                    "DefaultText": "彼の墓石は木です。大修道院長はふつう、もう少し……大理石で埋葬されませんか?"
+                    "DefaultText": "彼の墓石は木です。大修道院長はふつう、もう少し...大理石で埋葬されませんか?"
                 },
                 {
                     "ID": 107,
@@ -932,11 +730,11 @@
                 },
                 {
                     "ID": 121,
-                    "DefaultText": "マザー・ブリュンヒルデ……女子修道院長？"
+                    "DefaultText": "マザー・ブリュンヒルデ...女子修道院長？"
                 },
                 {
                     "ID": 122,
-                    "DefaultText": "うん？　そこには誰も埋葬されていません。"
+                    "DefaultText": "うん？ そこには誰も埋葬されていません。"
                 },
                 {
                     "ID": 123,
@@ -956,11 +754,11 @@
                 },
                 {
                     "ID": 127,
-                    "DefaultText": "アンドレアス、本当に大丈夫ですか？　マチュー修道士は怒っているようでした。"
+                    "DefaultText": "アンドレアス、本当に大丈夫ですか？ マチュー修道士は怒っているようでした。"
                 },
                 {
                     "ID": 128,
-                    "DefaultText": "……面倒なことにはなりたくない。"
+                    "DefaultText": "...面倒なことにはなりたくない。"
                 },
                 {
                     "ID": 130,
@@ -1028,7 +826,7 @@
                 },
                 {
                     "ID": 151,
-                    "DefaultText": "しかし、それは彼だけのことではありません。法律、帝国法……それらが彼に力を与えているのです。だから、法律を変える必要があるかもしれません。"
+                    "DefaultText": "しかし、それは彼だけのことではありません。法律、帝国法...それらが彼に力を与えているのです。だから、法律を変える必要があるかもしれません。"
                 },
                 {
                     "ID": 152,
@@ -1040,11 +838,11 @@
                 },
                 {
                     "ID": 154,
-                    "DefaultText": "しかし、誰が？　あなたのような都市商人ではない。たいへんな仕事だ。誰も自分の手を汚したがらない。"
+                    "DefaultText": "しかし、誰が？ あなたのような都市商人ではない。たいへんな仕事だ。誰も自分の手を汚したがらない。"
                 },
                 {
                     "ID": 155,
-                    "DefaultText": "あなたはニュルンベルク出身ですよね？　農民の悩みとは無縁でしょう。あなたが<green>知っていた</green>なら、驚きです。"
+                    "DefaultText": "あなたはニュルンベルク出身ですよね？ 農民の悩みとは無縁でしょう。あなたが<green>知っていた</green>なら、驚きです。"
                 },
                 {
                     "ID": 156,
@@ -1076,7 +874,7 @@
                 },
                 {
                     "ID": 165,
-                    "DefaultText": "おお賢者よ、どうすれば粉ひき場を作ることができるのか？　彼らの生計は土地に縛られているのに。"
+                    "DefaultText": "おお賢者よ、どうすれば粉ひき場を作ることができるのか？ 彼らの生計は土地に縛られているのに。"
                 },
                 {
                     "ID": 166,
@@ -1108,11 +906,11 @@
                 },
                 {
                     "ID": 175,
-                    "DefaultText": "父と私は一緒に仕事をするほうが楽だったが、彼の脳卒中以来……これが現実さ。"
+                    "DefaultText": "父と私は一緒に仕事をするほうが楽だったが、彼の脳卒中以来...これが現実さ。"
                 },
                 {
                     "ID": 176,
-                    "DefaultText": "彼は医者に診てもらいましたか？　もしかしたら、何かできるかもしれません。"
+                    "DefaultText": "彼は医者に診てもらいましたか？ もしかしたら、何かできるかもしれません。"
                 },
                 {
                     "ID": 177,
@@ -1167,6 +965,10 @@
                     "DefaultText": "何をしているんですか？"
                 },
                 {
+                    "ID": 200,
+                    "DefaultText": "特に図書館でのちょっとしたおしゃべりの後では。"
+                },
+                {
                     "ID": 203,
                     "DefaultText": "私たちは墓を掘っています。あなたは？"
                 },
@@ -1192,7 +994,7 @@
                 },
                 {
                     "ID": 214,
-                    "DefaultText": "<frantic>彼が問題ないと言いました！　私を追い出さないでください！</frantic>"
+                    "DefaultText": "<frantic>彼が問題ないと言いました！ 私を追い出さないでください！</frantic>"
                 },
                 {
                     "ID": 216,
@@ -1200,11 +1002,11 @@
                 },
                 {
                     "ID": 217,
-                    "DefaultText": "<frantic><blue>ご慈悲</blue>を、マチュー修道士！　大修道院長に言わないでください、私は出て行きたくはありません！</frantic>"
+                    "DefaultText": "<frantic><blue>ご慈悲</blue>を、マチュー修道士！ 大修道院長に言わないでください、私は出て行きたくはありません！</frantic>"
                 },
                 {
                     "ID": 219,
-                    "DefaultText": "そしてヴォルクベルト……あなたはアンドレアスには近付かないように"
+                    "DefaultText": "そしてヴォルクベルト...あなたはアンドレアスには近付かないように"
                 },
                 {
                     "ID": 220,
@@ -1228,7 +1030,7 @@
                 },
                 {
                     "ID": 226,
-                    "DefaultText": "ヴォルクベルトが<blue>大きな</blue>面倒に巻き込まれることはないだろう……たぶん、それだけの価値がある。"
+                    "DefaultText": "ヴォルクベルトが<blue>大きな</blue>面倒に巻き込まれることはないだろう...たぶん、それだけの価値がある。"
                 },
                 {
                     "ID": 227,
@@ -1292,7 +1094,7 @@
                 },
                 {
                     "ID": 253,
-                    "DefaultText": "うーん。それは興味深いですね……あなたが真実を言っているなら。"
+                    "DefaultText": "うーん。それは興味深いですね...あなたが真実を言っているなら。"
                 },
                 {
                     "ID": 254,
@@ -1312,7 +1114,7 @@
                 },
                 {
                     "ID": 259,
-                    "DefaultText": "なぜ彼は私の好奇心を受け入れてくれたのか……誰にも分からない。"
+                    "DefaultText": "なぜ彼は私の好奇心を受け入れてくれたのか...誰にも分からない。"
                 },
                 {
                     "ID": 260,
@@ -1324,7 +1126,7 @@
                 },
                 {
                     "ID": 265,
-                    "DefaultText": "大修道院長が怒ってあなたを去らせたらどうしますか？ <frantic>あなたの原稿は……！</frantic>"
+                    "DefaultText": "大修道院長が怒ってあなたを去らせたらどうしますか？ <frantic>あなたの原稿は...！</frantic>"
                 },
                 {
                     "ID": 271,
@@ -1368,7 +1170,7 @@
                 },
                 {
                     "ID": 294,
-                    "DefaultText": "うーん。それは興味深いですね……あなたが真実を言っているなら。"
+                    "DefaultText": "うーん。それは興味深いですね...あなたが真実を言っているなら。"
                 },
                 {
                     "ID": 295,
@@ -1428,11 +1230,11 @@
                 },
                 {
                     "ID": 335,
-                    "DefaultText": "マザー・ブリュンヒルデ……女子修道院長？"
+                    "DefaultText": "マザー・ブリュンヒルデ...女子修道院長？"
                 },
                 {
                     "ID": 337,
-                    "DefaultText": "……ゲルノット神父がこのことで私達を罰するかもと心配ですか？"
+                    "DefaultText": "...ゲルノット神父がこのことで私達を罰するかもと心配ですか？"
                 },
                 {
                     "ID": 338,
@@ -1488,7 +1290,7 @@
                 },
                 {
                     "ID": 363,
-                    "DefaultText": "それで？　なにか遺体に異常が？"
+                    "DefaultText": "それで？ なにか遺体に異常が？"
                 },
                 {
                     "ID": 364,
@@ -1504,7 +1306,7 @@
                 },
                 {
                     "ID": 376,
-                    "DefaultText": "そしてナイフも！　見たところ普通のもののようですが。ただ他の二つと一緒に、ここに埋められて……"
+                    "DefaultText": "そしてナイフも！ 見たところ普通のもののようですが。ただ他の二つと一緒に、ここに埋められて..."
                 },
                 {
                     "ID": 382,
@@ -1548,7 +1350,7 @@
                 },
                 {
                     "ID": 412,
-                    "DefaultText": "そしてナイフも！　見たところ普通のもののようですが。ただ他の二つと一緒に、ここに埋められて……"
+                    "DefaultText": "そしてナイフも！ 見たところ普通のもののようですが。ただ他の二つと一緒に、ここに埋められて..."
                 },
                 {
                     "ID": 413,
@@ -1556,7 +1358,7 @@
                 },
                 {
                     "ID": 414,
-                    "DefaultText": "これらは……禁じられているからです。"
+                    "DefaultText": "これらは...禁じられているからです。"
                 },
                 {
                     "ID": 418,
@@ -1572,7 +1374,7 @@
                 },
                 {
                     "ID": 435,
-                    "DefaultText": "アンドレアス？　何か見つけたみたいだ。"
+                    "DefaultText": "アンドレアス？ 何か見つけたみたいだ。"
                 },
                 {
                     "ID": 440,
@@ -1588,7 +1390,7 @@
                 },
                 {
                     "ID": 446,
-                    "DefaultText": "……であれば、気にしません。"
+                    "DefaultText": "...であれば、気にしません。"
                 },
                 {
                     "ID": 447,
@@ -1620,7 +1422,7 @@
                 },
                 {
                     "ID": 459,
-                    "DefaultText": "大修道院長は、修道士が……不都合なことに……告発された場合、修道院がどのような事態に陥るかを理解しています。"
+                    "DefaultText": "大修道院長は、修道士が...不都合なことに...告発された場合、修道院がどのような事態に陥るかを理解しています。"
                 },
                 {
                     "ID": 465,
@@ -1635,10 +1437,6 @@
                     "DefaultText": "攻撃的な態度。追い詰められたイタチ、あるいは狂犬のように。"
                 },
                 {
-                    "ID": 473,
-                    "DefaultText": "すべての墓石を読みましたか？　かなり古いものもあります。"
-                },
-                {
                     "ID": 478,
                     "DefaultText": "ゲルハルト修道士の墓を掘り起こしています。"
                 },
@@ -1648,11 +1446,11 @@
                 },
                 {
                     "ID": 481,
-                    "DefaultText": "大修道院長は、修道士が……不都合なことに……告発された場合、修道院がどのような事態に陥るかを理解しています。"
+                    "DefaultText": "大修道院長は、修道士が...不都合なことに...告発された場合、修道院がどのような事態に陥るかを理解しています。"
                 },
                 {
                     "ID": 485,
-                    "DefaultText": "なぜ彼は私の好奇心を受け入れてくれたのか……誰にも分からない。"
+                    "DefaultText": "なぜ彼は私の好奇心を受け入れてくれたのか...誰にも分からない。"
                 },
                 {
                     "ID": 489,
@@ -1688,11 +1486,11 @@
                 },
                 {
                     "ID": 560,
-                    "DefaultText": "キエサウがどんな問題を抱えていようとも……これだけのあいだ続いているんだ。"
+                    "DefaultText": "キエサウがどんな問題を抱えていようとも...これだけのあいだ続いているんだ。"
                 },
                 {
                     "ID": 564,
-                    "DefaultText": "なんだって？　まったく意味が分かりません。何が起きてるのです、アンドレアス？"
+                    "DefaultText": "なんだって？ まったく意味が分かりません。何が起きてるのです、アンドレアス？"
                 },
                 {
                     "ID": 574,
@@ -1704,15 +1502,15 @@
                 },
                 {
                     "ID": 576,
-                    "DefaultText": "私は……"
+                    "DefaultText": "私は..."
                 },
                 {
                     "ID": 577,
-                    "DefaultText": "どういう意味ですか？　あなたとリューデガー修道士は面倒に巻き込まれていますか？"
+                    "DefaultText": "どういう意味ですか？ あなたとリューデガー修道士は面倒に巻き込まれていますか？"
                 },
                 {
                     "ID": 578,
-                    "DefaultText": "そしてヴォルクベルト……あなたはアンドレアスには近付かないように"
+                    "DefaultText": "そしてヴォルクベルト...あなたはアンドレアスには近付かないように"
                 },
                 {
                     "ID": 580,
@@ -1724,7 +1522,7 @@
                 },
                 {
                     "ID": 582,
-                    "DefaultText": "[彼を意味深に見る。]"
+                    "DefaultText": "[彼を意味深に見る]"
                 },
                 {
                     "ID": 583,
@@ -1752,7 +1550,7 @@
                 },
                 {
                     "ID": 594,
-                    "DefaultText": "[彼を意味深に見る。]"
+                    "DefaultText": "[彼を意味深に見る]"
                 },
                 {
                     "ID": 595,
@@ -1768,11 +1566,11 @@
                 },
                 {
                     "ID": 599,
-                    "DefaultText": "道具？　どう言う意味ですか？　何に使用できるのです？"
+                    "DefaultText": "道具？ どう言う意味ですか？ 何に使用できるのです？"
                 },
                 {
                     "ID": 601,
-                    "DefaultText": "道具？　このシャベルのような？"
+                    "DefaultText": "道具？ このシャベルのような？"
                 },
                 {
                     "ID": 602,
@@ -1859,34 +1657,22 @@
             ]
         },
         {
-            "Name": "conversations/act1/act1_spinningbee_tbe",
-            "UObjectName": "act1_spinningbee_tbe_BaseGame_jajp",
+            "Name": "conversations/act1/act1_helpingwidow_tbe",
+            "UObjectName": "act1_helpingwidow_tbe_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 255,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 451,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 558,
-                    "DefaultText": "なんだって?"
-                },
-                {
-                    "ID": 593,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 284,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
         {
-            "Name": "conversations/act1/act1_gertner_meal",
-            "UObjectName": "act1_gertner_meal_BaseGame_jajp",
+            "Name": "conversations/act1/act1_spinningbee_tbe",
+            "UObjectName": "act1_spinningbee_tbe_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 22,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 59,
+                    "DefaultText": "[静かに笑う]"
                 }
             ]
         },
@@ -1897,130 +1683,46 @@
                 {
                     "ID": 46,
                     "DefaultText": "奇妙とは？"
-                },
-                {
-                    "ID": 159,
-                    "DefaultText": "あまり気にしちゃいけないよ、アンドレアス。あの子にはパウロって息子がいるのが救いなんだ。本当にいい子で、母親が大好きなんだよ。"
-                },
-                {
-                    "ID": 160,
-                    "DefaultText": "パウロは<red>主</red>があの子に与えてくれた唯一だからね、まだ<blue>恵まれて</blue>いるよ。"
                 }
             ]
         },
         {
-            "Name": "conversations/act1/act1_frantz_bauer_meal",
-            "UObjectName": "act1_frantz_bauer_meal_BaseGame_jajp",
+            "Name": "conversations/act1/act1_smokey_vacslav_meal",
+            "UObjectName": "act1_smokey_vacslav_meal_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 18,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 132,
+                    "DefaultText": "[急ぐよう身ぶりする]"
                 },
                 {
-                    "ID": 29,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 68,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 265,
+                    "DefaultText": "[機嫌を悪くする]"
                 }
             ]
         },
         {
-            "Name": "conversations/act1/act1_zimmermann_meal",
-            "UObjectName": "act1_zimmermann_meal_BaseGame_jajp",
+            "Name": "conversations/act1/act1_jacob_questioning",
+            "UObjectName": "act1_jacob_questioning_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 50,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 146,
+                    "DefaultText": "[無言を貫く]"
                 },
                 {
-                    "ID": 64,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_final_day_of_law",
-            "UObjectName": "act1_final_day_of_law_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 38,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 278,
+                    "DefaultText": "[無言を貫く]"
                 },
                 {
-                    "ID": 49,
-                    "DefaultText": "[うなずく。]"
+                    "ID": 396,
+                    "DefaultText": "[無言を貫く]"
                 },
                 {
-                    "ID": 116,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 405,
+                    "DefaultText": "[無言を貫く]"
                 },
                 {
-                    "ID": 123,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 153,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 170,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 172,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "quests/act1/act1_wedapril21",
-            "UObjectName": "act1_wedapril21_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 10010,
-                    "DefaultText": "ロレンツに大修道院長の食卓に招待された。歓迎されるかどうかわからないが、招待を断るわけにもいかない。クロイスターの洗い場で手を洗い、食堂で修道士たちを合流しなければならない。\\n\\nまたもやドラッカー家との夕食を欠席することになるため、クラウスは迷惑がるはずだ…"
-                }
-            ]
-        },
-        {
-            "Name": "quests/act1/act1_widownotes",
-            "UObjectName": "act1_widownotes_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 10005,
-                    "DefaultText": "オッティリアを手伝うと、夫のラニッヒへの仕打ちが原因で男爵を憎んでいたことを認めた。\\n\\nどうやら、ロレンツがラニッヒを激しく殴ったせいで、ラニッヒは一生杖をついて歩くはめになったようだ。オッティリアは、夫はその際の怪我が原因で最終的に命を落としたと信じている。オッティリアはまた、自分に男爵を殺せるほどの力はないと主張している。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_gernot_pre_questioning",
-            "UObjectName": "act1_gernot_pre_questioning_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 14,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 17,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 26,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 30,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 49,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 53,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 406,
+                    "DefaultText": "[無言を貫く]"
                 }
             ]
         },
@@ -2033,62 +1735,8 @@
                     "DefaultText": "なぜ？"
                 },
                 {
-                    "ID": 56,
-                    "DefaultText": "大修道院長はとても偉いんだよ、パウロ。"
-                },
-                {
                     "ID": 114,
                     "DefaultText": "なぜ？"
-                },
-                {
-                    "ID": 145,
-                    "DefaultText": "どういうこと、パウロ?"
-                },
-                {
-                    "ID": 148,
-                    "DefaultText": "パウロ、作り話はやめなさい。それに夜、外に出るべきじゃないわ。"
-                },
-                {
-                    "ID": 265,
-                    "DefaultText": "パウロはある種の魂を見たのかもしれない。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_guy_churchanddruckers",
-            "UObjectName": "act2_guy_churchanddruckers_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 60,
-                    "DefaultText": "[うなずく。]"
-                },
-                {
-                    "ID": 66,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 69,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_otto_commons_speech",
-            "UObjectName": "act2_otto_commons_speech_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 130,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_claus_druckerhouse",
-            "UObjectName": "act2_claus_druckerhouse_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 25,
-                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2097,30 +1745,8 @@
             "UObjectName": "act2_gertner_dinner_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 184,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_amalie_vision",
-            "UObjectName": "act2_amalie_vision_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 57,
-                    "DefaultText": "[嘘] 理解できなかったよ。"
-                },
-                {
-                    "ID": 163,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 220,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 225,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 102,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2129,78 +1755,18 @@
             "UObjectName": "act2_lenhardthunting_tbe_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 78,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 84,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 93,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 96,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 100,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 115,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 117,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 123,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 129,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 147,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 153,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 193,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 197,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 201,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 208,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 226,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 182,
+                    "DefaultText": "良い一日だったな。"
                 }
             ]
         },
         {
-            "Name": "conversations/act2/act2_illuminata_library",
-            "UObjectName": "act2_illuminata_library_BaseGame_jajp",
+            "Name": "conversations/act2/act2_otto_commons_stjohnseve",
+            "UObjectName": "act2_otto_commons_stjohnseve_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 73,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 111,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2209,8 +1775,12 @@
             "UObjectName": "act2_gernot_dinner_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 137,
-                    "DefaultText": "キアラウは違ったのだよ、アンドレアス。つい最近まで、ロレンツのようなパトロンがいたから、修道院は維持されていたのだ。"
+                    "ID": 102,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 217,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2219,16 +1789,24 @@
             "UObjectName": "act2_mob_night_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 65,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
                     "ID": 107,
-                    "DefaultText": "何？　なぜできないと？　私は 7 年前、嘘はつかなかったし、今からそうつもりもない！"
+                    "DefaultText": "何？ なぜできないと？ 私は 7 年前、嘘はつかなかったし、今からもそうつもりはない！"
                 },
                 {
                     "ID": 108,
-                    "DefaultText": "もちろんできるさ！　君たちが修道士たちを図書館に追い込んで以来、私は犯人を捜し続けていたんだから！"
+                    "DefaultText": "もちろんできるさ！ 君たちが修道士たちを図書館に追い込んで以来、私は犯人を捜し続けていたんだから！"
                 },
                 {
                     "ID": 109,
                     "DefaultText": "私が話すのは、正義を行うためであって、君たちの復讐を果たさせるためではない。"
+                },
+                {
+                    "ID": 131,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2238,11 +1816,15 @@
             "Entries": [
                 {
                     "ID": 24,
-                    "DefaultText": "俺たちは大修道院長を脅すような真似は決してしたくなかったんです！　あいつが俺らの要求に耳を貸さなかったんだ！　俺らは飢えてるんだ！"
+                    "DefaultText": "俺たちは大修道院長を脅すような真似は決してしたくなかったんです！ あいつが俺らの要求に耳を貸さなかったんだ！ 俺らは飢えてるんだ！"
                 },
                 {
                     "ID": 27,
                     "DefaultText": "もちろん、大修道院長を無傷で解放するという厳格な条件付きではありますが。"
+                },
+                {
+                    "ID": 76,
+                    "DefaultText": "[黙り続ける]"
                 },
                 {
                     "ID": 113,
@@ -2251,88 +1833,12 @@
             ]
         },
         {
-            "Name": "conversations/act2/act2_mill_abbey_burning",
-            "UObjectName": "act2_mill_abbey_burning_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 15,
-                    "DefaultText": "エルゼ、パウロと一緒に行け！こんなことに巻き込まれる必要はない！"
-                },
-                {
-                    "ID": 88,
-                    "DefaultText": "こうなることを予想しておくべきだったな、パウロ！　お前はずっとダメ息子だった！"
-                },
-                {
-                    "ID": 189,
-                    "DefaultText": "逆らう気か、パウロ！　聞いてんのか？母親を連れ戻せ！"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_eavesdroppingconfessions_tbe",
-            "UObjectName": "act2_eavesdroppingconfessions_tbe_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 42,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 46,
-                    "DefaultText": "パウロ、他には何かありますか?"
-                },
-                {
-                    "ID": 61,
-                    "DefaultText": "それは深刻な問題だな、パウロ。しかし君は、他人の罪を私に伝えるためにここにいるのではありません。"
-                },
-                {
-                    "ID": 68,
-                    "DefaultText": "パウロはローマの廃墟で父親が女性といるところを見たそうです。"
-                },
-                {
-                    "ID": 124,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 160,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 334,
-                    "DefaultText": "かまいませんよ、パウロ。"
-                },
-                {
-                    "ID": 467,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 573,
-                    "DefaultText": "パウロ、あなたは何を懺悔しにきたのです?"
-                },
-                {
-                    "ID": 640,
-                    "DefaultText": "[うなずく。]"
-                },
-                {
-                    "ID": 662,
-                    "DefaultText": "パウロ、それは何ですか？"
-                },
-                {
-                    "ID": 663,
-                    "DefaultText": "パウロ、何が起こるかはわからないが、私たちは必ず救われるよ。"
-                }
-            ]
-        },
-        {
             "Name": "conversations/act2/act2_goldenhand_tbe",
             "UObjectName": "act2_goldenhand_tbe_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 90,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
                     "ID": 116,
-                    "DefaultText": "でも、俺のルールで遊んだことはないよな？　遊びながら説明するから、少しやらないか?"
+                    "DefaultText": "でも、俺のルールで遊んだことはないよな？ 遊びながら説明するから、少しやらないか?"
                 },
                 {
                     "ID": 442,
@@ -2437,14 +1943,6 @@
                 {
                     "ID": 564,
                     "DefaultText": "奇妙とは？"
-                },
-                {
-                    "ID": 570,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 572,
-                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2475,12 +1973,12 @@
             ]
         },
         {
-            "Name": "conversations/act2/act2_mathieu",
-            "UObjectName": "act2_mathieu_BaseGame_jajp",
+            "Name": "conversations/act2/act2_zdena",
+            "UObjectName": "act2_zdena_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 21,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 73,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2491,38 +1989,26 @@
                 {
                     "ID": 41,
                     "DefaultText": "大修道院長にもペテロにも、誰にです。私がオットーを殺してないことはわかってるはずでしょう。"
-                },
-                {
-                    "ID": 105,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 229,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 253,
-                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
         {
-            "Name": "conversations/act2/act2_aedoc",
-            "UObjectName": "act2_aedoc_BaseGame_jajp",
+            "Name": "conversations/act2/act2_matilda",
+            "UObjectName": "act2_matilda_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 53,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 11,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
         {
-            "Name": "conversations/act2/act2_rudeger",
-            "UObjectName": "act2_rudeger_BaseGame_jajp",
+            "Name": "conversations/act2/act2_margarete",
+            "UObjectName": "act2_margarete_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 54,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 32,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2537,12 +2023,16 @@
             ]
         },
         {
-            "Name": "conversations/act2/act2_grett",
-            "UObjectName": "act2_grett_BaseGame_jajp",
+            "Name": "conversations/act2/act2_agnes",
+            "UObjectName": "act2_agnes_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 31,
-                    "DefaultText": "ポールが言ったみたいに、あたしらはそうするように命じられているんだ。 "
+                    "ID": 71,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 109,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2561,8 +2051,8 @@
             "UObjectName": "act2_brigita_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 303,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 46,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2571,20 +2061,12 @@
             "UObjectName": "act2_thomas_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 16,
-                    "DefaultText": "ああ、アンドレアス。なぜ戻ってきたんですか？"
-                },
-                {
                     "ID": 18,
                     "DefaultText": "クラウスに 12 か条を出版させる許可を与えなければ良かった。"
                 },
                 {
                     "ID": 19,
                     "DefaultText": "一般人が戯言を読んで動揺するとこうなるのです。"
-                },
-                {
-                    "ID": 30,
-                    "DefaultText": "[何も言わない。]"
                 },
                 {
                     "ID": 33,
@@ -2597,54 +2079,8 @@
             "UObjectName": "act2_lenhardt_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 7,
-                    "DefaultText": "分かった。キャスパー、私たちが戻るまでパウロとここにいるんだぞ。"
-                },
-                {
-                    "ID": 163,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_else",
-            "UObjectName": "act2_else_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 31,
-                    "DefaultText": "ああ、あたしの可愛いパウロを紹介させて。きっと、芸術を志している同年代の子に会いたがるはずよ。"
-                },
-                {
-                    "ID": 85,
-                    "DefaultText": "ああ、キャスパーとパウロはもう会っているよ。きっと仲良くなるだろうね。"
-                },
-                {
-                    "ID": 86,
-                    "DefaultText": "それはとても嬉しいわ。パウロには、同じような興味を持つ友人はあまりいないから。"
-                },
-                {
-                    "ID": 115,
-                    "DefaultText": "どうせレンハルトに禁止されているわ。パウロはいい子だから、言われたとおりにするの。"
-                },
-                {
-                    "ID": 174,
-                    "DefaultText": "それにパウロも家にいるから...あの子の世話をしなくちゃ。"
-                },
-                {
-                    "ID": 177,
-                    "DefaultText": "パウロは良い人間として成長するわ。あたしがそうしてみせる。"
-                },
-                {
-                    "ID": 196,
-                    "DefaultText": "あの人はよく...すごく細かいことで、パウロに怒るの。"
-                },
-                {
-                    "ID": 197,
-                    "DefaultText": "それであの人、パウロに対して、薄汚い農民みたいに育ったって、無法や悪徳に手を出すような人間になったって、怒鳴るの。"
-                },
-                {
-                    "ID": 208,
-                    "DefaultText": "パウロに迷惑をかけたくないからな。"
+                    "ID": 38,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2653,84 +2089,12 @@
             "UObjectName": "act2_paul_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 4,
-                    "DefaultText": "こんにちは、パウロ。こっちはキャスパー。私の助手だ。 "
+                    "ID": 71,
+                    "DefaultText": "[黙り続ける]"
                 },
                 {
-                    "ID": 18,
-                    "DefaultText": "作者の心から生み出された芸術は、すべて本物の芸術だよ、パウロ。 "
-                },
-                {
-                    "ID": 19,
-                    "DefaultText": "私が本物の芸術だと思えるものを作るには、何年もの練習が必要だったんだよ、パウロ。"
-                },
-                {
-                    "ID": 20,
-                    "DefaultText": "君は製粉所で働く方がいいよ、パウロ。芸術家の人生は徒労の連続なんだ。"
-                },
-                {
-                    "ID": 44,
-                    "DefaultText": "そんな日が来るかもしれないよ、パウロ。わからないけど。"
-                },
-                {
-                    "ID": 58,
-                    "DefaultText": "なるほどね、パウロ。私たちも旅している間、ライフルを持った兵士の列を見たんだ。"
-                },
-                {
-                    "ID": 59,
-                    "DefaultText": "銃器はただの道具だよ、パウロ。怖がる理由なんかないんだ。"
-                },
-                {
-                    "ID": 72,
-                    "DefaultText": "君のお父さんは間違っているよ、パウロ。"
-                },
-                {
-                    "ID": 89,
-                    "DefaultText": "こんにちは。君はパウロだね？ 私が前回タッシングにいたときには話さなかったよね。"
-                },
-                {
-                    "ID": 184,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 194,
-                    "DefaultText": "そろそろ行かなければ。いい子でいるんだぞ、パウロ。"
-                },
-                {
-                    "ID": 198,
-                    "DefaultText": "まあ、それが人生だ。では、私は行くよ、パウロ。いい子でな。"
-                },
-                {
-                    "ID": 212,
-                    "DefaultText": "どうしたんだい、パウロ。"
-                },
-                {
-                    "ID": 224,
-                    "DefaultText": "忘れなさい、パウロ。君では私を雇うことはできないよ。"
-                },
-                {
-                    "ID": 246,
-                    "DefaultText": "アルベルティのDe picturaを読むのはいいと思うよ、パウロ。第一巻は、芸術を学ぼうとする少年たちの入門書として最適なんだ。"
-                },
-                {
-                    "ID": 259,
-                    "DefaultText": "ああ、ごめんよ、パウロ。心が思い出に流されてしまったよ。"
-                },
-                {
-                    "ID": 277,
-                    "DefaultText": "練習するのみだ、パウロ。外科医のように手が慣れるまでな。"
-                },
-                {
-                    "ID": 335,
-                    "DefaultText": "マスター・マーラー、お金なしでパウロを助けるてあげることはできませんか? この子はほんの少し、簡単なことを学ぼうとしているだけなんです。"
-                },
-                {
-                    "ID": 347,
-                    "DefaultText": "パウロ... すまない。かつての俺を... 思い出させてくれたな。"
-                },
-                {
-                    "ID": 359,
-                    "DefaultText": "すまない、パウロ。大望を抱くのは何も悪いことではない。"
+                    "ID": 341,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2739,8 +2103,8 @@
             "UObjectName": "act2_baltasar_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 211,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 192,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2751,16 +2115,6 @@
                 {
                     "ID": 380,
                     "DefaultText": "奇妙とは？"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_niko",
-            "UObjectName": "act2_niko_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 41,
-                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2787,6 +2141,20 @@
                 {
                     "ID": 132,
                     "DefaultText": "何年も前に私がここにいた頃、彼は泥棒として知られていたんだ。"
+                },
+                {
+                    "ID": 172,
+                    "DefaultText": "[黙り続ける]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_kilian",
+            "UObjectName": "act2_kilian_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 63,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2795,36 +2163,12 @@
             "UObjectName": "act2_ursula_BaseGame_jajp",
             "Entries": [
                 {
+                    "ID": 17,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
                     "ID": 113,
                     "DefaultText": "なぜ？"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_johan",
-            "UObjectName": "act2_johan_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 10,
-                    "DefaultText": "ペテロの抑えられない怒りのせいで、あの図書館が燃え上がるのは嫌なんだ!"
-                },
-                {
-                    "ID": 43,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 118,
-                    "DefaultText": "マルティンが偽者だと知ったら、悪い奴らが何をするかは分かるだろ?"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_kat",
-            "UObjectName": "act2_kat_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 101,
-                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -2851,12 +2195,16 @@
             ]
         },
         {
-            "Name": "conversations/act2/act2_sepp",
-            "UObjectName": "act2_sepp_BaseGame_jajp",
+            "Name": "conversations/act2/act2_smokey",
+            "UObjectName": "act2_smokey_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 84,
-                    "DefaultText": "アンドレアス、ぶらぶらするのは自由だが、図書館には入るなよ。ペテロの命令だ。"
+                    "ID": 48,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 82,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2865,60 +2213,40 @@
             "UObjectName": "act2_muller_meal_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 18,
-                    "DefaultText": "他の誰がするんだ、お前か？　パウロか？　我らが客人かい？"
+                    "ID": 26,
+                    "DefaultText": "[黙り続ける]"
                 },
                 {
-                    "ID": 22,
-                    "DefaultText": "あんたもお父さんがどれだけ忙しいか知ってるでしょ、パウロ。レンハルトはいつだって何かに取り組んでいるんだから。  "
-                },
-                {
-                    "ID": 46,
-                    "DefaultText": "もちろん、パウロのことはもっと優秀な人間になるよう育てている。あいつにははるかに高い目標があるようでね。"
-                },
-                {
-                    "ID": 52,
-                    "DefaultText": "パウロ、君は何をしたいんだい？"
-                },
-                {
-                    "ID": 61,
-                    "DefaultText": "もちろんなれるよ、パウロ。俺もこの職業にたどり着いたのは、かなり年を取ってからなんだ。"
-                },
-                {
-                    "ID": 63,
-                    "DefaultText": "それが君にとって最適な職業かどうかはわからないよ、パウロ。"
-                },
-                {
-                    "ID": 64,
-                    "DefaultText": "ああ、そうだよな。父親を捨てていけ、パウロ。俺がお前のために、家族のためにしてやったこと全部に唾を吐きかけてな。"
+                    "ID": 50,
+                    "DefaultText": "[黙り続ける]"
                 },
                 {
                     "ID": 65,
-                    "DefaultText": "レンハルト、パウロはアンドレアスの職業や作品への敬意を表しているだけよ。本気で言ってるわけじゃ - "
+                    "DefaultText": "レンハルト、パウロはアンドレアスの職業や作品への敬意を表しているだけよ。本気で言ってるわけじゃ..."
                 },
                 {
-                    "ID": 68,
-                    "DefaultText": "パウロ、誰もが芸術に興味を持っていいと思うんだ。タッシングでも芸術を追い求める方法を見つけられるはずだ。 "
-                },
+                    "ID": 102,
+                    "DefaultText": "[黙り続ける]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_monks_meal",
+            "UObjectName": "act2_monks_meal_BaseGame_jajp",
+            "Entries": [
                 {
-                    "ID": 70,
-                    "DefaultText": "お父さんの言うことを聞くべきだよ、パウロ。"
-                },
+                    "ID": 294,
+                    "DefaultText": "[黙り続ける]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_berger_meal",
+            "UObjectName": "act2_berger_meal_BaseGame_jajp",
+            "Entries": [
                 {
-                    "ID": 97,
-                    "DefaultText": "なんだって？　パウロ、お前はよりにもよって大修道院長様に対して、何がキリスト教徒らしくないのかお教えするってのか？ "
-                },
-                {
-                    "ID": 100,
-                    "DefaultText": "パウロは自分の意見でなく、ウルリッヒの意見について話していたんだと思うんだが。"
-                },
-                {
-                    "ID": 101,
-                    "DefaultText": "パウロは、父親譲りの的確な考え方をするね。"
-                },
-                {
-                    "ID": 140,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 96,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2931,12 +2259,56 @@
                     "DefaultText": "ほとんどの人はオットーを支持しているけど、父はオットーを味方につけるのに、遺産相続と森林法が絡んできたのが気になったみたい。"
                 },
                 {
-                    "ID": 122,
-                    "DefaultText": "それと、オットーの無実を晴らそうとしてくれてありがとう。<red>神</red>の祝福があらんことを。"
+                    "ID": 79,
+                    "DefaultText": "[黙り続ける]"
                 },
                 {
-                    "ID": 135,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 122,
+                    "DefaultText": "それと、オットーの無実を晴らそうとしてくれてありがとう。<red>神</red>の祝福があらんことを。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_stolz_meal",
+            "UObjectName": "act2_stolz_meal_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 21,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 71,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 93,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 112,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 150,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 332,
+                    "DefaultText": "[黙り続ける]"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act2/act2_wojslav",
+            "UObjectName": "act2_wojslav_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 70,
+                    "DefaultText": "[黙り続ける]"
+                },
+                {
+                    "ID": 153,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -2946,7 +2318,11 @@
             "Entries": [
                 {
                     "ID": 10,
-                    "DefaultText": "ああ……びしょ濡れだけど、どこも怪我はなさそうです。"
+                    "DefaultText": "ああ...びしょ濡れだけど、どこも怪我はなさそうです。"
+                },
+                {
+                    "ID": 85,
+                    "DefaultText": "[じっと睨む]"
                 },
                 {
                     "ID": 115,
@@ -2958,7 +2334,7 @@
                 },
                 {
                     "ID": 135,
-                    "DefaultText": "そのようだな……奇妙な扉だ。"
+                    "DefaultText": "そのようだな...奇妙な扉だ。"
                 },
                 {
                     "ID": 155,
@@ -2975,36 +2351,6 @@
                 {
                     "ID": 336,
                     "DefaultText": "これは出口かな？"
-                }
-            ]
-        },
-        {
-            "Name": "quests/act2/act2_tuesjune23",
-            "UObjectName": "act2_tuesjune23_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 10021,
-                    "DefaultText": "また理想郷に行く夢を見た。サビーネやアウグストと再び会話を交わした。宮廷はほぼ廃墟になっていて、無気力な愚者たちと、メレンコリアがいるだけだった。メレンコリアは堂々と立っており、私の人生について警告を与えた。目が覚めると、キャスパーがベッドにいないことに気づいた。\\n\\n聖ヨハネの前夜祭に夢中になっているかもしれないので、探しに行かねばならない。"
-                }
-            ]
-        },
-        {
-            "Name": "quests/act2/act2_monjune22",
-            "UObjectName": "act2_monjune22_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 10008,
-                    "DefaultText": "ゲルトナー家は苦境に陥っていた。夕食は質素で、会話は悲惨なものだった。ペテロは、大修道院長がタッシングを治めていることに、かつてないほど怒っている。\\n\\nここでの初日は、不幸な結末となった。今夜はもうそろそろお開きとしよう。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_josua",
-            "UObjectName": "act2_josua_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 18,
-                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -3043,10 +2389,16 @@
                 {
                     "ID": 34,
                     "DefaultText": "そしてその描写は、我々の隣人を嫌な気分にさせてしまうかもしれないのだ。"
-                },
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_claus",
+            "UObjectName": "act3_claus_BaseGame_jajp",
+            "Entries": [
                 {
-                    "ID": 46,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 12,
+                    "DefaultText": "やあ、マグダレネ。"
                 }
             ]
         },
@@ -3055,62 +2407,12 @@
             "UObjectName": "act3_claus_recovery_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 58,
-                    "DefaultText": "パウロの意見に賛成だ。クラウスは在宅療養が必要だ。マグダレネは壁画ではなく、そっちを頼む。"
+                    "ID": 112,
+                    "DefaultText": "私も、緩和医療であれば手伝える。"
                 },
                 {
-                    "ID": 98,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act3/act3_golden_hand_celebration",
-            "UObjectName": "act3_golden_hand_celebration_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 293,
-                    "DefaultText": "黙って！　私は大人になったのよ、パウロ。それに、あんたと子供たちが毎晩布団を盗むから、私は骨まで凍りそうな思いをするんじゃない!"
-                },
-                {
-                    "ID": 294,
-                    "DefaultText": "本人は今夜のことを想定していなかったみたいだけどね、ハハハ！　パウロがやらせたのよ。 "
-                },
-                {
-                    "ID": 297,
-                    "DefaultText": "パウロがギリギリになって、あの人にやらせてくれて良かったわ。 "
-                },
-                {
-                    "ID": 400,
-                    "DefaultText": "反乱のおかげで、私はパウロと結婚することができ、農民に公正な価格で穀物を供給することができているの。 "
-                },
-                {
-                    "ID": 445,
-                    "DefaultText": "パウロは、そもそもあなたにスピーチに任せたと言いました。どういった経緯でそうなったのですか？"
-                },
-                {
-                    "ID": 453,
-                    "DefaultText": "なんだって！？　パウロがそんなことを？　ううっ<blue>あいつめ</blue>！"
-                },
-                {
-                    "ID": 457,
-                    "DefaultText": "パウロは、俺が評議会の誰よりもカリスマがあると言っていたよ。"
-                },
-                {
-                    "ID": 458,
-                    "DefaultText": "パウロがそんなことを？"
-                },
-                {
-                    "ID": 459,
-                    "DefaultText": "まあパウロは、俺が怒る人の数を最小限に抑えるだろうと言っていたかな。バルタスはそれこそが俺のカリスマ性とも言っていたな。 "
-                },
-                {
-                    "ID": 460,
-                    "DefaultText": "季節にぴったりだと思いました、ヨルグ。パウロもそうでした。自分でそう言っていました。"
-                },
-                {
-                    "ID": 467,
-                    "DefaultText": "パウロが促したんですよね。"
+                    "ID": 132,
+                    "DefaultText": "議論するつもりはありません。みんな、私にもできるってわかってるはずよ。父さんはわかってる。"
                 }
             ]
         },
@@ -3123,32 +2425,12 @@
                     "DefaultText": "なぜ？"
                 },
                 {
-                    "ID": 656,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 646,
+                    "DefaultText": "[黙り続ける]"
                 },
                 {
                     "ID": 714,
                     "DefaultText": "まるで分からないな..."
-                },
-                {
-                    "ID": 719,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 815,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 818,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 839,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 885,
-                    "DefaultText": "[何も言わない。]"
                 }
             ]
         },
@@ -3157,44 +2439,34 @@
             "UObjectName": "act3_andreas_mill_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 67,
-                    "DefaultText": "[うなずく。]"
+                    "ID": 5,
+                    "DefaultText": "やあ、マグダレネ。"
                 }
             ]
         },
         {
-            "Name": "conversations/act3/act3_grett",
-            "UObjectName": "act3_grett_BaseGame_jajp",
+            "Name": "conversations/act3/act3_brigita",
+            "UObjectName": "act3_brigita_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 37,
-                    "DefaultText": "想像以上の祝福を受けたわ。パウロとアンナはとてもお似合いの 2 人だし。 "
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
                 },
                 {
-                    "ID": 46,
-                    "DefaultText": "うーん、そうよね。アンナが最初にパウロに好意を抱いたときは、腹が立ってたわ。 "
+                    "ID": 5,
+                    "DefaultText": "元気です、この状況のわりには。"
                 },
                 {
-                    "ID": 49,
-                    "DefaultText": "パウロはいい子だし、いい父親よ。この町を立て直してくれたわ。"
+                    "ID": 99,
+                    "DefaultText": "相性はいいでしょうか。"
                 },
                 {
-                    "ID": 56,
-                    "DefaultText": "私も、アンナが最初にパウロに好意を抱いたときは、腹が立ってたわ。 "
+                    "ID": 100,
+                    "DefaultText": "努力しようとした母親を責められる？"
                 },
                 {
-                    "ID": 80,
-                    "DefaultText": "今のエルゼやパウロの様子からは想像もつかないわよね。最高に心優しい人たちよ。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act3/act3_jobst",
-            "UObjectName": "act3_jobst_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 91,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 229,
+                    "DefaultText": "会ってみたかったです。その、ちゃんと。"
                 }
             ]
         },
@@ -3209,12 +2481,22 @@
             ]
         },
         {
-            "Name": "conversations/act3/act3_otz",
-            "UObjectName": "act3_otz_BaseGame_jajp",
+            "Name": "conversations/act3/act3_artemis",
+            "UObjectName": "act3_artemis_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 44,
-                    "DefaultText": "バルタスやヴェルナーは僕に能力があるとは思っていないだろうし、パウロには僕はあまりにも<blue>軽率</blue>だと注意された。"
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_krafft",
+            "UObjectName": "act3_krafft_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 584,
+                    "DefaultText": "ありがとう。良い一日を。またね。"
                 }
             ]
         },
@@ -3223,60 +2505,8 @@
             "UObjectName": "act3_else_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 30,
-                    "DefaultText": "私とパウロに… 生きる道を示してくれた。怯えずに生きていく道を。"
-                },
-                {
-                    "ID": 59,
-                    "DefaultText": "ご家族を大切にね。パウロ、アンナ、お孫さんたちにはまだあなたが必要よ。"
-                },
-                {
-                    "ID": 78,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 90,
-                    "DefaultText": "まずパウロと最終的な段取りを決めたかったの。彼は私の旅の案内人を探してくれているわ。"
-                },
-                {
                     "ID": 101,
                     "DefaultText": "パン屋の方に向かって走って行ったわ。"
-                },
-                {
-                    "ID": 111,
-                    "DefaultText": "ええ、それにレンハルトも… あのときは私だけじゃなく、パウロやアンナも… 恐ろしい思いをした…"
-                },
-                {
-                    "ID": 113,
-                    "DefaultText": "あれだけの苦難の後にパウロとアンナが一緒になったのは… まるで奇跡のようだったわ。"
-                },
-                {
-                    "ID": 197,
-                    "DefaultText": "だけどその後… あの人は私にパウロを授けてくれた。私はパウロと 2 人で、あの恐ろしい時期を生き抜いたのよ。"
-                },
-                {
-                    "ID": 200,
-                    "DefaultText": "でも、あの人は私にパウロを授けてくれた。少なくとも私にはパウロがいるわ。2 人で一緒に生き延びていた。"
-                },
-                {
-                    "ID": 203,
-                    "DefaultText": "だって、パウロもあなたも友達だもの。"
-                },
-                {
-                    "ID": 211,
-                    "DefaultText": "愛しのパウロ… あの子はいい男に成長してくれたわ。"
-                },
-                {
-                    "ID": 217,
-                    "DefaultText": "私はパウロやアンナにとって… 重荷でしかないわ。"
-                },
-                {
-                    "ID": 219,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 287,
-                    "DefaultText": "[うなずく。]"
                 }
             ]
         },
@@ -3285,28 +2515,8 @@
             "UObjectName": "act3_paul_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 32,
-                    "DefaultText": "もちろんよ、パウロ。この壁画は、私と父だけでなく、町全体のためのものだから。 "
-                },
-                {
-                    "ID": 35,
-                    "DefaultText": "パウロ、この町に私よりこの仕事をうまくやれる人はいないわ。詳細は私に任せてくれない?"
-                },
-                {
-                    "ID": 67,
-                    "DefaultText": "実は両方よ。パウロ、あなたが美術に興味を持っているとは知らなかったわ。"
-                },
-                {
-                    "ID": 73,
-                    "DefaultText": "知らなかったわ、パウロ。なんで自分で壁画を描こうと思わなかったの?"
-                },
-                {
-                    "ID": 95,
-                    "DefaultText": "パウロ、評議会の仕事を少し休んだらどう? "
-                },
-                {
-                    "ID": 124,
-                    "DefaultText": "また後で、パウロ。"
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
                 }
             ]
         },
@@ -3325,46 +2535,8 @@
             "UObjectName": "act3_baltasar_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 14,
-                    "DefaultText": "[うなずく。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act3/act3_endris",
-            "UObjectName": "act3_endris_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 91,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 138,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act3/act3_niko",
-            "UObjectName": "act3_niko_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 253,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 322,
-                    "DefaultText": "パウロのお父さんが女たらしで詐欺師だからといって、人を殺せるというわけでもありません。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act3/act3_hanna",
-            "UObjectName": "act3_hanna_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 174,
-                    "DefaultText": "誰のこと？　ヨルク？　パウロ？　あなたのお父さん？"
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
                 }
             ]
         },
@@ -3375,10 +2547,6 @@
                 {
                     "ID": 46,
                     "DefaultText": "なぜ？"
-                },
-                {
-                    "ID": 97,
-                    "DefaultText": "パウロよ。"
                 },
                 {
                     "ID": 110,
@@ -3392,11 +2560,15 @@
             "Entries": [
                 {
                     "ID": 1,
-                    "DefaultText": "こんにちは、マグダレネ。 "
+                    "DefaultText": "やあ、マグダレネ。"
                 },
                 {
                     "ID": 2,
                     "DefaultText": "こんにちは、いとしいマグダレネ。 "
+                },
+                {
+                    "ID": 58,
+                    "DefaultText": "[黙り続ける]"
                 }
             ]
         },
@@ -3405,8 +2577,8 @@
             "UObjectName": "act3_blacktil_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 163,
-                    "DefaultText": "へえ、優しいんだな。パウロはいい男だが、どうも考えすぎて良い話は語れない。"
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
                 }
             ]
         },
@@ -3415,28 +2587,8 @@
             "UObjectName": "act3_bigjorg_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 11,
-                    "DefaultText": "[うなずく。]"
-                },
-                {
-                    "ID": 24,
-                    "DefaultText": "パウロがそんなことを言ってました。  "
-                },
-                {
-                    "ID": 46,
-                    "DefaultText": "パウロもタッシングの全ての家を毎年点検する制度を導入したいと考えている。"
-                },
-                {
-                    "ID": 47,
-                    "DefaultText": "それに、パウロもタッシングの全ての家を毎年点検する制度を導入したいと考えている。"
-                },
-                {
-                    "ID": 55,
-                    "DefaultText": "パウロがそれをきちんとやりたいと言うなら、喜んで付き合うよ。役に立った気になれるからね。"
-                },
-                {
-                    "ID": 59,
-                    "DefaultText": "パウロが君に尋ねたのも驚くことではないな。もうこの町のほとんどの人が、この問題に気づいていると思う。"
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
                 }
             ]
         },
@@ -3451,6 +2603,20 @@
                 {
                     "ID": 2,
                     "DefaultText": "こんにちは、マグダレネ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_heddy",
+            "UObjectName": "act3_heddy_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
+                },
+                {
+                    "ID": 5,
+                    "DefaultText": "こんにちは、マグダレネ。壁画は進んでる？"
                 }
             ]
         },
@@ -3473,16 +2639,50 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_simon",
+            "UObjectName": "act3_simon_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 6,
+                    "DefaultText": "お父さんのことを聞いたよ。彼は大丈夫かい？"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act3/act3_ursula",
             "UObjectName": "act3_ursula_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 30,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
                 },
                 {
                     "ID": 123,
                     "DefaultText": "なぜ？"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_smokey",
+            "UObjectName": "act3_smokey_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 1,
+                    "DefaultText": "やあ、マグダレネ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act3/act3_magdelene_early_history_start",
+            "UObjectName": "act3_magdelene_early_history_start_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 82,
+                    "DefaultText": "めまいがすると胃がもたれるので、今は食べない方がいいみたいだ。"
+                },
+                {
+                    "ID": 85,
+                    "DefaultText": "ああ、若いクロイツェルが時々その物語のことを話していたよ。彼は時折、本を借りにやって来るのだ。"
                 }
             ]
         },
@@ -3491,84 +2691,38 @@
             "UObjectName": "act3_christian_mural_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 14,
-                    "DefaultText": "[うなずく。]"
-                },
-                {
-                    "ID": 68,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
                     "ID": 105,
                     "DefaultText": "なぜ？"
                 }
             ]
         },
         {
-            "Name": "conversations/act3/act3_magdelene_revolt_history",
-            "UObjectName": "act3_magdelene_revolt_history_BaseGame_jajp",
+            "Name": "conversations/act3/act3_early_history_letter",
+            "UObjectName": "act3_early_history_letter_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 123,
-                    "DefaultText": "[うなずく。]"
+                    "ID": 135,
+                    "DefaultText": "お気をつけて。"
                 }
             ]
         },
         {
-            "Name": "conversations/act3/act3_magdalene_rathskeller",
-            "UObjectName": "act3_magdalene_rathskeller_BaseGame_jajp",
+            "Name": "conversations/act3/act3_christmas_wreath_crafting",
+            "UObjectName": "act3_christmas_wreath_crafting_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 130,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 192,
+                    "DefaultText": "じゃあ...何も良くならなかったの？ まったく？"
                 }
             ]
         },
         {
-            "Name": "conversations/act3/act3_magdalene_farewell",
-            "UObjectName": "act3_magdalene_farewell_BaseGame_jajp",
+            "Name": "conversations/act3/act3_gingerbread_tbe",
+            "UObjectName": "act3_gingerbread_tbe_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 88,
-                    "DefaultText": "パウロの一番重い石臼で胸を潰された方がましよ。"
-                },
-                {
-                    "ID": 153,
-                    "DefaultText": "[うなずく。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act3/act3_anna",
-            "UObjectName": "act3_anna_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 6,
-                    "DefaultText": "壁画はどう？　パウロが言うには、素晴らしい進捗だって。 "
-                },
-                {
-                    "ID": 13,
-                    "DefaultText": "クラウスが襲われた後に皆で話し合ったこと、パウロから聞いたわ。"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act3/act3_golden_hand_werner",
-            "UObjectName": "act3_golden_hand_werner_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 74,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_werner",
-            "UObjectName": "act1_werner_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 185,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 10,
+                    "DefaultText": "マグダレネ、生地にプレスを使うのよ。せっかくのごちそうに、半端なクッキーは許されないわ！"
                 }
             ]
         },
@@ -3583,108 +2737,32 @@
             ]
         },
         {
-            "Name": "conversations/act2/act2_ideal_city_map",
-            "UObjectName": "act2_ideal_city_map_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 33,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 36,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 61,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 71,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 76,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 105,
-                    "DefaultText": "愛してるよ、アウグスト。"
-                }
-            ]
-        },
-        {
             "Name": "conversations/act3/act3_vasclav",
             "UObjectName": "act3_vasclav_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 98,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 107,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 164,
+                    "DefaultText": "やあ、マグダレネ。"
                 }
             ]
         },
         {
-            "Name": "conversations/act3/act3_golden_hand_endris",
-            "UObjectName": "act3_golden_hand_endris_BaseGame_jajp",
+            "Name": "conversations/act1/act1_marie_stsatia",
+            "UObjectName": "act1_marie_stsatia_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 223,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 38,
+                    "DefaultText": "[思慮深くうなずく]"
                 }
             ]
         },
         {
-            "Name": "conversations/act1/act1_kids_saltmine",
-            "UObjectName": "act1_kids_saltmine_BaseGame_jajp",
+            "Name": "conversations/act1/act1_ghost_meadow",
+            "UObjectName": "act1_ghost_meadow_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 4,
-                    "DefaultText": "こんにちは、パウロ。"
-                },
-                {
-                    "ID": 5,
-                    "DefaultText": "君はパウロ？　粉屋の息子さんだね。"
-                },
-                {
-                    "ID": 63,
-                    "DefaultText": "パウロ、君の冒険心はどこに行ったんだい？"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act2/act2_andreas_finds_note",
-            "UObjectName": "act2_andreas_finds_note_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 10,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act3/act3_haller",
-            "UObjectName": "act3_haller_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 3,
-                    "DefaultText": "[何も言わない。]"
-                },
-                {
-                    "ID": 35,
-                    "DefaultText": "[何も言わない。]"
-                }
-            ]
-        },
-        {
-            "Name": "conversations/act1/act1_helena",
-            "UObjectName": "act1_helena_BaseGame_jajp",
-            "Entries": [
-                {
-                    "ID": 31,
-                    "DefaultText": "[何も言わない。]"
+                    "ID": 7,
+                    "DefaultText": "あ...あなたはそれを見ましたか？　水路で？"
                 }
             ]
         }
