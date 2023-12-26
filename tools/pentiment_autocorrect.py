@@ -1,11 +1,8 @@
 # coding:utf-8
-
 import pandas as pd
 import json
 from pandas import json_normalize
 import re
-
-do = pd.read_table('../output/Pentiment-init.tsv',usecols=[0,1,2,3,4,5,6])
 
 names = {
 	"ピーター":"ペテロ",
@@ -21,6 +18,7 @@ names = {
 	"タシング":"タッシング",
 	"ヨルク":"ヨルグ",
 	"オーガスト":"アウグスト",
+	"キアラウ":"キアサウ",
 	"?":"？",
 	"!":"！",
 	"amp;":"",
@@ -29,11 +27,13 @@ names = {
 	"[ウソ]":"[嘘]",
 	"[うそ]":"[嘘]",
 	"。]":"]"
-	
 	}
 
+do = pd.read_table('../output/Pentiment-init.tsv',usecols=[0,1,2,3,4,5,6])
+
 with open('../output/Pentiment-autocorrect.tsv', 'w') as f:
-	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tAutoUpdate\tBetterJP",file=f)
+#	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tAutoUpdate\tBetterJP",file=f)
+	print("AutoUpdate",file=f)
 
 	for index, row in do.iterrows():
 		if pd.isnull(row["Duplicate"]): #重複がないなら
@@ -65,16 +65,16 @@ with open('../output/Pentiment-autocorrect.tsv', 'w') as f:
 			if jp != row["Japanese"]:#アップデートされたなら
 				row["AutoUpdate"] = jp
 
-		print(row["Name"],end="\t",file=f)
-		print(row["UObjectName"],end="\t",file=f)
-		print(row["ID"],end="\t",file=f)
-		print(row["English"],end="\t",file=f)
-		print(row["Japanese"],end="\t",file=f)
-		if pd.notnull(row["Duplicate"]):
-			print(row["Duplicate"],end="\t",file=f)
-		else:
-			print("",end="\t",file=f)
+#		print(row["Name"],end="\t",file=f)
+#		print(row["UObjectName"],end="\t",file=f)
+#		print(row["ID"],end="\t",file=f)
+#		print(row["English"],end="\t",file=f)
+#		print(row["Japanese"],end="\t",file=f)
+#		if pd.notnull(row["Duplicate"]):
+#			print(row["Duplicate"],end="\t",file=f)
+#		else:
+#			print("",end="\t",file=f)
 		if pd.notnull(row["AutoUpdate"]):
-			print(row["AutoUpdate"],file=f)
+			print("'"+row["AutoUpdate"],file=f)
 		else:
 			print("",file=f)

@@ -6,6 +6,9 @@ from pandas import json_normalize
 import re
 import zipfile
 import shutil
+import datetime
+
+dt_now = datetime.datetime.now()
 
 p1 = re.compile('^\'')
 p2 = re.compile('\'$')
@@ -27,6 +30,8 @@ for index, row in df.iterrows():
 		existing_translation[row["Name"]+","+str(row["ID"])] = row["AutoUpdate"]
 
 for index, row in df.iterrows():
+	if row["Japanese"] == "\'オプション\'":#MODの表示
+		row["BetterJP"] = "\'オプション"+"(MOD-v"+dt_now.strftime('%Y%m%d')+")\'"
 	if pd.isnull(row["BetterJP"]): #翻訳が存在しない
 		if pd.notnull(row["Duplicate"]): #存在しない場合は同じ翻訳が使えるか確認
 			if row["Duplicate"] in existing_translation: #既訳があるか確認
