@@ -1,12 +1,12 @@
 Pentimentの翻訳改善MODです。といっても、ただのテキストファイルです。
 
-[Pentiment-betterJP.zip](https://github.com/youkoseki/pentiment-betterjp/raw/main/Pentiment-betterJP.zip)をダウンロード、解凍して、modsフォルダーごと、
+[Pentiment-betterJP.zip](https://github.com/youkoseki/pentiment-betterjp/raw/main/Pentiment-betterJP.zip)をダウンロード、解凍して、出てきたmodsフォルダーごと、
 
-ユーザーフォルダー（\Users\自分のアカウント名\）以下の、
+ユーザーフォルダー（\\ユーザー\(自分のアカウント)\）以下の、
 
 \AppData\LocalLow\Obsidian Entertainment\Pentiment\
 
-に置いてください。プログラムのあるフォルダーではありません！
+の直下に置いてください。ゲームのプログラムのあるフォルダーではありません！
 
 タイトル画面で「オプション(MOD)」と表示されたら成功です。
 

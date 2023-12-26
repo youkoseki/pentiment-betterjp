@@ -4,14 +4,14 @@ import json
 from pandas import json_normalize
 import re
 
-names = {
+names = {#表記揺れの修正 誤→正
 	"ピーター":"ペテロ",
 	"ポール":"パウロ",
 	"フォルクバート":"ヴォルクベルト",
 	"ローレンツ":"ロレンツ",
 	"マーティン":"マルティン",
 	"フィレンツ":"フェレンツ",
-	"フェレンツェ":"フィレンツェ",
+	"フェレンツェ":"フィレンツェ",#フィレンツをフェレンツにすると変わってしまうので
 	"エスター":"エステル",
 	"マグダレン":"マグダレネ",
 	"ハイルヴィッヒ":"ハイルヴィヒ",
@@ -19,6 +19,7 @@ names = {
 	"ヨルク":"ヨルグ",
 	"オーガスト":"アウグスト",
 	"キアラウ":"キアサウ",
+	"クロイスター":"回廊",
 	"?":"？",
 	"!":"！",
 	"amp;":"",
@@ -31,9 +32,9 @@ names = {
 
 do = pd.read_table('../output/Pentiment-init.tsv',usecols=[0,1,2,3,4,5,6])
 
-with open('../output/Pentiment-autocorrect.tsv', 'w') as f:
+with open('../output/Pentiment-machinecorrect.tsv', 'w') as f:
 #	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tAutoUpdate\tBetterJP",file=f)
-	print("AutoUpdate",file=f)
+	print("MachineCorrect",file=f)
 
 	for index, row in do.iterrows():
 		if pd.isnull(row["Duplicate"]): #重複がないなら
@@ -63,7 +64,7 @@ with open('../output/Pentiment-autocorrect.tsv', 'w') as f:
 			jp=re.sub('　\'$','\'',jp)
 			jp=re.sub(' \'$','\'',jp)
 			if jp != row["Japanese"]:#アップデートされたなら
-				row["AutoUpdate"] = jp
+				row["MachineCorrect"] = jp
 
 #		print(row["Name"],end="\t",file=f)
 #		print(row["UObjectName"],end="\t",file=f)
@@ -74,7 +75,7 @@ with open('../output/Pentiment-autocorrect.tsv', 'w') as f:
 #			print(row["Duplicate"],end="\t",file=f)
 #		else:
 #			print("",end="\t",file=f)
-		if pd.notnull(row["AutoUpdate"]):
-			print("'"+row["AutoUpdate"],file=f)
+		if pd.notnull(row["MachineCorrect"]):
+			print("'"+row["MachineCorrect"],file=f)
 		else:
 			print("",file=f)

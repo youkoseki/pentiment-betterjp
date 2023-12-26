@@ -19,7 +19,7 @@ for table in dfe:
 			text_exist[entry["DefaultText"]] = table["Name"]+","+str(entry["ID"])
 
 with open('../output/Pentiment-init.tsv', 'w') as f:
-	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tAutoUpdate\tBetterJP",file=f)
+	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tMachineCorrect\tBetterJP",file=f)
 	for table in dfj:
 		for entry in table["Entries"]:
 			print(table["Name"],end="\t",file=f)
