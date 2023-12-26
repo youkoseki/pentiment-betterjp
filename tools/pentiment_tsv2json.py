@@ -11,7 +11,7 @@ p1 = re.compile('^\'')
 p2 = re.compile('\'$')
 
 df = pd.read_table('../output/Pentiment-BetterJP - out.tsv',usecols=[0,1,2,4,5,6,7])
-df = df.query('BetterJP.notnull() or Duplicate.notnull()')
+df = df.query('BetterJP.notnull() or Duplicate.notnull() or AutoUpdate.notnull()')
 
 dj = {}
 dj["StringTables"]  = []
