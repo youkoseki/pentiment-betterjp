@@ -12,4 +12,4 @@ Pentimentの翻訳改善MODです。といっても、ただのテキストフ�
 
 ![test image](title_screen.jpg)
 
-出来る限り、表記揺れも統一させています。
+出来る限り、[表記揺れ](https://github.com/youkoseki/pentiment-betterjp/blob/main/tools/pentiment_autocorrect.py)も統一させています。
