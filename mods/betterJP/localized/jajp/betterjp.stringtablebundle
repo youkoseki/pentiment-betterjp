@@ -2853,10 +2853,6 @@
                 {
                     "ID": 99,
                     "DefaultText": "<whisper>やれ！</whisper>"
-                },
-                {
-                    "ID": 103,
-                    "DefaultText": "Co to sakra...？"
                 }
             ]
         },
@@ -17747,10 +17743,6 @@
                     "DefaultText": "Di cosa stavamo discutendo？ <dt>何の話だったかな？"
                 },
                 {
-                    "ID": 201,
-                    "DefaultText": "Ah-ah！ Sarebbe divertente. Perché mai un artista dovrebbe conoscere la Naturalis Historia？"
-                },
-                {
                     "ID": 208,
                     "DefaultText": "Ha！ Merci beaucouop.<dt>はは！ 親切にありがとう。"
                 },
@@ -18179,20 +18171,12 @@
                     "DefaultText": "奇妙とは？"
                 },
                 {
-                    "ID": 568,
-                    "DefaultText": "Sì...sì."
-                },
-                {
                     "ID": 573,
                     "DefaultText": "いいかい、とにかく私に恥をかかせないでくれ。わかったね？"
                 },
                 {
                     "ID": 575,
                     "DefaultText": "お前、何なんだ？ 目が見えないのか？ 馬鹿なのか？"
-                },
-                {
-                    "ID": 577,
-                    "DefaultText": "Cosa vuoi che ti dica？ È solo birra！"
                 },
                 {
                     "ID": 581,
@@ -18245,10 +18229,6 @@
                 {
                     "ID": 616,
                     "DefaultText": "Smettila！ <dt>何だよ！"
-                },
-                {
-                    "ID": 617,
-                    "DefaultText": "Smettila！"
                 },
                 {
                     "ID": 618,
@@ -18327,10 +18307,6 @@
                     "DefaultText": "Hem, ubi eramus？ <dt>えーと...どこまで話したっけ？"
                 },
                 {
-                    "ID": 693,
-                    "DefaultText": "Beh...dove eravamo？"
-                },
-                {
                     "ID": 696,
                     "DefaultText": "Ita Nicolaus Leoniceno abhinc triginta annos dixit. Hoc novum nihil est. Cur ea conferi requiretur？ <dt>30 年前、ニッコロ・レオニチェーノはそう言った。これは何も新しいことではない。なぜ、いまだに議論される必要があるのだろうか。"
                 },
@@ -18339,20 +18315,8 @@
                     "DefaultText": "Tamen codicem in nobis medicina operalectitamus, ergo consilium desitus est, nonne？ <dt>私たちは皆、今もその文章を実践で使っているので、その議論は終わっているのでは？"
                 },
                 {
-                    "ID": 701,
-                    "DefaultText": "Così disse Niccolò Leoniceno trent'anni fa. Non è una novità. Perché c'è ancora bisogno di discuterne？ "
-                },
-                {
-                    "ID": 702,
-                    "DefaultText": "Stiamo ancora usando il testo nella nostra pratica, quindi il dibattito è concluso, non vi pare？"
-                },
-                {
                     "ID": 706,
                     "DefaultText": "Vera, vera, ita, sed emendationes Leoniceni profundior est supra illos！ <dt>本当に本当だ。そう、そうなんだ。でもレオニキーノの批判はもっと深いんだ！"
-                },
-                {
-                    "ID": 707,
-                    "DefaultText": "Vero, vero, ma la critica di Leoniceno è più profonda！"
                 },
                 {
                     "ID": 708,
@@ -18361,14 +18325,6 @@
                 {
                     "ID": 709,
                     "DefaultText": "Inter transcriptionum errores et causae malae, cur aliquis eam reveretur quasi verbum <red>Dei</red>？ <dt>書き写しの間違いや出典の不備があるのに、なぜいまだに<red>神</red>の言葉であるかのように崇めている人がいるんだ！？"
-                },
-                {
-                    "ID": 710,
-                    "DefaultText": "Mette anche in discussione le fonti arabe a cui ci affidiamo per identificare le nostre medicine！"
-                },
-                {
-                    "ID": 711,
-                    "DefaultText": "Fra errori di trascrizione e fonti inaffidabili, perché qualcuno lo venera ancora come se fosse la parola di <red>Dio</red>？！"
                 },
                 {
                     "ID": 714,
@@ -18407,32 +18363,16 @@
                     "DefaultText": "Non è morto qualcuno qui la scorsa notte？ <dt>昨日の晩に、誰かがここで死んだのだろう？"
                 },
                 {
-                    "ID": 753,
-                    "DefaultText": "Non è morto qualcuno qui la scorsa notte？"
-                },
-                {
                     "ID": 754,
                     "DefaultText": "Nonne aliquis hunc in Eva Sancti Ioannis modo morit？ <dt>聖ヨハネの前夜祭に、誰かがここで死んだのだろう？"
-                },
-                {
-                    "ID": 755,
-                    "DefaultText": "Non è morto qualcuno qui alla vigilia di San Giovanni？"
                 },
                 {
                     "ID": 758,
                     "DefaultText": "Angelo...quod est cui salutavimus. Andreas pocula paravit.\\n<dt>アンジェロ...そいつのために我々は乾杯したのだよ。アンドレアスのおごりでね。"
                 },
                 {
-                    "ID": 759,
-                    "DefaultText": "Angelo...è la persona a cui abbiamo brindato. Andreas ha offerto da bere."
-                },
-                {
                     "ID": 761,
                     "DefaultText": "Oh...meum <red>Deum</red>, me paenitet, Andreas. Germanica mea tam misera est non intellexi.<dt>ああ...<red>なんてこった</red>、すまないね、アンドレアス。私はドイツ語が全然で、わかっていなかったんだ。"
-                },
-                {
-                    "ID": 763,
-                    "DefaultText": "Oh, mio <red>Dio</red>...mi dispiace, Andreas. Il mio tedesco è così scarso che non avevo capito."
                 },
                 {
                     "ID": 767,
@@ -18445,10 +18385,6 @@
                 {
                     "ID": 774,
                     "DefaultText": "Ibi eram quando contigit. Aut...post factum, saltem.<dt>あの事件の時、私はその場にいたんだ。というか...厳密には起きた直後に、ね。"
-                },
-                {
-                    "ID": 775,
-                    "DefaultText": "Ero lì quando è successo. O meglio...subito dopo."
                 },
                 {
                     "ID": 777,
@@ -18475,24 +18411,12 @@
                     "DefaultText": "Is it truh？ Þe abot, ah murderer？ Uat ah skandal.<dt>本当かい？ 大修道院長が殺人犯？ なんという醜聞だ。"
                 },
                 {
-                    "ID": 795,
-                    "DefaultText": "È vero？ L'abate, un assassino？ Che scandalo！ "
-                },
-                {
                     "ID": 797,
                     "DefaultText": "Oro ut reum capiant et ei tribuant iustitiam quam meretur！ <dt>彼らが犯人を捕まえて、正当な報いが与えられるよう祈っていよう！"
                 },
                 {
                     "ID": 798,
                     "DefaultText": "Ei pree þee katcsh þe kulprit and giw him þe djustis hie deserws！ <dt>彼らが犯人を捕まえて、正当な報いが与えられるよう祈っていよう！"
-                },
-                {
-                    "ID": 799,
-                    "DefaultText": "Prego che catturino il colpevole e che la giustizia faccia il suo corso！"
-                },
-                {
-                    "ID": 838,
-                    "DefaultText": "Di cosa stavamo discutendo？"
                 },
                 {
                     "ID": 842,
@@ -23995,18 +23919,6 @@
                     "DefaultText": "Ve！ Ve！ Nus clamain ti！ <dt>？ ？ ？！？ ？ ？！ あなたを ？ ？ ？！"
                 },
                 {
-                    "ID": 144,
-                    "DefaultText": "Auda ans, Mama Perchta！"
-                },
-                {
-                    "ID": 145,
-                    "DefaultText": "Nus ardain quest guaud per ti！"
-                },
-                {
-                    "ID": 146,
-                    "DefaultText": "Ve！ Ve！ Nus clamain ti！"
-                },
-                {
                     "ID": 147,
                     "DefaultText": "<shake>ハハハハ！</shake>"
                 },
@@ -24673,10 +24585,6 @@
                 {
                     "ID": 89,
                     "DefaultText": "いつか戻ってくるかもしれないぞ。"
-                },
-                {
-                    "ID": 91,
-                    "DefaultText": "...？"
                 },
                 {
                     "ID": 92,

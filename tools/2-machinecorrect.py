@@ -41,7 +41,9 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 	print("MachineCorrect",file=s)#翻訳のみ版-Googleシート用
 
 	for index, row in do.iterrows():
-		if pd.isnull(row["Duplicate"]): #重複がないなら
+		if row["English"] == row["Japanese"]:#英語と日本語が同じなら翻訳の必要なし
+			pass
+		elif pd.isnull(row["Duplicate"]): #重複がないなら
 			jp = row["Japanese"]
 			for name in names.keys():
 				jp=jp.replace(name,names[name])
