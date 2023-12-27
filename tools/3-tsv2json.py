@@ -36,10 +36,9 @@ for index, row in df.iterrows():
 	if pd.notnull(row["BetterJP"]): #手動翻訳が存在する場合は上書きする
 		existing_translation[row["Name"]+","+str(row["ID"])] = row["BetterJP"]
 
-
 for index, row in df.iterrows():
-	if row["Japanese"] == "\'オプション\'":#MODの表示
-		row["BetterJP"] = "\'オプション"+"(MOD-v"+dt_now.strftime('%y%m%d')+")\'"
+	if row["Japanese"] == "\'Xbox ネットワークにログイン\'":#MODの表示
+		row["BetterJP"] = "\'Xbox ネットワークにログイン"+"(MOD-v"+dt_now.strftime('%y%m%d')+")\'"
 	if pd.isnull(row["BetterJP"]): #手動翻訳が存在しない
 		if pd.notnull(row["Duplicate"]): #存在しない場合は同じ翻訳が使えるか確認
 			if row["Duplicate"] in existing_translation: #既訳があるか確認

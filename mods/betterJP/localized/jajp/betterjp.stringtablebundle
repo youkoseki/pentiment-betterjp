@@ -5,10 +5,6 @@
             "UObjectName": "gui_BaseGame_jajp",
             "Entries": [
                 {
-                    "ID": 8,
-                    "DefaultText": "オプション(MOD-v231227)"
-                },
-                {
                     "ID": 20,
                     "DefaultText": "地図"
                 },
@@ -75,6 +71,10 @@
                 {
                     "ID": 254,
                     "DefaultText": "西暦 1534 年 2 月 15 日"
+                },
+                {
+                    "ID": 305,
+                    "DefaultText": "Xbox ネットワークにログイン(MOD-v231227)"
                 },
                 {
                     "ID": 322,
