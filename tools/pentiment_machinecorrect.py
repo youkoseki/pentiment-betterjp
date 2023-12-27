@@ -80,8 +80,8 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 #		else:
 #			print("",end="\t",file=f)
 		if pd.notnull(row["MachineCorrect"]):
-			print("'"+row["MachineCorrect"],file=a)
-			print("'"+row["MachineCorrect"],file=s)
+			print(row["MachineCorrect"],file=a)
+			print("'"+row["MachineCorrect"],file=s)#Spreadsheetにコピーできるようカンマを追加
 		else:
 			print("",file=a)
 			print("",file=s)
