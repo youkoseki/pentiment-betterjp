@@ -45,6 +45,12 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 			pass
 		elif pd.isnull(row["Duplicate"]): #重複がないなら
 			jp = row["Japanese"]
+			dt = ""
+			idx = jp.find("<dt>")#二ヶ国語の文章の場合
+			if idx > 0:
+				dt = jp[:idx]#先の言語はそのままに
+				jp = jp[idx:]#後半の言語は日本語なので置き換え
+
 			for name in names.keys():
 				jp=jp.replace(name,names[name])
 			#!と?の扱い
@@ -57,6 +63,8 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 			jp=re.sub('？','？ ',jp)
 			jp=re.sub('！ ？','！？',jp)
 			jp=re.sub('？ ！','？！',jp)
+			jp=re.sub('？ ？','？？',jp)
+			jp=re.sub('？ ？','？？',jp)
 			jp=re.sub('！ ！','！！',jp)
 
 			jp=re.sub('…','...',jp)
@@ -67,9 +75,12 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 			jp=re.sub('^\'　+','\'',jp)
 			jp=re.sub('　+\</','</',jp)
 			jp=re.sub(' +\</','</',jp)
+			jp=re.sub(' +\<dt','<dt',jp)
 			jp=re.sub('　+\'$','\'',jp)
 			jp=re.sub(' +\'$','\'',jp)
 			jp=re.sub(' +」','」',jp)
+			if dt != "":#二ヶ国語の言語の場合、原文をくっつけて戻す
+				jp = dt+jp
 			if jp != row["Japanese"]:#アップデートされたなら
 				row["MachineCorrect"] = jp
 

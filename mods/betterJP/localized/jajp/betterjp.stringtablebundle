@@ -5224,7 +5224,7 @@
                 },
                 {
                     "ID": 9,
-                    "DefaultText": "Sai leggere l'italiano？ <dt>イタリア語は読めるのか？ "
+                    "DefaultText": "Sai leggere l'italiano?<dt>イタリア語は読めるのか？ "
                 }
             ]
         },
@@ -15496,7 +15496,7 @@
                 },
                 {
                     "ID": 133,
-                    "DefaultText": "アンドレアス、キャスパー、失礼しても構わないだろうか？ ？ 私たちはあなたの助けに感謝しているが、私は今、教会で彼女の世話をしなければならないのだ。"
+                    "DefaultText": "アンドレアス、キャスパー、失礼しても構わないだろうか？？ 私たちはあなたの助けに感謝しているが、私は今、教会で彼女の世話をしなければならないのだ。"
                 },
                 {
                     "ID": 140,
@@ -15914,7 +15914,7 @@
                 },
                 {
                     "ID": 140,
-                    "DefaultText": "Naučil jste se česky？ <dt>チェコ語は習ったか？"
+                    "DefaultText": "Naučil jste se česky?<dt>チェコ語は習ったか？"
                 },
                 {
                     "ID": 142,
@@ -15978,7 +15978,7 @@
                 },
                 {
                     "ID": 227,
-                    "DefaultText": "Vynikající！ <dt>素晴らしい！"
+                    "DefaultText": "Vynikající!<dt>素晴らしい！"
                 },
                 {
                     "ID": 228,
@@ -17712,11 +17712,11 @@
                 },
                 {
                     "ID": 171,
-                    "DefaultText": "Angelo et moi ne parlons pas néerlandais.Parlez-vous français？ <dt>アンジェロと私はオランダ語が話せない。フランス語は話せるか？"
+                    "DefaultText": "Angelo et moi ne parlons pas néerlandais.Parlez-vous français?<dt>アンジェロと私はオランダ語が話せない。フランス語は話せるか？"
                 },
                 {
                     "ID": 172,
-                    "DefaultText": "Oui！ <dt>ああ！"
+                    "DefaultText": "Oui!<dt>ああ！"
                 },
                 {
                     "ID": 178,
@@ -17724,99 +17724,51 @@
                 },
                 {
                     "ID": 179,
-                    "DefaultText": "Parlez-vous français？ <dt>フランス語は話せるか？"
+                    "DefaultText": "Parlez-vous français?<dt>フランス語は話せるか？"
                 },
                 {
                     "ID": 180,
-                    "DefaultText": "Oui！ <dt>ああ！"
-                },
-                {
-                    "ID": 184,
-                    "DefaultText": "ああ、che sollievo...possiamo parlare tutti italiano.<dt>ああ、ホッとしました。みんなイタリア語が話せるのか。"
+                    "DefaultText": "Oui!<dt>ああ！"
                 },
                 {
                     "ID": 186,
-                    "DefaultText": "Fantastisch！ Nederlands, Frans, én Engels.<dt>すごいね！ オランダ語、フランス語、そして英語まで。"
+                    "DefaultText": "Fantastisch! Nederlands, Frans, én Engels.<dt>すごいね！ オランダ語、フランス語、そして英語まで。"
                 },
                 {
                     "ID": 196,
-                    "DefaultText": "Di cosa stavamo discutendo？ <dt>何の話だったかな？"
+                    "DefaultText": "Di cosa stavamo discutendo?<dt>何の話だったかな？"
                 },
                 {
                     "ID": 208,
-                    "DefaultText": "Ha！ Merci beaucouop.<dt>はは！ 親切にありがとう。"
+                    "DefaultText": "Ha! Merci beaucouop.<dt>はは！ 親切にありがとう。"
                 },
                 {
                     "ID": 209,
-                    "DefaultText": "Permettez-vous que nous poursuivions notre conversation ？ <dt>このまま話を続けても大丈夫かい？"
+                    "DefaultText": "Permettez-vous que nous poursuivions notre conversation ?<dt>このまま話を続けても大丈夫かい？"
                 },
                 {
                     "ID": 211,
-                    "DefaultText": "Ce n'est pas le genre de livre qu'on lit habituellement pour le plaisir. Vous intéressez-vous à la médecine ou à la nature ？ <dt>普通の人が喜んで読むような内容ではない。興味があるのは医学かい？ それとも自然？ "
+                    "DefaultText": "Ce n'est pas le genre de livre qu'on lit habituellement pour le plaisir. Vous intéressez-vous à la médecine ou à la nature ?<dt>普通の人が喜んで読むような内容ではない。興味があるのは医学かい？ それとも自然？ "
                 },
                 {
                     "ID": 235,
-                    "DefaultText": "Beh...dove eravamo？ <dt>えーと...どこまで話したっけ？"
-                },
-                {
-                    "ID": 237,
-                    "DefaultText": "Così disse Niccolò Leoniceno trent'anni fa. Non è una novità. Perché c'è ancora bisogno di discuterne？ <dt>30 年前、ニッコロ・レオニチェーノはそう言った。これは何も新しいことではない。なぜ、いまだに議論される必要があるのだろうか。"
-                },
-                {
-                    "ID": 238,
-                    "DefaultText": "Stiamo ancora usando il testo nella nostra pratica, quindi il dibattito è concluso, non vi pare？ <dt>私たちは皆、今もその文章を実践で使っているので、その議論は終わっているのでは？"
-                },
-                {
-                    "ID": 241,
-                    "DefaultText": "Vero, vero, ma la critica di Leoniceno è più profonda！ <dt>本当に本当だ。そう、そうなんだ。でもレオニキーノの批判はもっと深いんだ！"
-                },
-                {
-                    "ID": 242,
-                    "DefaultText": "Fra errori di trascrizione e fonti inaffidabili, perché qualcuno lo venera ancora come se fosse la parola di <red>Dio</red>？！ <dt>書き写しの間違いや出典の不備があるのに、なぜいまだに<red>神</red>の言葉であるかのように崇めている人がいるんだ！？"
-                },
-                {
-                    "ID": 245,
-                    "DefaultText": "Tuam sententiam in rei rogare audemusne, Andreas？ <dt>この問題について、あえてアンドレアスの意見を聞いてみるとしようか？"
-                },
-                {
-                    "ID": 260,
-                    "DefaultText": "Ah！ se lo dici tu. Io non lo leggerei, se non ne avessi bisogno.<dt>フン！ 君の意見は尊重するが、私は必要なければ読む気もしないな。"
-                },
-                {
-                    "ID": 272,
-                    "DefaultText": "Bene allora, io...uhm.<dt>それじゃ、私は...ええと。"
-                },
-                {
-                    "ID": 274,
-                    "DefaultText": "Eh-eh. Lo ammetto: per noi è un argomento...stimolante.<dt>クク。確かに、私たちにとっては...刺激的なテーマだ。"
+                    "DefaultText": "Beh... dove eravamo?<dt>えーと...どこまで話したっけ？"
                 },
                 {
                     "ID": 275,
-                    "DefaultText": "Nonne solummodo heri aliquis hic mortuus est？ <dt>昨日の晩に、誰かがここで死んだのだろう？"
+                    "DefaultText": "Nonne solummodo heri aliquis hic mortuus est?<dt>昨日の晩に、誰かがここで死んだのだろう？"
                 },
                 {
                     "ID": 276,
-                    "DefaultText": "Non è morto qualcuno qui alla vigilia di San Giovanni？ <dt>聖ヨハネの前夜祭に、誰かがここで死んだのだろう？"
-                },
-                {
-                    "ID": 277,
-                    "DefaultText": "Angelo...è la persona a cui abbiamo brindato. Andreas ha offerto da bere.<dt>アンジェロ...そいつのために我々は乾杯したのだよ。アンドレアスのおごりでね。"
-                },
-                {
-                    "ID": 278,
-                    "DefaultText": "O...mei <red>Gahd</red>, Eim sohrie, Andreas. Mei Djurmann is so pohr Ei didint undurstand.<dt>ああ...<red>なんてこった</red>、すまないね、アンドレアス。私はドイツ語が全然で、わかっていなかったんだ。"
+                    "DefaultText": "Non è morto qualcuno qui alla vigilia di San Giovanni?<dt>聖ヨハネの前夜祭に、誰かがここで死んだのだろう？"
                 },
                 {
                     "ID": 279,
-                    "DefaultText": "Conoscevate bene quell'uomo？ <dt>その人とは仲が良かったのかい？ "
-                },
-                {
-                    "ID": 286,
-                    "DefaultText": "Ero lì quando è successo. O meglio...subito dopo.<dt>あの事件の時、私はその場にいたんだ。というか...厳密には起きた直後に、ね。"
+                    "DefaultText": "Conoscevate bene quell'uomo?<dt>その人とは仲が良かったのかい？ "
                 },
                 {
                     "ID": 287,
-                    "DefaultText": "Per questo c'è stato tutto quel trambusto？ Ci ha svegliati ma non sapevamo cosa stesse succedendo.<dt>あの騒ぎは、そういうことだったのかい？ 目は覚めたけど、何が起きていたのかわからなかったんだ。"
+                    "DefaultText": "Per questo c'è stato tutto quel trambusto? Ci ha svegliati ma non sapevamo cosa stesse succedendo.<dt>あの騒ぎは、そういうことだったのかい？ 目は覚めたけど、何が起きていたのかわからなかったんだ。"
                 },
                 {
                     "ID": 288,
@@ -17824,7 +17776,7 @@
                 },
                 {
                     "ID": 292,
-                    "DefaultText": "Che cosa？！ È stato un omicidio？ <dt>なんだって？！ あれは殺人だったのか？"
+                    "DefaultText": "Che cosa?! È stato un omicidio?<dt>なんだって？！ あれは殺人だったのか？"
                 },
                 {
                     "ID": 297,
@@ -17832,7 +17784,7 @@
                 },
                 {
                     "ID": 299,
-                    "DefaultText": "È vero？ L'abate, un assassino？ Che scandalo！ <dt>本当かい？ 大修道院長が殺人犯？ なんという醜聞だ。"
+                    "DefaultText": "È vero? L'abate, un assassino? Che scandalo!<dt>本当かい？ 大修道院長が殺人犯？ なんという醜聞だ。"
                 },
                 {
                     "ID": 300,
@@ -17840,7 +17792,7 @@
                 },
                 {
                     "ID": 302,
-                    "DefaultText": "Prego che catturino il colpevole e che la giustizia faccia il suo corso！ <dt>彼らが犯人を捕まえて、正当な報いが与えられるよう祈っていよう！"
+                    "DefaultText": "Prego che catturino il colpevole e che la giustizia faccia il suo corso!<dt>彼らが犯人を捕まえて、正当な報いが与えられるよう祈っていよう！"
                 },
                 {
                     "ID": 306,
@@ -17936,7 +17888,7 @@
                 },
                 {
                     "ID": 402,
-                    "DefaultText": "Cosa vuoi che ti dica？ È solo birra！ <dt>何を言わせたいんだ？ ただのビールだ！"
+                    "DefaultText": "Cosa vuoi che ti dica? È solo birra!<dt>何を言わせたいんだ？ ただのビールだ！"
                 },
                 {
                     "ID": 403,
@@ -18155,10 +18107,6 @@
                     "DefaultText": "単純に見えるが、山札には 40 枚のカードがあって、自分のカード以外の 3 枚で勝利するのか。勝てる確率は計算できそうだ。"
                 },
                 {
-                    "ID": 554,
-                    "DefaultText": "Mette anche in discussione le fonti arabe a cui ci affidiamo per identificare le nostre medicine！ <dt>彼は、薬を特定する場合に頼るアラブの情報源にも疑問を投げかけているのだ！"
-                },
-                {
                     "ID": 557,
                     "DefaultText": "他には何と？"
                 },
@@ -18228,7 +18176,7 @@
                 },
                 {
                     "ID": 616,
-                    "DefaultText": "Smettila！ <dt>何だよ！"
+                    "DefaultText": "Smettila!<dt>何だよ！"
                 },
                 {
                     "ID": 618,
@@ -18244,47 +18192,47 @@
                 },
                 {
                     "ID": 662,
-                    "DefaultText": "Quid conferrebamus？ <dt>何の話だったかな？"
+                    "DefaultText": "Quid conferrebamus?<dt>何の話だったかな？"
                 },
                 {
                     "ID": 669,
-                    "DefaultText": "Andreas, cum Plinii Senioris Naturali Historia cognoscesne？ <dt>アンドレアス、君はプリニウス博物誌に精通しているかい？"
+                    "DefaultText": "Andreas, cum Plinii Senioris Naturali Historia cognoscesne?<dt>アンドレアス、君はプリニウス博物誌に精通しているかい？"
                 },
                 {
                     "ID": 670,
-                    "DefaultText": "Ha ha！ Hic sit ridiculus. Cur artifex naturalem historiam cognosceret？ <dt>アハハ、それは面白いな。どうして芸術家が博物誌のことを知ってたりするんだ？"
+                    "DefaultText": "Ha ha! Hic sit ridiculus. Cur artifex naturalem historiam cognosceret?<dt>アハハ、それは面白いな。どうして芸術家が博物誌のことを知ってたりするんだ？"
                 },
                 {
                     "ID": 672,
-                    "DefaultText": "Andreas, conoscete la Naturalis Historia di Plinio il Vecchio？ <dt>アンドレアス、君はプリニウス博物誌に精通しているかい？"
+                    "DefaultText": "Andreas, conoscete la Naturalis Historia di Plinio il Vecchio?<dt>アンドレアス、君はプリニウス博物誌に精通しているかい？"
                 },
                 {
                     "ID": 673,
-                    "DefaultText": "Ah-ah！ Sarebbe divertente. Perché mai un artista dovrebbe conoscere la Naturalis Historia？ <dt>アハハ、それは面白いな。どうして芸術家が博物誌のことを知ってたりするんだ？"
+                    "DefaultText": "Ah-ah! Sarebbe divertente. Perché mai un artista dovrebbe conoscere la Naturalis Historia?<dt>アハハ、それは面白いな。どうして芸術家が博物誌のことを知ってたりするんだ？"
                 },
                 {
                     "ID": 674,
-                    "DefaultText": "Andreas, nous parlons de l'Histoire naturelle de Pline, la connaissez-vous ？ \\n<dt>アンドレアス、私たちはプリニウス博物誌について話しているんだが、知っているかい？ "
+                    "DefaultText": "Andreas, nous parlons de l'Histoire naturelle de Pline, la connaissez-vous ?\\n<dt>アンドレアス、私たちはプリニウス博物誌について話しているんだが、知っているかい？ "
                 },
                 {
                     "ID": 678,
-                    "DefaultText": "Vous connaissez, Andreas ？ <dt>知ってるのか、アンドレアス？"
+                    "DefaultText": "Vous connaissez, Andreas ?<dt>知ってるのか、アンドレアス？"
                 },
                 {
                     "ID": 679,
-                    "DefaultText": "Num offendet, si eam loquimur？ <dt>このまま話を続けても大丈夫かい？"
+                    "DefaultText": "Num offendet, si eam loquimur?<dt>このまま話を続けても大丈夫かい？"
                 },
                 {
                     "ID": 680,
-                    "DefaultText": "Vi offendereste se continuassimo a parlarne？ <dt>このまま話を続けても大丈夫かい？"
+                    "DefaultText": "Vi offendereste se continuassimo a parlarne?<dt>このまま話を続けても大丈夫かい？"
                 },
                 {
                     "ID": 681,
-                    "DefaultText": "Ea non est res illam plerus populus decliciam leget.Tui observatio in meddicina aut natura estne？ <dt>普通の人が喜んで読むような内容ではない。興味があるのは医学かい？ それとも自然？"
+                    "DefaultText": "Ea non est res illam plerus populus decliciam leget.Tui observatio in meddicina aut natura estne?<dt>普通の人が喜んで読むような内容ではない。興味があるのは医学かい？ それとも自然？"
                 },
                 {
                     "ID": 682,
-                    "DefaultText": "Non è il genere di cose che la maggior parte delle persone leggerebbe per diletto. Vi interessa la medicina o la natura？ <dt>普通の人が喜んで読むような内容ではない。興味があるのは医学かい？ それとも自然？"
+                    "DefaultText": "Non è il genere di cose che la maggior parte delle persone leggerebbe per diletto. Vi interessa la medicina o la natura?<dt>普通の人が喜んで読むような内容ではない。興味があるのは医学かい？ それとも自然？"
                 },
                 {
                     "ID": 687,
@@ -18296,127 +18244,67 @@
                 },
                 {
                     "ID": 690,
-                    "DefaultText": "Ha！ Gratias tibi ago, comiter.<dt>はは！ 親切にありがとう。"
+                    "DefaultText": "Ha! Gratias tibi ago, comiter.<dt>はは！ 親切にありがとう。"
                 },
                 {
                     "ID": 691,
-                    "DefaultText": "Ah！ Grazie, molto gentile.<dt>はは！ 親切にありがとう。"
+                    "DefaultText": "Ah! Grazie, molto gentile.<dt>はは！ 親切にありがとう。"
                 },
                 {
                     "ID": 692,
-                    "DefaultText": "Hem, ubi eramus？ <dt>えーと...どこまで話したっけ？"
-                },
-                {
-                    "ID": 696,
-                    "DefaultText": "Ita Nicolaus Leoniceno abhinc triginta annos dixit. Hoc novum nihil est. Cur ea conferi requiretur？ <dt>30 年前、ニッコロ・レオニチェーノはそう言った。これは何も新しいことではない。なぜ、いまだに議論される必要があるのだろうか。"
-                },
-                {
-                    "ID": 697,
-                    "DefaultText": "Tamen codicem in nobis medicina operalectitamus, ergo consilium desitus est, nonne？ <dt>私たちは皆、今もその文章を実践で使っているので、その議論は終わっているのでは？"
+                    "DefaultText": "Hem, ubi eramus?<dt>えーと...どこまで話したっけ？"
                 },
                 {
                     "ID": 706,
-                    "DefaultText": "Vera, vera, ita, sed emendationes Leoniceni profundior est supra illos！ <dt>本当に本当だ。そう、そうなんだ。でもレオニキーノの批判はもっと深いんだ！"
-                },
-                {
-                    "ID": 708,
-                    "DefaultText": "Etiam Arabis causae in dubium vocat quod nostra medicamenta identificare confidemus！ <dt>彼は、薬を特定する場合に頼るアラブの情報源にも疑問を投げかけているのだ！"
-                },
-                {
-                    "ID": 709,
-                    "DefaultText": "Inter transcriptionum errores et causae malae, cur aliquis eam reveretur quasi verbum <red>Dei</red>？ <dt>書き写しの間違いや出典の不備があるのに、なぜいまだに<red>神</red>の言葉であるかのように崇めている人がいるんだ！？"
-                },
-                {
-                    "ID": 714,
-                    "DefaultText": "Possiamo chiedere la vostra opinione in merito, Andreas？ <dt>この問題について、あえてアンドレアスの意見を聞いてみるとしようか？"
-                },
-                {
-                    "ID": 715,
-                    "DefaultText": "Puis-je vous demander votre avis sur la question, Andreas ？ <dt>この問題について、あえてアンドレアスの意見を聞いてみるとしようか？"
-                },
-                {
-                    "ID": 731,
-                    "DefaultText": "Ha！ Si dicas ita. Non legebo nisi non requiro.<dt>フン！ 君の意見は尊重するが、私は必要なければ読む気もしないな。"
-                },
-                {
-                    "ID": 732,
-                    "DefaultText": "Ha ！ Si vous le dites. Je ne le lirais pas si je n'en avais pas besoin.<dt>フン！ 君の意見は尊重するが、私は必要なければ読む気もしないな。"
-                },
-                {
-                    "ID": 748,
-                    "DefaultText": "Ita, ego...uh.<dt>それじゃ、私は...ええと。"
-                },
-                {
-                    "ID": 749,
-                    "DefaultText": "Eh bien, je...euh.<dt>それじゃ、私は...ええと。"
-                },
-                {
-                    "ID": 750,
-                    "DefaultText": "Hehe. Fateor, illud...a nobis est subiectum excitans.<dt>クク。確かに、私たちにとっては...刺激的なテーマだ。"
-                },
-                {
-                    "ID": 751,
-                    "DefaultText": "Héhé. J'avoue que c'est un sujet...passionnant pour nous.<dt>クク。確かに、私たちにとっては...刺激的なテーマだ。"
+                    "DefaultText": "Vera, vera, ita, sed emendationes Leoniceni profundior est supra illos!<dt>本当に本当だ。そう、そうなんだ。でもレオニキーノの批判はもっと深いんだ！"
                 },
                 {
                     "ID": 752,
-                    "DefaultText": "Non è morto qualcuno qui la scorsa notte？ <dt>昨日の晩に、誰かがここで死んだのだろう？"
+                    "DefaultText": "Non è morto qualcuno qui la scorsa notte?<dt>昨日の晩に、誰かがここで死んだのだろう？"
                 },
                 {
                     "ID": 754,
-                    "DefaultText": "Nonne aliquis hunc in Eva Sancti Ioannis modo morit？ <dt>聖ヨハネの前夜祭に、誰かがここで死んだのだろう？"
-                },
-                {
-                    "ID": 758,
-                    "DefaultText": "Angelo...quod est cui salutavimus. Andreas pocula paravit.\\n<dt>アンジェロ...そいつのために我々は乾杯したのだよ。アンドレアスのおごりでね。"
-                },
-                {
-                    "ID": 761,
-                    "DefaultText": "Oh...meum <red>Deum</red>, me paenitet, Andreas. Germanica mea tam misera est non intellexi.<dt>ああ...<red>なんてこった</red>、すまないね、アンドレアス。私はドイツ語が全然で、わかっていなかったんだ。"
+                    "DefaultText": "Nonne aliquis hunc in Eva Sancti Ioannis modo morit?<dt>聖ヨハネの前夜祭に、誰かがここで死んだのだろう？"
                 },
                 {
                     "ID": 767,
-                    "DefaultText": "Novistine hominem bene？ <dt>その人とは仲が良かったのかい？"
+                    "DefaultText": "Novistine hominem bene?<dt>その人とは仲が良かったのかい？"
                 },
                 {
                     "ID": 768,
-                    "DefaultText": "Connaissiez-vous bien cet homme ？ <dt>その人とは仲が良かったのかい？"
-                },
-                {
-                    "ID": 774,
-                    "DefaultText": "Ibi eram quando contigit. Aut...post factum, saltem.<dt>あの事件の時、私はその場にいたんだ。というか...厳密には起きた直後に、ね。"
+                    "DefaultText": "Connaissiez-vous bien cet homme ?<dt>その人とは仲が良かったのかい？"
                 },
                 {
                     "ID": 777,
-                    "DefaultText": "Id erat quid de omne tummultu eratne？ Nos exitati sumus sed non sciimus quid contingebat.<dt>あの騒ぎは、そういうことだったのかい？ 目は覚めたけど、何が起きていたのかわからなかったんだ。"
+                    "DefaultText": "Id erat quid de omne tummultu eratne? Nos exitati sumus sed non sciimus quid contingebat.<dt>あの騒ぎは、そういうことだったのかい？ 目は覚めたけど、何が起きていたのかわからなかったんだ。"
                 },
                 {
                     "ID": 778,
-                    "DefaultText": "Était-ce la raison de toute cette agitation ？ Le bruit nous a réveillés, mais nous ne savions pas ce qui se passait.<dt>あの騒ぎは、そういうことだったのかい？ 目は覚めたけど、何が起きていたのかわからなかったんだ。"
+                    "DefaultText": "Était-ce la raison de toute cette agitation ? Le bruit nous a réveillés, mais nous ne savions pas ce qui se passait.<dt>あの騒ぎは、そういうことだったのかい？ 目は覚めたけど、何が起きていたのかわからなかったんだ。"
                 },
                 {
                     "ID": 791,
-                    "DefaultText": "Quid？！ Caedis erat？ <dt>なんだって？！ あれは殺人だったのか？"
+                    "DefaultText": "Quid?! Caedis erat?<dt>なんだって？！ あれは殺人だったのか？"
                 },
                 {
                     "ID": 792,
-                    "DefaultText": "Quoi ？！ C’était un meurtre ？ <dt>なんだって？！ あれは殺人だったのか？"
+                    "DefaultText": "Quoi ?! C’était un meurtre ?<dt>なんだって？！ あれは殺人だったのか？"
                 },
                 {
                     "ID": 793,
-                    "DefaultText": "Num verum est？ Abbas, homicida？ O scandalum.<dt>本当かい？ 大修道院長が殺人犯？ なんという醜聞だ。"
+                    "DefaultText": "Num verum est? Abbas, homicida? O scandalum.<dt>本当かい？ 大修道院長が殺人犯？ なんという醜聞だ。"
                 },
                 {
                     "ID": 794,
-                    "DefaultText": "Is it truh？ Þe abot, ah murderer？ Uat ah skandal.<dt>本当かい？ 大修道院長が殺人犯？ なんという醜聞だ。"
+                    "DefaultText": "Is it truh? Þe abot, ah murderer? Uat ah skandal.<dt>本当かい？ 大修道院長が殺人犯？ なんという醜聞だ。"
                 },
                 {
                     "ID": 797,
-                    "DefaultText": "Oro ut reum capiant et ei tribuant iustitiam quam meretur！ <dt>彼らが犯人を捕まえて、正当な報いが与えられるよう祈っていよう！"
+                    "DefaultText": "Oro ut reum capiant et ei tribuant iustitiam quam meretur!<dt>彼らが犯人を捕まえて、正当な報いが与えられるよう祈っていよう！"
                 },
                 {
                     "ID": 798,
-                    "DefaultText": "Ei pree þee katcsh þe kulprit and giw him þe djustis hie deserws！ <dt>彼らが犯人を捕まえて、正当な報いが与えられるよう祈っていよう！"
+                    "DefaultText": "Ei pree þee katcsh þe kulprit and giw him þe djustis hie deserws!<dt>彼らが犯人を捕まえて、正当な報いが与えられるよう祈っていよう！"
                 },
                 {
                     "ID": 842,
@@ -20131,12 +20019,8 @@
                     "DefaultText": "ほう、家でのトラブルとかですか？ なるほど、なるほど。"
                 },
                 {
-                    "ID": 29,
-                    "DefaultText": "Quanto è buono il tuo italiano？ <dt>イタリア語はお上手ですか？"
-                },
-                {
                     "ID": 32,
-                    "DefaultText": "Eee...non è troppo male.<dt>まあ...そこそこかな。"
+                    "DefaultText": "Eee... non è troppo male.<dt>まあ...そこそこかな。"
                 },
                 {
                     "ID": 34,
@@ -23908,15 +23792,15 @@
                 },
                 {
                     "ID": 141,
-                    "DefaultText": "Auda ans, Mama Perchta！ <dt> 私たちに ？ ？ を、マザー・ペルヒタ！"
+                    "DefaultText": "Auda ans, Mama Perchta!<dt> 私たちに ？？ を、マザー・ペルヒタ！"
                 },
                 {
                     "ID": 142,
-                    "DefaultText": "Nus ardain quest guaud per ti！ <dt>あなたのために ？ ？ ？ ？ ？ ？ を燃やしましょう！"
+                    "DefaultText": "Nus ardain quest guaud per ti!<dt>あなたのために ？？？？？？ を燃やしましょう！"
                 },
                 {
                     "ID": 143,
-                    "DefaultText": "Ve！ Ve！ Nus clamain ti！ <dt>？ ？ ？！？ ？ ？！ あなたを ？ ？ ？！"
+                    "DefaultText": "Ve! Ve! Nus clamain ti!<dt>？？？！？？？！ あなたを ？？？！"
                 },
                 {
                     "ID": 147,
@@ -25391,14 +25275,6 @@
                 {
                     "ID": 46,
                     "DefaultText": "オットーのことを言ってるなら、そうかもな。大修道院に対してそういう行動は...面倒になるかもしれん。"
-                },
-                {
-                    "ID": 66,
-                    "DefaultText": "Dimidium facti qui coepit habet...sapere aude.<dt>始めるだけで、仕事は半分終わったようなもの。"
-                },
-                {
-                    "ID": 68,
-                    "DefaultText": "そう！ Um...beatus homo...qui invenit...sapientiam.<dt>知恵を求めて得る人は幸いである。"
                 },
                 {
                     "ID": 69,
@@ -27086,7 +26962,7 @@
                 },
                 {
                     "ID": 324,
-                    "DefaultText": "まさに。un uomo universale！ \\n <dt>本当に、なんでもできる男だな！"
+                    "DefaultText": "まさに。un uomo universale!\\n <dt>本当に、なんでもできる男だな！"
                 },
                 {
                     "ID": 329,
@@ -36535,10 +36411,6 @@
                     "DefaultText": "ああ、気にしないで！"
                 },
                 {
-                    "ID": 142,
-                    "DefaultText": "<whisper><red>Ghjesù Cristu</red>...a' ch'ha danaru face tuttu。ああ、</whisper><dt><red>イエス・キリスト</red>よ...お金を持っている者は何でもできるんだな。"
-                },
-                {
                     "ID": 143,
                     "DefaultText": "何か問題でも？"
                 },
@@ -40354,7 +40226,7 @@
                 },
                 {
                     "ID": 7,
-                    "DefaultText": "Ciao, Gnaziu. Come stai？ <dt>あら、グナジウ。調子はどう？"
+                    "DefaultText": "Ciao, Gnaziu. Come stai? <dt>あら、グナジウ。調子はどう？"
                 },
                 {
                     "ID": 8,
@@ -40542,7 +40414,7 @@
                 },
                 {
                     "ID": 69,
-                    "DefaultText": "ハハ！ <red>Dio<dt>神よ</red>、まさか。"
+                    "DefaultText": "ハハ! <red>Dio<dt>神よ</red>、まさか。"
                 },
                 {
                     "ID": 70,
