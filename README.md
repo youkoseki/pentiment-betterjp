@@ -2,7 +2,7 @@ Pentimentの日本語翻訳を改善するMODです。といっても、ただ�
 
 [Pentiment-betterJP.zip](https://github.com/youkoseki/pentiment-betterjp/raw/main/Pentiment-betterJP.zip)をダウンロード、解凍して、出てきたmodsフォルダーごと、
 
-ユーザーフォルダー（\\ユーザー\(自分のアカウント)\）以下の、
+ユーザーフォルダー（\\\ユーザー\\(自分のアカウント)\）以下の、
 
 \AppData\LocalLow\Obsidian Entertainment\Pentiment\
 
