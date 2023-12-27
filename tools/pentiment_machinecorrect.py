@@ -67,6 +67,7 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 			jp=re.sub(' +\</','</',jp)
 			jp=re.sub('　+\'$','\'',jp)
 			jp=re.sub(' +\'$','\'',jp)
+			jp=re.sub(' +」','」',jp)
 			if jp != row["Japanese"]:#アップデートされたなら
 				row["MachineCorrect"] = jp
 
