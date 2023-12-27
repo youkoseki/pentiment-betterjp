@@ -1,4 +1,4 @@
-Pentimentの翻訳改善MODです。といっても、ただのテキストファイルです。
+Pentimentの日本語翻訳を改善するMODです。といっても、ただのテキストファイルです。
 
 [Pentiment-betterJP.zip](https://github.com/youkoseki/pentiment-betterjp/raw/main/Pentiment-betterJP.zip)をダウンロード、解凍して、出てきたmodsフォルダーごと、
 
