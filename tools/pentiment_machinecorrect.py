@@ -9,6 +9,7 @@ names = {#表記揺れの修正 誤→正
 	"ポール":"パウロ",
 	"フォルクバート":"ヴォルクベルト",
 	"ローレンツ":"ロレンツ",
+	"ロートヴォーゲル":"ロスフォーゲル",
 	"マーティン":"マルティン",
 	"フィレンツ":"フェレンツ",
 	"フェレンツェ":"フィレンツェ",#フィレンツをフェレンツにすると変わってしまうので
@@ -18,6 +19,7 @@ names = {#表記揺れの修正 誤→正
 	"タシング":"タッシング",
 	"ヨルク":"ヨルグ",
 	"オーガスト":"アウグスト",
+	"レディ・サロメア":"サロメア婦人",
 	"キアラウ":"キアサウ",
 	"クロイスター":"回廊",
 	"?":"？",
@@ -27,14 +29,16 @@ names = {#表記揺れの修正 誤→正
 	"[嘘を吐く]":"[嘘]",
 	"[ウソ]":"[嘘]",
 	"[うそ]":"[嘘]",
-	"。]":"]"
+	"。]":"]",
+	"。」":"」"
 	}
 
 do = pd.read_table('../output/Pentiment-init.tsv',usecols=[0,1,2,3,4,5,6])
 
-with open('../output/Pentiment-machinecorrect.tsv', 'w') as f:
+with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pentiment-machinecorrect-simple.tsv', 'w') as s:
 #	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tAutoUpdate\tBetterJP",file=f)
-	print("MachineCorrect",file=f)
+	print("Name\tID\tMachineCorrect",file=a)#全項目版
+	print("MachineCorrect",file=s)#翻訳のみ版-Googleシート用
 
 	for index, row in do.iterrows():
 		if pd.isnull(row["Duplicate"]): #重複がないなら
@@ -66,9 +70,9 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as f:
 			if jp != row["Japanese"]:#アップデートされたなら
 				row["MachineCorrect"] = jp
 
-#		print(row["Name"],end="\t",file=f)
+		print(row["Name"],end="\t",file=a)
 #		print(row["UObjectName"],end="\t",file=f)
-#		print(row["ID"],end="\t",file=f)
+		print(row["ID"],end="\t",file=a)
 #		print(row["English"],end="\t",file=f)
 #		print(row["Japanese"],end="\t",file=f)
 #		if pd.notnull(row["Duplicate"]):
@@ -76,6 +80,8 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as f:
 #		else:
 #			print("",end="\t",file=f)
 		if pd.notnull(row["MachineCorrect"]):
-			print("'"+row["MachineCorrect"],file=f)
+			print("'"+row["MachineCorrect"],file=a)
+			print("'"+row["MachineCorrect"],file=s)
 		else:
-			print("",file=f)
+			print("",file=a)
+			print("",file=s)
