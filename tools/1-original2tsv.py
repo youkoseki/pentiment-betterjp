@@ -28,7 +28,7 @@ with open('../output/Pentiment-init.tsv', 'w') as f:
 			e = english[table["Name"]+","+str(entry["ID"])]
 			print(repr(e),end="\t",file=f)
 			print(repr(entry["DefaultText"]),end="\t",file=f)
-			if(text_exist[table["Name"]+","+e] != table["Name"]+","+str(entry["ID"])):
+			if(text_exist[table["Name"]+","+e] != table["Name"]+","+str(entry["ID"])):#同じシーンで同じ言葉があったら記録しておく
 				print(text_exist[table["Name"]+","+e],end='\n',file=f)
 			else:
 				print("",file=f)

@@ -35,6 +35,14 @@ names = {#表記揺れの修正 誤→正
 	"。」":"」"
 	}
 
+phrases = {#共通の言い回し
+	"[Remain silent.]":"[黙り続ける]",
+	"[Sigh.]":"[ため息をつく]",
+	"[Nod solemnly.]":"[神妙な顔でうなずく]",
+	"[Nod thoughtfully.]":"[思慮深くうなずく]",
+	"[Remain pointedly silent.]":"[あからさまに沈黙を続ける]"
+}
+
 do = pd.read_table('../output/Pentiment-init.tsv',usecols=[0,1,2,3,4,5,6])
 
 with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pentiment-machinecorrect-simple.tsv', 'w') as s:
@@ -43,9 +51,19 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 	print("MachineCorrect",file=s)#翻訳のみ版-Googleシート用
 
 	for index, row in do.iterrows():
+		skip = 0
 		if row["English"] == row["Japanese"]:#英語と日本語が同じなら翻訳の必要なし
-			pass
-		elif pd.isnull(row["Duplicate"]): #重複がないなら
+			skip = 1
+
+		for word in phrases.keys():#定型文ならそのまま利用
+			if row["English"] == "'"+word+"'":
+				row["MachineCorrect"] = "'"+phrases[word]+"'"
+				skip = 1
+		
+		if pd.notnull(row["Duplicate"]):#重複があるならスキップ
+			skip = 1
+		
+		if skip == 0: #何もなければ自動翻訳
 			jp = row["Japanese"]
 			dt = ""
 			idx = jp.find("<dt>")#二ヶ国語の文章の場合
