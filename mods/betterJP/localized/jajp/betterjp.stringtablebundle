@@ -40847,6 +40847,16 @@
             ]
         },
         {
+            "Name": "conversations/act3/act3_bed_sleep",
+            "UObjectName": "act3_bed_sleep_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 3,
+                    "DefaultText": "[起きておく]"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act3/act3_letters",
             "UObjectName": "act3_letters_BaseGame_jajp",
             "Entries": [

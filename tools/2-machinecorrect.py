@@ -40,7 +40,8 @@ phrases = {#共通の言い回し
 	"[Sigh.]":"[ため息をつく]",
 	"[Nod solemnly.]":"[神妙な顔でうなずく]",
 	"[Nod thoughtfully.]":"[思慮深くうなずく]",
-	"[Remain pointedly silent.]":"[あからさまに沈黙を続ける]"
+	"[Remain pointedly silent.]":"[あからさまに沈黙を続ける]",
+	"[Stay awake.]":"[起きておく]"
 }
 
 do = pd.read_table('../output/Pentiment-init.tsv',usecols=[0,1,2,3,4,5,6])
