@@ -13,7 +13,7 @@ dict_switch = 0
 with open("machinecorrect.tsv") as f:
 	for s_line in f:
 		s_line = s_line.rstrip()
-		if s_line == "#ENJP":#ENJPに切り替え
+		if re.match("#ENJP",s_line):#ENJPに切り替え
 			dict_switch = 1
 			continue
 		elif re.match("#",s_line):#コメントを無視
