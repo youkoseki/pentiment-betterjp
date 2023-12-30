@@ -9419,6 +9419,10 @@
                     "DefaultText": "なぜ彼女は庵に行ったのだ？ このような記録があるのは彼女<blue>だけ</blue>というのも不思議なことだ。"
                 },
                 {
+                    "ID": 416,
+                    "DefaultText": "つまり、ロスフォーゲル男爵が訪れた頃。"
+                },
+                {
                     "ID": 419,
                     "DefaultText": "もう一度マザー・セシリアと話した方がよさそうだ...そしてシスター・マチルダとも。"
                 },
@@ -44078,6 +44082,10 @@
             "Name": "conversations/act3/act3_revolt_letter",
             "UObjectName": "act3_revolt_letter_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 33,
+                    "DefaultText": "1518 年にキアサウ修道院で起きたロスフォーゲル男爵の殺人事件を調査していたとき、あなたはこの地域を訪れたはずです。"
+                },
                 {
                     "ID": 34,
                     "DefaultText": "ドラッカリンさん。"

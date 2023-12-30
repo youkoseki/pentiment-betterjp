@@ -56,10 +56,9 @@ for index, row in df.iterrows():
 		name = row["Name"]
 		table = {"Name" : row["Name"], "UObjectName" : row["UObjectName"], "Entries" : [] }
 		dj["StringTables"].append(table)
-	jp = row["BetterJP"]
-	jp = p1.sub("",jp)
-	jp = p2.sub("",jp)
-	entry = {"ID" : row["ID"], "DefaultText" : jp}
+	row["BetterJP"] = p1.sub("",row["BetterJP"])
+	row["BetterJP"] = p2.sub("",row["BetterJP"])
+	entry = {"ID" : row["ID"], "DefaultText" : row["BetterJP"]}
 	table["Entries"].append(entry)
 	n+=1
 
