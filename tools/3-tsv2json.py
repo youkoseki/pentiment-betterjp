@@ -36,6 +36,8 @@ for index, row in df.iterrows():
 	if pd.notnull(row["BetterJP"]): #手動翻訳が存在する場合は上書きする
 		existing_translation[row["Name"]+","+str(row["ID"])] = row["BetterJP"]
 
+n = 0
+
 for index, row in df.iterrows():
 	if row["Japanese"] == "\'Xbox ネットワークにログイン\'":#MODの表示
 		row["BetterJP"] = "\'Xbox ネットワークにログイン"+"(日本語改善MOD-v"+dt_now.strftime('%y%m%d')+")\'"
@@ -59,9 +61,12 @@ for index, row in df.iterrows():
 	jp = p2.sub("",jp)
 	entry = {"ID" : row["ID"], "DefaultText" : jp}
 	table["Entries"].append(entry)
+	n+=1
 
 
 with open('../mods/betterJP/localized/jajp/betterjp.stringtablebundle', 'w') as f:
 	json.dump(dj,f,ensure_ascii=False, indent=4)
 
 shutil.make_archive('../Pentiment-betterJP', format='zip', root_dir='../', base_dir='mods')
+
+print("corrected:"+str(n))
