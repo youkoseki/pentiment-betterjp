@@ -2,6 +2,7 @@ Aedoc	エドック
 Agnes	アグネス
 Arnold	アーノルド
 Amalie	アマリー
+Big Jorg	ビッグ・ヨルグ
 Brigita	ブリギータ
 Cecilia	セシリア
 Claus	クラウス
@@ -13,11 +14,10 @@ Frantz	フランツ
 Gernot	ゲルノット
 Gertrude	ゲルトルート
 Grett	グレット
+Guy	ガイ
 Piero	ピエロ
 Thomas	トマス
-Guy	ガイ
 Johan	ヨハン
-Big Jorg	ビッグ・ヨルグ
 Lijsbet	ライズベット
 Lukas	ルーカス
 Margarete	マルガレーテ
@@ -49,48 +49,32 @@ Heddy	ヘディ
 Kat	キャット
 Lucky	ラッキー
 Albertus Magnus	アルベルトゥス・マグヌス
-Aedoc	エドック
-Agnes	アグネス
 Alexander	アレキサンダー
-Amalie	アマリー
 Anna	アンナ
 Anton	アントン
 Apollo	アポロ
-Arnold	アーノルド
 Artemis	アルテミス
 Baltasar	バルタザール
 Benedicta	ベネディクタ
 Benjamin	ベンジャミン
 Bertholdt	ベルトルト
-Big Jorg	ビッグ・ヨルグ
 Black Til	ブラック・ティル
 Brigita	ブリギータ
 Caspar	キャスパー
 Cecilia	セシリア
 Christina	クリスティーナ
 Clara	クララ
-Claus	クラウス
-Else	エルゼ
-Endris	エンドリス
 Esther	エステル
 Eva	エヴァ
 Fabian	ファビアン
-Ferenc	フェレンツ
-Florian	フロリアン
-Frantz	フランツ
 Franziska	フランツィスカ
-Gernot	ゲルノット
-Gertrude	ゲルトルート
 Gnaziu	グナジウ
-Grett	グレット
-Guy	ガイ
 Hanna	ハンナ
 Hans	ハンス
 Heddy	ヘディ
 Ill Peter	イル・ペテロ
 Illuminata	イルミナータ
 Jacob	ヤコブ
-Johan	ヨハン
 Sepp	セップ
 Jutta	ユッタ
 Karl	カール
@@ -100,7 +84,6 @@ Kilian	キリアン
 Krafft	クラフト
 Lady Solomea	サロメア婦人
 Lenhardt	レンハルト
-Lijsbet	ライズベット
 Lorenz	ロレンツ
 Lucky	ラッキー
 Lukas	ルーカス
@@ -300,3 +283,195 @@ Wanderjahre	ワンダーヤーレ
 Wild Hunt	ワイルドハント
 Wretched Guerrin	惨めなゲリン
 Yuletide	ユール
+Player	プレイヤー
+Rüdeger	リューデガー
+Aedoc	エドック
+Caspar	キャスパー
+Mewmew	ミュウミュウ
+Cecilia	セシリア
+Ferenc	フェレンツ
+Florian	フロリアン
+Gernot	ゲルノット
+Gertrude	ゲルトルート
+Illuminata	イルミナータ
+Jacob	ヤコブ
+Lorenz	ロレンツ
+Magdalene	マグダレネ
+Mathieu	マチュー
+Matilda	マチルダ
+Otto	オットー
+Piero	ピエロ
+Samuel	サミュエル
+Sebhat	セバト
+Sophie	ソフィー
+Volkbert	ヴォルクベルト
+Wojslav	ヴォイスラフ
+Margarete	マルガレーテ
+Andreas	アンドレアス
+Prester John	プレスター・ジョン
+Saint Grobian	聖グロビアン
+Beatrice	ベアトリーチェ
+Socrates	ソクラテス
+Lucia	ルシア
+Martin	マルティン
+Wolff	ヴォルフ
+Richart	リヒャルト
+Lady Salomea	サロメア婦人
+Arnold	アーノルド
+Werner	ヴェルナー
+Animal	動物
+Jacob	ヤコブ
+Hanna	ハンナ
+Benjamin	ベンジャミン
+Rachel	レイチェル
+Melencolia	メレンコリア
+Baltasar	バルタザール
+Niko	ニコ
+Kilian	キリアン
+Karl	カール
+Jobst	ヨブスト
+Anton	アントン
+Til	ティル
+Fabian	ファビアン
+Sepp	セップ
+Esther	エステル
+Tristan	トリスタン
+Sepp	セップ
+Angelo	アンジェロ
+Vincenzo	ヴィンチェンツォ
+Marcantonio	マルカントニオ
+Barbara	バーバラ
+Leuthold	ロイトハルト
+Josua	ヨシュア
+Philip	フィリップ
+Alexander	アレキサンダー
+Benedicta	ベネディクタ
+Apollo	アポロ
+Artemis	アルテミス
+Krafft	クラフト
+Black Til	ブラック・ティル
+Christina	クリスティーナ
+Simon	シモン
+Jutta	ユッタ
+Walpurga	ワルプルガ
+Ulrike	ウルリケ
+Resi	レジ
+Gnaziu	グナジウ
+Kazimierz	カジミエシュ
+Gargantua	ガルガンチュア
+Franziska	フランツィスカ
+Susanne	スザンヌ
+Ysabeau	イサボー
+Martha	マーサ
+Elias	エリアス
+Josef	ヨーゼフ
+Daniel	ダニエル
+Sabine	ザビーネ
+August	アウグスト
+System	システム
+Reichspostman	ライヒスポストマン
+Haller	ハラー
+Helena	ヘレナ
+Cemetery	墓地
+Exterior	外観
+Cellar	地下室
+Abattoir	屠殺場
+Upper Abbey	大修道院上部
+Abbot House	大修道院長の家
+Animal Pens	動物の囲い
+Chapter House	参事会会議場
+Church	教会
+Cloister	回廊
+Convent Garden	女修道院の庭園
+Convent Loquarium	女修道院のロクアリウム
+Crypt	地下聖堂
+Dormitory	寮
+Old Bailey	中央刑事裁判所
+Guest House	ゲストハウス
+Courtyard & Lavatorium	中庭の洗い場
+Infirmary	看護室
+Kitchen & Cellar	厨房と地下室
+Large Garden	広い庭
+Library	図書館
+Monastery Loquarium	修道院のロクアリウム
+Refectory	食堂
+Sacristy	聖具室
+Scriptorium	写字室
+Shrine	聖堂
+Tower	塔
+Go to Bed	睡眠をとる
+Kiersau Abbey	キアサウ修道院
+Waterfall	滝
+Alban Bakery	アルバンのパン屋
+Roman Ruins	ローマ時代の遺跡
+Schmidt Smithy	シュミット鍛冶屋
+Bridge	橋
+Smokeys Home	スモーキーの家
+Church & Druckers	教会とドラッカー家
+Town Commons	共有地
+Frantz Bauer & Widow Kemperyn	フランツ・バウアーとウィドウ・ケンパリン
+Gertner Farm	ゲルトナーの農場
+Johan Bauer Farm	ヨハン・バウアーの農場
+Shrine of St. Satia	聖サティアの聖堂
+Meadow	牧草地
+Steinauer House	シュタイナウアーの家
+Mill	製粉所
+Old Salt Mine	古い塩鉱山
+Widow Kemperyn/Baltas	ウィドウ・ケンパリン 、バルタス
+Zimmermann House	ツィンマーマンの家
+Gertner House	ゲルトナーの家
+Gertner Guest Room	ゲルトナーの客室
+Drucker House	ドラッカーの家
+Ottilias Home	オッティリアの家
+Johan Bauer House	ヨハン・バウアー の家
+Lower Abbey	大修道院下部
+Forest	森
+Priors House	小修道院長の家
+Prioress House	小修道院長の家
+Central Town	町中心部
+Convent Side	修道院の傍
+Golden Hand Inn	宿屋 黄金の手
+Golden Hand Guest Room	黄金の手の客室
+Guest House Bedroom	ゲストハウスの寝室
+Alpine Mountains	アルプスの山岳
+Our Lady of the Labyrinth	迷宮の聖母
+Lower Aqueduct	水道橋下部
+Upper Aqueduct Convent	水道橋上部の修道院
+Upper Aqueduct Crypt	水道橋上部の地下聖堂
+Nymphaeum	ニンファエウム
+North Town	町北部
+Cistern	貯水槽
+Müller House	ミュラーの家
+Isenkopf House	イーズンコフの家
+Stolz House	シュトルツの家
+Rathaus	ラートハウス
+Drucker House Upper	ドラッカーの家上部
+Cave	洞窟
+Mine Shaft	坑道
+Convent Cloister	修道院の回廊
+Convent Courtyard	修道院の中庭
+Convent Kitchen	修道院の台所
+Convent Art Studio	修道院の美術室
+Convent Chapel	修道院の礼拝堂
+Convent Chapter House	修道院の参事会会議場
+Mithraeum	ミトラス神殿
+Bathhouse	浴場
+Aqueduct	水道橋
+Hypocaust	床下暖房
+Rathskeller	地下食堂
+Windmill Platform	風車の台
+Gertner Bedroom	ゲルトナーの寝室
+Brigita Baueryn and Wojslav Růžička	ブリギータ・バウエリンとヴォイスラフ・ルージチュカ
+Martin Bauer Farm	マルティン・バウアーの農場
+Martin Bauer and Widow Kemperyn	マルティン・バウアーとウィドウ・ケンパリン
+Kreutzer House	クロイツェルの家
+Hans Bauer Farm	ハンス・バウアーの農場
+Hans Bauer House	ハンス・バウアーの家
+Frantz Bauer House	フランツ・バウアーの家
+Martin Bauer House	マルティン・バウアーの家
+Brigita Baueryn House	ブリギータ・バウエリンの家
+Outer Farms	郊外の農場
+Růžička House	ルージチュカの家
+Martin Bauer and Wojslav Růžička	マルティン・バウアーとヴォイスラフ・ルージチュカ
+Lavatorium	洗い場
+Damaged Monstrance	破損した聖体顕示台
