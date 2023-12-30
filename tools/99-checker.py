@@ -31,9 +31,10 @@ for index, row in df.iterrows():
 	if (row["Name"]+","+str(row["ID"])) in machine_translation:#機械翻訳がある
 #		print("AA")
 		if (pd.notnull(row["BetterJP"])): #手動訳もある
-			print("#"+str(row["N"]))
-			print(machine_translation[row["Name"]+","+str(row["ID"])])
-			print(row["BetterJP"])
+			if( machine_translation[row["Name"]+","+str(row["ID"])] != row["BetterJP"]): #両者が違う
+				print("#"+str(row["N"]))
+				print(machine_translation[row["Name"]+","+str(row["ID"])])
+				print(row["BetterJP"])
 
 
 
