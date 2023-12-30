@@ -30,7 +30,7 @@ with open("machinecorrect.tsv") as f:
 				enjp[keys[0]] = keys[1]
 
 
-do = pd.read_table('../output/Pentiment-init.tsv',usecols=[0,1,2,3,4,5,6])
+do = pd.read_table('../output/Pentiment-init.tsv')
 
 with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pentiment-machinecorrect-simple.tsv', 'w') as s:
 #	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tAutoUpdate\tBetterJP",file=f)

@@ -11,6 +11,7 @@ dfe = dfe["StringTables"]
 
 english = {}
 text_exist = {}
+n = 1
 
 for table in dfe:
 	for entry in table["Entries"]:
@@ -19,9 +20,11 @@ for table in dfe:
 			text_exist[table["Name"]+","+entry["DefaultText"]] = table["Name"]+","+str(entry["ID"])#同じシーンで同じ英文があったならIDを記録
 
 with open('../output/Pentiment-init.tsv', 'w') as f:
-	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tMachineCorrect\tBetterJP",file=f)
+	print("N\tName\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tMachineCorrect\tBetterJP",file=f)
 	for table in dfj:
 		for entry in table["Entries"]:
+			print(str(n),end="\t",file=f)
+			n=n+1
 			print(table["Name"],end="\t",file=f)
 			print(table["UObjectName"],end="\t",file=f)
 			print(str(entry["ID"]),end="\t",file=f)
