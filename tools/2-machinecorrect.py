@@ -4,7 +4,7 @@ import json
 from pandas import json_normalize
 import re
 
-names = {#表記揺れの修正 誤→正
+jpjp = {#表記揺れの修正 誤→正
 	"ピーター":"ペテロ",
 	"ポール":"パウロ",
 	"フォルクバート":"ヴォルクベルト",
@@ -15,7 +15,8 @@ names = {#表記揺れの修正 誤→正
 	"フェレンツェ":"フィレンツェ",#フィレンツをフェレンツにすると変わってしまうので
 	"エスター":"エステル",
 	"マグダレン":"マグダレネ",
-	"ガートルード":"ゲルトルード",
+	"ガートルード":"ゲルトルート",
+	"ゲルトルード":"ゲルトルート",
 	"ドラッカーリン":"ドラッカリン",
 	'ドラッカリン夫人':"ドラッカリンさん",
 	"ミストレス・マグダレネ":"マグダレネさん",
@@ -45,7 +46,7 @@ names = {#表記揺れの修正 誤→正
 	"。」":"」"
 	}
 
-phrases = {#共通の言い回し
+enjp = {#共通の言い回し
 	"[Remain silent.]":"[黙り続ける]",
 	"[Sigh.]":"[ため息をつく]",
 	"[Nod solemnly.]":"[神妙な顔でうなずく]",
@@ -66,9 +67,9 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 		if row["English"] == row["Japanese"]:#英語と日本語が同じなら翻訳の必要なし
 			skip = 1
 
-		for word in phrases.keys():#定型文ならそのまま利用
+		for word in enjp.keys():#定型文ならそのまま利用
 			if row["English"] == "'"+word+"'":
-				row["MachineCorrect"] = "'"+phrases[word]+"'"
+				row["MachineCorrect"] = "'"+enjp[word]+"'"
 				skip = 1
 		
 		if pd.notnull(row["Duplicate"]):#重複があるならスキップ
@@ -82,8 +83,8 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 				dt = jp[:idx]#先の言語はそのままに
 				jp = jp[idx:]#後半の言語は日本語なので置き換え
 
-			for name in names.keys():
-				jp=jp.replace(name,names[name])
+			for jpkey in jpjp.keys():
+				jp=jp.replace(jpkey,jpjp[jpkey])
 			#!と?の扱い
 			jp=re.sub('^\'！','\'!',jp)
 			jp=re.sub('！　','！',jp)

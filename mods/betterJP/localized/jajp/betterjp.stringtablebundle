@@ -27843,6 +27843,20 @@
             ]
         },
         {
+            "Name": "quests/act2/act2_flowertracking",
+            "UObjectName": "act2_flowertracking_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 5,
+                    "DefaultText": "フロリアン、ゲルトルート、アグネス、ヴェルナーと話す"
+                },
+                {
+                    "ID": 10009,
+                    "DefaultText": "シスター・ゲルトルートはリュウキンカという花のことをよく知っており、聖サティア聖堂の周辺に生えていると教えてくれた。"
+                }
+            ]
+        },
+        {
             "Name": "conversations/act2/act2_josua",
             "UObjectName": "act2_josua_BaseGame_jajp",
             "Entries": [
@@ -33723,6 +33737,10 @@
                     "DefaultText": "ダメに決まってるじゃない、バカね。<red>神</red>に誓いを立てた、女子修道院の修道女なのよ。"
                 },
                 {
+                    "ID": 68,
+                    "DefaultText": "へえ。まあいいわ。シスター・ゲルトルートと話をしに行かなくちゃ。"
+                },
+                {
                     "ID": 69,
                     "DefaultText": "そうなのか？ じゃあ...この壁の向こうで何があったか、後で教えてくれるか？"
                 },
@@ -36734,7 +36752,7 @@
                 },
                 {
                     "ID": 133,
-                    "DefaultText": "ゲルトルードは彼に会いに行ったか？ あの医者より彼女の方が信用できる。"
+                    "DefaultText": "ゲルトルートは彼に会いに行ったか？ あの医者より彼女の方が信用できる。"
                 },
                 {
                     "ID": 137,
@@ -41798,7 +41816,7 @@
                 },
                 {
                     "ID": 99,
-                    "DefaultText": "ゲルトルードに助けを求めた？"
+                    "DefaultText": "ゲルトルートに助けを求めた？"
                 },
                 {
                     "ID": 100,
@@ -44497,6 +44515,20 @@
                 {
                     "ID": 32,
                     "DefaultText": "うーん、ここで待ってて！ もっといい場所を探すから。"
+                }
+            ]
+        },
+        {
+            "Name": "quests/act2/act2_miniquest_aedocherbs",
+            "UObjectName": "act2_miniquest_aedocherbs_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 2,
+                    "DefaultText": "ゲルトルートに助けを求める"
+                },
+                {
+                    "ID": 10002,
+                    "DefaultText": "フロリアン修道士の話では、修道士たちが図書館の塀の中に閉じ込められてから、エードック修道士の健康状態が急速に悪化したとのことだ。\\n\\n痛みを和らげるためにとある薬草が必要だと言う。そこで、フロリアン修道士は私に、その薬草の入手方法をシスター・ゲルトルートに尋ねてほしいと頼んできた。"
                 }
             ]
         },
