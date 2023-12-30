@@ -9,6 +9,7 @@ p1 = re.compile('^\'+')
 p2 = re.compile('\'+$')
 
 df = pd.read_table('../output/Pentiment-BetterJP - out.tsv')
+df = df.query('Duplicate.isnull()')
 
 da = pd.read_table('../output/Pentiment-machinecorrect.tsv')
 da = da.query('MachineCorrect.notnull()')
@@ -22,12 +23,9 @@ for index, row in da.iterrows():
 
 n = 0
 
-for index, row in df.iterrows():
-	if pd.notnull(row["Duplicate"]): #重複の場合は無視
-		continue
-	elif row["Japanese"] == row["BetterJP"]:#旧訳と新約が同じならスキップ
-		continue
-	
+print("# changes")
+
+for index, row in df.iterrows():	
 	if (row["Name"]+","+str(row["ID"])) in machine_translation:#機械翻訳がある
 #		print("AA")
 		if (pd.notnull(row["BetterJP"])): #手動訳もある
@@ -36,5 +34,24 @@ for index, row in df.iterrows():
 				print(machine_translation[row["Name"]+","+str(row["ID"])])
 				print(row["BetterJP"])
 
+print()
+print("# same w/machine translation")
+
+for index, row in df.iterrows():	
+	if (row["Name"]+","+str(row["ID"])) in machine_translation:#機械翻訳がある
+		if (pd.notnull(row["BetterJP"])): #手動訳もある
+			if( machine_translation[row["Name"]+","+str(row["ID"])] == row["BetterJP"]): #両者が同じ
+				print("#"+str(row["N"]))
+				print(row["BetterJP"])
+
+
+print()
+print("# same w/original")
+
+for index, row in df.iterrows():	
+	if (pd.notnull(row["BetterJP"])): #手動訳がある
+		if(row["Japanese"] == row["BetterJP"]): #もとと同じ
+			print("#"+str(row["N"]))
+			print(row["BetterJP"])
 
 
