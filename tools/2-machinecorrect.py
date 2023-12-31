@@ -34,7 +34,7 @@ do = pd.read_table('../output/Pentiment-init.tsv')
 
 with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pentiment-machinecorrect-simple.tsv', 'w') as s:
 #	print("Name\tUObjectName\tID\tEnglish\tJapanese\tDuplicate\tAutoUpdate\tBetterJP",file=f)
-	print("Name\tID\tMachineCorrect",file=a)#全項目版
+	print("N\tName\tID\tMachineCorrect",file=a)#全項目版
 	print("MachineCorrect",file=s)#翻訳のみ版-Googleシート用
 
 	for index, row in do.iterrows():
@@ -91,6 +91,7 @@ with open('../output/Pentiment-machinecorrect.tsv', 'w') as a,open('../output/Pe
 			if jp != row["Japanese"]:#アップデートされたなら
 				row["MachineCorrect"] = jp
 
+		print(row["N"],end="\t",file=a)
 		print(row["Name"],end="\t",file=a)
 #		print(row["UObjectName"],end="\t",file=f)
 		print(row["ID"],end="\t",file=a)

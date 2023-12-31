@@ -16202,7 +16202,7 @@
             "Entries": [
                 {
                     "ID": 10,
-                    "DefaultText": "ヤコブス・デ・ヴォラギネの黄金伝説！"
+                    "DefaultText": "ヤコブス・デ・ウォラギネの黄金伝説！"
                 },
                 {
                     "ID": 20,
@@ -16279,6 +16279,10 @@
                 {
                     "ID": 135,
                     "DefaultText": "おそらく若い女の子には良いプレゼントとは言え..."
+                },
+                {
+                    "ID": 143,
+                    "DefaultText": "ヤコブス・デ・ウォラギネの黄金伝説。"
                 },
                 {
                     "ID": 151,
@@ -18747,6 +18751,10 @@
                 {
                     "ID": 706,
                     "DefaultText": "Vera, vera, ita, sed emendationes Leoniceni profundior est supra illos!<dt>本当に本当だ。そう、そうなんだ。でもレオニキーノの批判はもっと深いんだ！"
+                },
+                {
+                    "ID": 741,
+                    "DefaultText": "Dottor Stolz, questo sarcasmo è fuori luogo. Ho chiesto ad Andreas la sua opinione e lui me l'ha data."
                 },
                 {
                     "ID": 752,
@@ -32729,6 +32737,10 @@
                 {
                     "ID": 49,
                     "DefaultText": "パウロはいい子だし、いい父親よ。この町を立て直してくれたわ。"
+                },
+                {
+                    "ID": 50,
+                    "DefaultText": "旦那さんのために聖ヨセフに祈って。そうすれば、ウルリッヒとあなたが元気でやってると伝わるわ。"
                 },
                 {
                     "ID": 51,
@@ -47327,6 +47339,16 @@
                 {
                     "ID": 26,
                     "DefaultText": "具体的にですって？ わからないわ。"
+                }
+            ]
+        },
+        {
+            "Name": "conversations/act1/act1_sepp",
+            "UObjectName": "act1_sepp_BaseGame_jajp",
+            "Entries": [
+                {
+                    "ID": 3,
+                    "DefaultText": "そうだ。ああ、セップだ。セップ・ヒュブナー。"
                 }
             ]
         }
