@@ -1336,11 +1336,11 @@
                 },
                 {
                     "ID": 135,
-                    "DefaultText": "しかし、彼の主義は彼に何をもたらした ？ シーザーの手による死。"
+                    "DefaultText": "しかし、彼の主義は彼に何をもたらした ？ カエサルの手による死。"
                 },
                 {
                     "ID": 137,
-                    "DefaultText": "そして、シーザーがそれを知ったとき、彼は「カトー、私は君の死に憤慨している。君は私が君に会う機会を奪った」"
+                    "DefaultText": "そして、カエサルがそれを知ったとき、彼は「カトー、私は君の死に憤慨している。君は私が君に会う機会を奪った」"
                 },
                 {
                     "ID": 160,
@@ -11893,6 +11893,10 @@
                     "DefaultText": "ああ、ごちそうになるよ！"
                 },
                 {
+                    "ID": 322,
+                    "DefaultText": "ラニッヒ・ケンパーと、だな。オッティリア・ケンパリンの亡くなった旦那さんだ。"
+                },
+                {
                     "ID": 328,
                     "DefaultText": "あの人たち、固まって行動してるよね？ 時間の流れでも観察してるのかね？"
                 },
@@ -18245,6 +18249,10 @@
                     "DefaultText": "Beh... dove eravamo?<dt>えーと...どこまで話したっけ？"
                 },
                 {
+                    "ID": 241,
+                    "DefaultText": "Vero, vero, ma la critica di Leoniceno è più profonda!<dt>本当に本当だ。そう、そうなんだ。でもレオニチェーノの批判はもっと深いんだ！"
+                },
+                {
                     "ID": 275,
                     "DefaultText": "Nonne solummodo heri aliquis hic mortuus est?<dt>昨日の晩に、誰かがここで死んだのだろう？"
                 },
@@ -18601,6 +18609,10 @@
                     "DefaultText": "単純に見えるが、山札には 40 枚のカードがあって、自分のカード以外の 3 枚で勝利するのか。勝てる確率は計算できそうだ。"
                 },
                 {
+                    "ID": 553,
+                    "DefaultText": "A meno che Leoniceno non abbia pubblicato un'opera in grado di sostituire quella di Plinio, eh-eh.<dt>レオニチェーノがプリニウスに代わる作品を発表していれば別だがね。ハハ。"
+                },
+                {
                     "ID": 557,
                     "DefaultText": "他には何と？"
                 },
@@ -18749,8 +18761,12 @@
                     "DefaultText": "Hem, ubi eramus?<dt>えーと...どこまで話したっけ？"
                 },
                 {
+                    "ID": 698,
+                    "DefaultText": "Nisi Leoniceno opum surrogare Plinio exposuit, heh.<dt>レオニチェーノがプリニウスに代わる作品を発表していれば別だがね。ハハ。"
+                },
+                {
                     "ID": 706,
-                    "DefaultText": "Vera, vera, ita, sed emendationes Leoniceni profundior est supra illos!<dt>本当に本当だ。そう、そうなんだ。でもレオニキーノの批判はもっと深いんだ！"
+                    "DefaultText": "Vera, vera, ita, sed emendationes Leoniceni profundior est supra illos!<dt>本当に本当だ。そう、そうなんだ。でもレオニチェーノの批判はもっと深いんだ！"
                 },
                 {
                     "ID": 741,
@@ -20534,7 +20550,7 @@
                 },
                 {
                     "ID": 36,
-                    "DefaultText": "フランスの病気に関するレオニチェノのテキストだ...これは何年も前に男爵にとって役に立ったはずだ。"
+                    "DefaultText": "フランスの病気に関するレオニチェーノのテキストだ...これは何年も前に男爵にとって役に立ったはずだ。"
                 },
                 {
                     "ID": 38,

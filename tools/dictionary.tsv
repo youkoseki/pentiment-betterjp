@@ -134,10 +134,12 @@ Es stultior merda	エス・スタルティオル・メルダ
 in flagrante delicto	イン・フラグランテ・デリクト
 Lauds	早課
 lex talionis	目には目を
-solus Christus	ソルス・クリストス
+solus	ソルス
+Christus	クリストス
 Vespers	晩課
 Agricola	アグリコラ
-Albertus Magnus	アルベルトゥス・マグヌス
+Albertus	アルベルトゥス
+Magnus	マグヌス
 Andromache	アンドロマケー
 Benivieni	ベニヴィエニ
 Aristotle	アリストテレス
@@ -162,13 +164,15 @@ Huguenots	ユグノー
 Jacobus de Voragine	ヤコブス・デ・ウォラギネ
 John the Baptist	洗礼者ヨハネ
 Juan GarcÍa de Basurto	フアン・ガルシア・デ・バスルト
-Julius Caesar	ユリウス・カエサル
+Julius	ユリウス
+Caesar	カエサル
 Lucretius	ルクレティウス
 Lutherans	ルター派
 Mars	マルス
 Martin Luther	マルティン・ルター
 Nero	ネロ
-Niccolò Leoniceno	ニッコロ・レオニチェーノ
+Niccolò	ニッコロ
+Leoniceno	レオニチェーノ
 Origen	オリゲネス
 Perchta	ペルヒタ
 Perchten	ペルヒテン
@@ -276,7 +280,8 @@ scriptorium	写字室
 sententia	格言
 tabernacle	聖櫃
 The Rule	聖ベネディクトの規則
-Till Eulenspiegel	ティル・オイレンシュピーゲル
+Till	ティル
+Eulenspiegel	オイレンシュピーゲル
 trivium and quadrivium	トリウィウムとクアドリウィウム
 vehmic court	フェーメ裁判所
 votive candle	献灯ロウソク
@@ -388,7 +393,7 @@ Crypt	地下聖堂
 Dormitory	寮
 Old Bailey	中央刑事裁判所
 Guest House	ゲストハウス
-Courtyard & Lavatorium	中庭の洗い場
+Courtyard & Lavatorium	中庭と洗い場
 Infirmary	看護室
 Kitchen & Cellar	厨房と地下室
 Large Garden	広い庭
@@ -409,7 +414,10 @@ Bridge	橋
 Smokeys Home	スモーキーの家
 Church & Druckers	教会とドラッカー家
 Town Commons	共有地
-Frantz Bauer & Widow Kemperyn	フランツ・バウアーとウィドウ・ケンパリン
+Frantz	フランツ
+Bauer	バウアー
+Widow	ウィドウ
+Kemperyn	ケンパリン
 Gertner Farm	ゲルトナーの農場
 Johan Bauer Farm	ヨハン・バウアーの農場
 Shrine of St. Satia	聖サティアの聖堂
@@ -417,13 +425,13 @@ Meadow	牧草地
 Steinauer House	シュタイナウアーの家
 Mill	製粉所
 Old Salt Mine	古い塩鉱山
-Widow Kemperyn/Baltas	ウィドウ・ケンパリン 、バルタス
+Baltas	バルタス
 Zimmermann House	ツィンマーマンの家
 Gertner House	ゲルトナーの家
 Gertner Guest Room	ゲルトナーの客室
 Drucker House	ドラッカーの家
 Ottilias Home	オッティリアの家
-Johan Bauer House	ヨハン・バウアー の家
+Johan	ヨハン
 Lower Abbey	大修道院下部
 Forest	森
 Priors House	小修道院長の家
@@ -461,9 +469,8 @@ Hypocaust	床下暖房
 Rathskeller	地下食堂
 Windmill Platform	風車の台
 Gertner Bedroom	ゲルトナーの寝室
-Brigita Baueryn and Wojslav Růžička	ブリギータ・バウエリンとヴォイスラフ・ルージチュカ
+Baueryn	バウエリン
 Martin Bauer Farm	マルティン・バウアーの農場
-Martin Bauer and Widow Kemperyn	マルティン・バウアーとウィドウ・ケンパリン
 Kreutzer House	クロイツェルの家
 Hans Bauer Farm	ハンス・バウアーの農場
 Hans Bauer House	ハンス・バウアーの家
@@ -472,7 +479,8 @@ Martin Bauer House	マルティン・バウアーの家
 Brigita Baueryn House	ブリギータ・バウエリンの家
 Outer Farms	郊外の農場
 Růžička House	ルージチュカの家
-Martin Bauer and Wojslav Růžička	マルティン・バウアーとヴォイスラフ・ルージチュカ
+Wojslav	ヴォイスラフ
+Růžička	ルージチュカ
 Lavatorium	洗い場
 Damaged Monstrance	破損した聖体顕示台
 Baltas	バルタス
