@@ -19,6 +19,9 @@ df = pd.read_table('../output/Pentiment-BetterJP - out.tsv')
 da = pd.read_table('../output/Pentiment-machinecorrect.tsv')
 da = da.query('MachineCorrect.notnull()')
 
+dc = pd.read_table('../output/Pentiment-BetterJP - claude.tsv')
+dc = dc.query('ClaudeJP.notnull()')
+
 dj = {}
 dj["StringTables"]  = []
 name = ''
@@ -26,6 +29,7 @@ table = {}
 
 existing_translation = {}
 machine_translation = {}
+claude_translation = {}
 
 for index, row in da.iterrows():
 	if pd.notnull(row["MachineCorrect"]): #自動翻訳がある場合は、それを使う
@@ -36,9 +40,17 @@ for index, row in df.iterrows():
 	if pd.notnull(row["BetterJP"]): #手動翻訳が存在する場合は上書きする
 		existing_translation[row["Name"]+","+str(row["ID"])] = row["BetterJP"]
 
+for index, row in dc.iterrows():
+	if pd.notnull(row["ClaudeJP"]): #Claudeの改善提案が存在する場合は最優先で上書きする(claude > 手動翻訳 > 自動翻訳)
+		existing_translation[row["Name"]+","+str(row["ID"])] = row["ClaudeJP"]
+		claude_translation[row["Name"]+","+str(row["ID"])] = row["ClaudeJP"]
+
 n = 0
 
 for index, row in df.iterrows():
+	key = row["Name"]+","+str(row["ID"])
+	if key in claude_translation: #Claudeの改善提案があれば最優先で使う
+		row["BetterJP"] = claude_translation[key]
 	if row["Japanese"] == "\'Xbox ネットワークにログイン\'":#MODの表示
 		row["BetterJP"] = "\'Xbox ネットワークにログイン"+"(日本語改善MOD-v"+dt_now.strftime('%y%m%d')+")\'"
 	if pd.isnull(row["BetterJP"]): #手動翻訳が存在しない
