@@ -13,6 +13,14 @@ dt_now = datetime.datetime.now()
 p1 = re.compile('^\'+')
 p2 = re.compile('\'+$')
 
+# TSVはPythonのrepr形式で書かれている(改行が「バックスラッシュ+n」の2文字)ので、JSONに出す前に元の文字へ戻す
+BS = chr(92)
+Q = chr(34)
+p_esc = re.compile(re.escape(BS) + "(n|r|t|'|" + Q + "|" + re.escape(BS) + "|x[0-9a-fA-F]{2}|u[0-9a-fA-F]{4})")
+esc_map = {'n': chr(10), 'r': chr(13), 't': chr(9), "'": "'", Q: Q, BS: BS}
+def unescape(s):
+	return p_esc.sub(lambda m: esc_map[m.group(1)] if m.group(1) in esc_map else chr(int(m.group(1)[1:], 16)), s)
+
 df = pd.read_table('../output/Pentiment-BetterJP - out.tsv')
 #df = df.query('BetterJP.notnull() or Duplicate.notnull() or MachineCorrect.notnull()')
 
@@ -70,6 +78,7 @@ for index, row in df.iterrows():
 		dj["StringTables"].append(table)
 	row["BetterJP"] = p1.sub("",row["BetterJP"])
 	row["BetterJP"] = p2.sub("",row["BetterJP"])
+	row["BetterJP"] = unescape(row["BetterJP"])
 	entry = {"ID" : row["ID"], "DefaultText" : row["BetterJP"]}
 	table["Entries"].append(entry)
 	n+=1
