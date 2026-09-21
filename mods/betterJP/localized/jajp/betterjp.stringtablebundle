@@ -261,6 +261,10 @@
                     "DefaultText": "今はまだ、ミトラエウムの秘密は隠されたまま。町ではなおも聖人を讃えて、聖モーリッツの手を崇めている。"
                 },
                 {
+                    "ID": 298,
+                    "DefaultText": "{0} 時 {1} 分"
+                },
+                {
                     "ID": 299,
                     "DefaultText": "yyyy/M/dd hh:mm tt"
                 },
@@ -270,7 +274,7 @@
                 },
                 {
                     "ID": 305,
-                    "DefaultText": "Xbox ネットワークにログイン(日本語改善MOD-v260920)"
+                    "DefaultText": "Xbox ネットワークにログイン(日本語改善MOD-v260921)"
                 },
                 {
                     "ID": 312,
@@ -2094,6 +2098,18 @@
             "Name": "game/credits",
             "UObjectName": "credits_BaseGame_jajp",
             "Entries": [
+                {
+                    "ID": 0,
+                    "DefaultText": "Xbox Game Studios\n提供"
+                },
+                {
+                    "ID": 1,
+                    "DefaultText": "Obsidian Entertainment\n制作"
+                },
+                {
+                    "ID": 4,
+                    "DefaultText": "プログラミング\nディレクター\nBrett Klooster"
+                },
                 {
                     "ID": 8,
                     "DefaultText": "ストーリーディレクター\nJosh Sawyer"
