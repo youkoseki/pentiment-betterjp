@@ -15,3 +15,5 @@ Pentimentの日本語翻訳を改善するMODです。といっても、ただ�
 ![test image](title_screen.jpg)
 
 出来る限り、[表記揺れ](https://github.com/youkoseki/pentiment-betterjp/blob/main/tools/machinecorrect.tsv)も統一させています。
+
+まだまだおかしなところがあると思いますので、気になる訳があればスクリーンショットなどをissuesにあげてください。
